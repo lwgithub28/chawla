@@ -1,0 +1,175 @@
+.terms-page {
+
+    .side-spacing,
+    .banner {
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+
+    .banner {
+        padding-top: 40px;
+        padding-bottom: 40px;
+
+        .bgimg {
+            background-image: url(../../Assests/Img/service-inner-page-bg.webp);
+            padding: 100px 0;
+            text-align: center;
+            color: var(--white);
+        }
+    }
+
+    #Last-updated {
+        text-align: left;
+
+        p {
+            padding-top: 10px;
+        }
+    }
+
+    .side-spacing {
+        text-align: left;
+        padding-top: 30px;
+
+        .main-head {
+            font-size: 25px;
+        }
+
+    }
+}
+
+#Contact-Us {
+    .text-desc {
+        .strong {
+            font-weight: bold;
+        }
+
+        span {
+            display: block;
+            padding-top: 6px;
+
+            a {
+                color: var(--text-desc);
+                text-decoration: underline !important;
+
+                &:hover {
+                    color: var(--main-color);
+                }
+            }
+        }
+    }
+}
+
+// Privacy Policy
+div#Privacy-Policy {
+    .top {
+        margin-top: -10px;
+    }
+
+    .check-list {
+        padding-left: 20px;
+        padding-top: 20px;
+        margin-bottom: 0;
+        padding-bottom: 10px;
+
+        li {
+            list-style: auto;
+        }
+    }
+
+    #Information-We-Collect {
+        .check-list {
+            li {
+                list-style: lower-alpha !important;
+                font-weight: 600;
+
+                .text-desc {
+                    margin-bottom: 0 !important;
+                    padding-top: 8px;
+                    font-size: 16px;
+                }
+
+                .dot {
+                    padding-top: 8px;
+
+                    li {
+                        font-weight: 400;
+                        list-style: disc !important;
+                        font-size: 16px;
+
+                        b {
+                            font-weight: 600 !important;
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+
+    #How-We-Use-Your-Information {
+        ul.check-list {
+            padding-bottom: 20px;
+            margin-left: 20px;
+        }
+    }
+}
+
+
+@media only screen and (max-width: 600px) {
+    .terms-page {
+        ul {
+            padding-left: 0;
+        }
+
+        #Last-updated,
+        div#text-desc {
+            padding-top: 30px;
+        }
+
+        .side-spacing {
+            padding-left: 15px;
+            padding-right: 15px;
+            padding-top: 20px;
+
+            .container-fluid {
+                padding-left: 0;
+                padding-right: 0;
+
+                .main-head {
+                    font-size: 25px !important;
+                }
+            }
+        }
+
+        .banner {
+            padding: 0;
+        }
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width:992px) {
+
+
+    .terms-page .banner {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .terms-page {
+        .side-spacing {
+            .container-fluid {
+                padding-left: 0;
+                padding-right: 0;
+            }
+
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+    }
+
+    div#Privacy-Policy {
+        .top {
+            margin-top: 0px;
+        }
+    }
+}

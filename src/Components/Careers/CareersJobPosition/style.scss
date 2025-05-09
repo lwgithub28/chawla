@@ -1,0 +1,472 @@
+#job-overview,
+#objective,
+#benefits,
+#designation,
+#why-join,
+#cta,
+#Required-Skills,
+#Success-Criteria,
+#BookkeepingSpecialist-benefits,
+#position-description {
+    padding-left: 80px;
+    padding-right: 80px;
+    text-align: center;
+}
+
+#objective {
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+
+#job-overview {
+    padding-bottom: 40px;
+}
+
+.divider {
+    margin-left: 80px;
+    margin-right: 80px;
+    border-bottom: 1px solid #ccc;
+}
+
+#job-overview h1,
+#job-overview p,
+#objective h1,
+#objective p,
+#benefits p,
+#position-description h1,
+#position-description p {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+#responsibilities-and-experience {
+    padding: 80px;
+    background-image: url(../../../Assests/Img/SectorsBg.webp);
+
+    .inner {
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        padding: 40px;
+        border-radius: 20px;
+        background-color: var(--white);
+
+        .responsibilities {
+            padding-right: 30px;
+        }
+
+        .experience {
+            padding-left: 30px;
+        }
+
+        .main-head {
+            font-size: 30px;
+        }
+
+        .icon-list {
+            padding-top: 10px;
+
+            span {
+                display: flex;
+                align-items: flex-start;
+                margin-bottom: 10px;
+            }
+
+            img {
+                margin-right: 1rem;
+                width: 3%;
+                margin-top: 5px;
+            }
+
+            .text-desc {
+                font-size: 16px;
+                margin-bottom: 0px;
+            }
+        }
+    }
+}
+
+#benefits {
+    padding-top: 80px;
+}
+
+#designation {
+    // text-align: left;
+    padding-bottom: 30px;
+
+    p {
+        font-size: 22px;
+
+        span {
+            font-weight: 500;
+            color: #000;
+            padding-right: 10px;
+        }
+    }
+}
+
+#AuditAssociate,
+#BookkeepingSpecialist {
+    #job-overview {
+        padding-top: 40px;
+    }
+}
+
+#responsibilities-and-experience {
+    .inner {
+        .icon-list {
+            b {
+                font-weight: 700 !important;
+            }
+
+            img {
+                width: 25px;
+                margin-top: 3px;
+            }
+        }
+    }
+}
+
+div#AdministrativeAssistant {
+    #responsibilities-and-experience {
+        img {
+            width: 4%;
+        }
+    }
+}
+
+div#AdministrativeAssistant {
+    #Success-Criteria {
+        padding-top: 80px;
+    }
+}
+
+#Required-Skills {
+    padding-top: 80px;
+    padding-bottom: 80px;
+
+    .inner {
+        text-align: left;
+        padding-top: 30px;
+
+        .inner-boxes {
+            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+            padding: 30px;
+            border-radius: 20px;
+            height: 400px;
+
+            .icon-list {
+                padding-top: 15px;
+
+                span {
+                    display: flex;
+                    align-items: flex-start;
+
+                    img {
+                        width: 4%;
+                        margin-top: 2px;
+                        margin-right: 1rem;
+                    }
+
+                    .text-desc {
+                        font-size: 16px;
+                        margin-bottom: 10px;
+                    }
+                }
+            }
+        }
+
+        .right .inner-boxes {
+            padding-bottom: 40px;
+        }
+    }
+}
+
+#why-join,
+#Success-Criteria,
+#BookkeepingSpecialist-benefits {
+    padding-top: 80px;
+    text-align: left;
+
+    .icon-list {
+        padding-top: 20px;
+
+        span {
+            display: flex;
+            align-items: flex-start;
+            align-items: center;
+            margin-bottom: 10px;
+
+            img {
+                margin-right: 1rem;
+                width: 25px;
+                margin-top: 2px;
+            }
+
+            .text-desc {
+                margin-bottom: 0px;
+            }
+        }
+    }
+}
+
+#Success-Criteria {
+    padding-top: 0;
+
+    .icon-list {
+        .text-desc {
+            margin-bottom: 0 !important;
+        }
+    }
+}
+
+#cta {
+    background-image: url(../../../Assests/Img/SectorsBg.webp);
+    padding: 60px 80px;
+    margin-top: 80px;
+    text-align: left;
+
+    .main-head {
+        color: #fff;
+    }
+
+    .text-desc {
+        color: #fff;
+
+        a {
+            color: #fff;
+            text-decoration: underline !important;
+        }
+    }
+
+    .btns {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+
+        &:hover {
+            border-color: inherit;
+        }
+
+        button {
+            border-color: inherit;
+
+            &:focus {
+                box-shadow: inherit;
+                background-color: inherit;
+            }
+        }
+    }
+}
+
+.modal {
+    .modal-body {
+        padding: 30px;
+        position: relative;
+
+        .btn-close {
+            position: absolute;
+            right: 10px;
+            top: 10px;
+            font-size: 16px;
+            color: var(--black);
+        }
+
+        .modal-body-content {
+            .main-head {
+                color: var(--black) !important;
+                text-align: center;
+                font-size: 35px;
+                padding-bottom: 20px;
+            }
+
+            form {
+
+                input,
+                select {
+                    width: 100%;
+                    border: 1px solid var(--border);
+                    padding: 10px;
+                    margin-bottom: 20px;
+                    border-radius: 5px;
+                    font-family: var(--Montserrat);
+                    font-size: 14px;
+                    color: var(--text-desc);
+
+                    &:focus-visible {
+                        outline: none;
+                    }
+                }
+
+                a {
+                    margin: 0 auto;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+
+                    .common-btn {
+                        padding: 10px 40px;
+                        font-size: 14px;
+                        width: auto;
+
+                    }
+                }
+            }
+        }
+    }
+}
+
+div#AdministrativeAssistant {
+    #position-description {
+        .main-head {
+            padding-bottom: 40px;
+        }
+    }
+}
+
+div#AdministrativeAssistant {
+
+    #position-description,
+    #objective {
+        h4 {
+            font-size: 32px;
+            padding-bottom: 15px;
+        }
+    }
+
+    .divider {
+        width: 75%;
+        margin: 0 auto;
+        padding-top: 30px;
+    }
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .CareersJobPosition {
+        #inner-page-banner {
+            padding: 0;
+        }
+
+        #designation,
+        #job-overview {
+            padding-top: 50px;
+        }
+
+        .divider {
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+
+        #job-overview,
+        #objective {
+
+            h1,
+            p {
+                padding: 0;
+            }
+        }
+
+        #objective {
+            p {
+                padding-top: 6px;
+            }
+        }
+
+        #responsibilities-and-experience {
+            .inner {
+                padding: 25px;
+                padding-left: 25px;
+                padding-right: 25px;
+
+                .main-head {
+                    font-size: 26px !important;
+                    line-height: 2.2rem !important;
+                }
+
+                .experience {
+                    padding-left: 0;
+                    padding-top: 30px;
+                }
+            }
+        }
+
+        #responsibilities-and-experience {
+            .inner {
+                .responsibilities {
+                    padding-right: 0;
+                }
+            }
+        }
+
+        #why-join {
+            padding-top: 50px;
+            padding-bottom: 50px;
+        }
+
+        #cta {
+            text-align: center;
+            margin-top: 0;
+
+            .btns {
+                justify-content: center;
+            }
+        }
+        #benefits{
+            .text-desc{
+                padding: 0;
+            }
+        }
+    }
+}
+
+/* medium devices (tablets,large-phone, 600px and down) */
+@media only screen and (min-width: 600px) and (max-width: 992px) {
+    .CareersJobPosition {
+        #inner-page-banner {
+            padding: 0;
+        }
+
+        #designation,
+        #job-overview {
+            padding-top: 50px;
+        }
+
+        #job-overview,
+        #objective,
+        #benefits {
+            .text-desc {
+                padding-left: 0;
+                padding-right: 0;
+                padding-top: 15px;
+            }
+        }
+
+        #responsibilities-and-experience {
+            .inner {
+                .experience {
+                    padding-left: 0;
+                    padding-top: 30px;
+                }
+            }
+        }
+    }
+}
+
+// for -80% screen
+@media only screen and (min-width: 1650px) {
+
+    #job-overview h1,
+    #job-overview p,
+    #objective h1,
+    #objective p,
+    #benefits p,
+    #position-description h1,
+    #position-description p {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .divider {
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
