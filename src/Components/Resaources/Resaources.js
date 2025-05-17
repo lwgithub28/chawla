@@ -24,7 +24,6 @@ import Logo2 from "../../Assests/Img/ShareFile-logo.webp";
 import Logo3 from "../../Assests/Img/safesend-logo.webp";
 import Logo4 from "../../Assests/Img/SurePrep-Logo.webp";
 import Logo5 from "../../Assests/Img/thomsonreuters-logo.webp";
-
 const logos = [
   { src: Logo1, className: "logo-style-1" },
   { src: Logo2, className: "logo-style-2" },
@@ -43,7 +42,6 @@ const Resaources = () => {
     "January", "February", "March", "April", "May", "June",
     "July", "August", "September", "October", "November", "December"
   ];
-
   const calendarEvents = [
     {
       date: "2025-04-01",
@@ -367,7 +365,6 @@ const Resaources = () => {
       description: "Calendar-year corporations - Pay the fourth installment of 2025 estimated income taxes, completing Form 1120-W for the corporation’s records.",
     },
   ];
-
   const formatDate = (date) => {
     const year = date.getFullYear();
     const month = String(date.getMonth() + 1).padStart(2, "0");
@@ -376,20 +373,20 @@ const Resaources = () => {
   };
 
   const todayStr = formatDate(new Date());
-
   const handleMonthChange = (e) => {
     const newMonth = parseInt(e.target.value);
     const updatedDate = new Date(currentDate);
     updatedDate.setMonth(newMonth);
+    setSelectedDate(null);
     setCurrentDate(updatedDate);
   };
 
   const changeMonth = (offset) => {
     const updatedDate = new Date(currentDate);
     updatedDate.setMonth(currentDate.getMonth() + offset);
+    setSelectedDate(null);
     setCurrentDate(updatedDate);
   };
-
   const handleDayClick = (dateStr) => {
     const hasEvents = calendarEvents.some(event => event.date === dateStr);
     setSelectedDate(hasEvents ? dateStr : null);
@@ -407,7 +404,6 @@ const Resaources = () => {
     for (let i = 0; i < firstDay; i++) {
       calendarDays.push(<div key={`empty-${i}`} className="calendar-day empty"></div>);
     }
-
     for (let day = 1; day <= totalDays; day++) {
       const date = new Date(year, month, day);
       const formatted = formatDate(date);
@@ -433,98 +429,15 @@ const Resaources = () => {
 
     return calendarDays;
   };
-
   const filteredEvents = selectedDate
     ? calendarEvents.filter(event => event.date === selectedDate)
-    : calendarEvents;
-  const faqs = [
-    {
-      id: 1,
-      header: "What happens after I complete my organizer?",
-      text: "Once you’ve completed and submitted your organizer, you can expect an email from Chawla.CPA within 48 business hours. This email will include a link to schedule your tax appointment with one of our accountants.",
-    },
-    {
-      id: 2,
-      header: "When can I expect my tax refund?",
-      text: "The typical wait time for refund on a standard return is 1-2 weeks after IRS processes your tax return. However, refund may be delayed in some cases: 1. Your return is under review. 2. Your tax return is an amended tax return. 3. IRS is experiencing high volume of filings. For detailed status checking, please visit https://www.irs.gov/wheres-my-refund",
-    },
-    {
-      id: 3,
-      header: "What should I do if I haven't received an appointment link?",
-      text: (
-        <>
-          Please allow up to 48 business hours after submitting your organizer, as it may take some time to process. If you still haven’t received a scheduling link after that period, don’t hesitate to reach out to us at <a href="mailto:Chawla.CPA@gmail.com">Chawla.CPA@gmail.com</a>, and we’ll assist you right away.
-        </>
-      ),
-    },
-    {
-      id: 4,
-      header: "Why was an extension filed for my return?",
-      text: "At Chawla.CPA, we proactively file extensions as a precautionary measure to ensure our clients' tax returns are submitted on time. This is a standard practice in the accounting industry. Filing an extension does not mean you're required to use our services for tax filing. It simply gives you up to six additional months to file your return, while still giving you the option to file by the original deadline if you're ready. There is no penalty or downside—it’s simply a safeguard to give you more time and peace of mind.",
-    },
-    {
-      id: 5,
-      header: "Can I make changes to the organizer after I've submitted it?",
-      text: "Once your organizer has been submitted, the system does not allow any further edits due to technical restrictions. However, if you need to update any information, you can upload a Word document through the portal with the necessary corrections or additional details. Our team will review and incorporate the updates accordingly.",
-    },
-    {
-      id: 6,
-      header: "How long will it take to complete my tax return after I submit my documents?",
-      text: "Typically, we complete tax returns within two to three weeks after receiving all required documents. Please note that this timeline may be extended if you upload additional documents later, as the review process would need to be restarted to include the new information.",
-    },
-    {
-      id: 7,
-      header: "Can I file my return in person?",
-      text: "Yes, you absolutely can. When scheduling your appointment through our calendar, just make sure to select the option for an in-person meeting. We’ll be happy to assist you face-to-face.",
-    },
-    {
-      id: 8,
-      header: "How can I get a copy of my completed tax return?",
-      text: (
-        <>
-          You’ll receive a copy of your return via email once it's finalized. If you have access to the Onvio portal, your tax returns will also be available there for download anytime after logging in. You can visit the portal at <a href="mailto:chawla.cpa.com">chawla.cpa.com</a>.
-        </>
-      ),
-    },
-    {
-      id: 9,
-      header: "Why was my accountant changed this year?",
-      text: "At Chawla.CPA, we occasionally reassign accountants as part of our internal management and workload balancing process to ensure timely and efficient service. If you would prefer to continue working with your previous accountant, feel free to let your current accountant know, and we will do our best to accommodate your request.",
-    },
-    {
-      id: 10,
-      header: "I’m unable to e-sign because it says my SSN is incorrect. What should I do?",
-      text: (
-        <>
-          Sometimes the identity verification system may encounter technical issues. If you’re unable to complete your e-signature, please email us at <a href="mailto:Chawla.CPA@gmail.com">Chawla.CPA@gmail.com</a> . We’ll promptly send you a PDF version of your tax return so you can sign it manually.
-        </>
-      ),
-    },
-    {
-      id: 11,
-      header: "When is the tax filing deadline?",
-      text: "The standard tax filing deadline is April 15 for individual and corporate taxpayers, and March 15 for partnership and S-Corporation filers, as long as those dates fall on business days. If needed, an extension can be filed, which grants an additional six months to complete and file your return.",
-    },
-    {
-      id: 12,
-      header: "What documents do I need to submit for my tax return?",
-      text: "Please refer to the tax organizer provided by Chawla.CPA for guidance. Generally, you'll need to upload tax forms such as Form W-2, Form 1099, and documentation related to business income and expenses (like a profit and loss statement), among others.",
-    },
-    {
-      id: 13,
-      header: "What happens if I miss the tax filing deadline?",
-      text: "If you’ve missed the deadline, contact your accountant at Chawla.CPA immediately. The IRS may assess penalties and interest for late filing, but timely communication with your accountant can help minimize potential issues.",
-    },
-    {
-      id: 14,
-      header: "What should I do if I receive a letter from the IRS?",
-      text: "If you receive a notice from the IRS, please send it to your accountant. They will review the letter and advise you on the appropriate next steps.",
-    },
-  ];
-
-  // Split the FAQs array into two halves
-  const firstHalf = faqs.slice(0, Math.ceil(faqs.length / 2));
-  const secondHalf = faqs.slice(Math.ceil(faqs.length / 2));
+    : calendarEvents.filter(event => {
+      const eventDate = new Date(event.date);
+      return (
+        eventDate.getMonth() === currentDate.getMonth() &&
+        eventDate.getFullYear() === currentDate.getFullYear()
+      );
+    });
 
   const toggleAccordion = (id) => {
     setActiveId(activeId === id ? null : id);
@@ -540,8 +453,8 @@ const Resaources = () => {
         {/* about-banner start */}
         <Banner
           bannerImage={resourcesbanner}
-          title="We recognizes the need to place your trust in a CPA firm"
-          description="In addition to the quality Tax, Accounting and Consulting services you would expect from a CPA firm, we offer a unique combination of additional services. These services differentiate us from other CPA Firms."
+          title="We are a hub for Tax, Accounting & Financial Insights"
+          description="At Chawla & Associates, our CPA in Naperville provides more than just high-quality tax, accounting, and consulting services. We empower clients with knowledge and tools needed to succeed. Whether you are an individual, a small business or part of a growing brand, our resources will help you stay informed and prepared for the future."
           buttonText="Talk to Your CPA"
         />
         {/* about-banner end */}
@@ -574,66 +487,9 @@ const Resaources = () => {
           </div>
         </section>
         {/* logo slider end */}
-        {/* Tax guide start */}
-        {/* <section id="tax-guide" className="mobile-spacing tablet-spacing">
-          <div class="container-fluid">
-            <div className="row">
-              <div class="top-middle-head p-xs-0">
-                <h3 class="sub-head">/ Sectors</h3>
-                <h2 class="main-head">Tax Guides</h2>
-              </div>
-            </div>
-            <div className="row tax-guide-boxes">
-              <div className="col-lg-6 col-md-6  tax-guide-box-first remove-spacing">
-                <div className="tax-guide-box">
-                  <a href="">
-                    <img
-                      src={TaxGuide1}
-                      alt="TaxGuide1"
-                      title="TaxGuide1"
-                    ></img>
-                  </a>
-                  <h4>2024 Individual Tax Guide</h4>
-                  <p>
-                    A vested interest and an inner desire to help you
-                    achieveyour business goals.
-                  </p>
-                  <a href="" className="short-button">
-                    <button>
-                      <LuArrowUpRight />
-                    </button>
-                  </a>
-                </div>
-              </div>
-              <div className="col-lg-6 col-md-6 tax-guide-box-second remove-spacing">
-                <div className="tax-guide-box">
-                  <a href="">
-                    <img
-                      src={TaxGuide1}
-                      alt="TaxGuide1"
-                      title="TaxGuide1"
-                    ></img>
-                  </a>
-                  <h4>2024 Individual Tax Guide</h4>
-                  <p>
-                    A vested interest and an inner desire to help you
-                    achieveyour business goals.
-                  </p>
-                  <a href="" className="short-button">
-                    <button>
-                      <LuArrowUpRight />
-                    </button>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section> */}
-        {/* Tax guide end */}
         {/* --------------- */}
         {/* your appointment start */}
-        <section
-          id="your-appointment"
+        <section id="your-appointment"
           className="mobile-spacing right-img-section tablet-spacing"
         >
           <div className="container-fluid">
@@ -648,31 +504,24 @@ const Resaources = () => {
                 <ul className="check-list">
                   <li>
                     <span>Completed Tax Organizer</span>
-                    <FaSquareArrowUpRight />
                   </li>
                   <li>
                     <span>Previous Year’s Tax Return</span>
-                    <FaSquareArrowUpRight />
                   </li>
                   <li>
                     <span>W-2s and/or 1099s</span>
-                    <FaSquareArrowUpRight />
                   </li>
                   <li>
                     <span>Brokerage and Investment Statements</span>
-                    <FaSquareArrowUpRight />
                   </li>
                   <li>
                     <span>Form 1098 or Real Estate Documents</span>
-                    <FaSquareArrowUpRight />
                   </li>
                   <li>
                     <span>IRS or State Tax Notices</span>
-                    <FaSquareArrowUpRight />
                   </li>
                   <li>
                     <span>Schedule K-1 (For Business Owners or Partners)</span>
-                    <FaSquareArrowUpRight />
                   </li>
                 </ul>
               </div>
@@ -710,11 +559,13 @@ const Resaources = () => {
                 <div className="col-lg-6 col-md-12 col-xs-12 our-services-box-first remove-spacing">
                   <div className="our-services-box">
                     <div className="image">
-                      <img
-                        src={ClientTaxOrganizer}
-                        alt="ClientTaxOrganizer"
-                        title="ClientTaxOrganizer"
-                      ></img>
+                      <a href="/tax_organizer.pdf" target="_blank">
+                        <img
+                          src={ClientTaxOrganizer}
+                          alt="ClientTaxOrganizer"
+                          title="ClientTaxOrganizer"
+                        ></img>
+                      </a>
                     </div>
                     <div className="text">
                       <img
@@ -722,7 +573,7 @@ const Resaources = () => {
                         alt="boxesline"
                         title="boxesline"
                       ></img>
-                      <h5>Client Tax Organizer</h5>
+                      <a href="/tax_organizer.pdf" target="_blank"><h5>Client Tax Organizer</h5></a>
                       <p>
                         We can help create a hassle-free experience by ensuring
                         that your bookkeeping is accurate and your tax bill is
@@ -732,14 +583,15 @@ const Resaources = () => {
                   </div>
                 </div>
                 <div className="col-lg-6 col-md-12 col-xs-12 our-services-box-second remove-spacing">
-                  {" "}
                   <div className="our-services-box">
                     <div className="image">
-                      <img
-                        src={OtherResources}
-                        alt="OtherResources"
-                        title="OtherResources"
-                      ></img>
+                      <Link to="/other-resources">
+                        <img
+                          src={OtherResources}
+                          alt="OtherResources"
+                          title="OtherResources"
+                        ></img>
+                      </Link>
                     </div>
                     <div className="text">
                       <img
@@ -747,7 +599,7 @@ const Resaources = () => {
                         alt="boxesline"
                         title="boxesline"
                       ></img>
-                      <h5>Other Resources</h5>
+                      <Link to="/other-resources"> <h5>Other Resources</h5></Link>
                       <p>
                         We can help create a hassle-free experience by ensuring
                         that your bookkeeping is accurate and your tax bill is
@@ -759,10 +611,8 @@ const Resaources = () => {
               </div>
             </div>
           </div>
-        </section>
+        </section >
         {/* our-services-resouces end */}
-        {/* ------------------------- */}
-        {/* tax calender start */}
         <section id="tax-calender" className="mobile-spacing tablet-spacing">
           <div className="container-fluid">
             <div className="row">
@@ -773,16 +623,15 @@ const Resaources = () => {
             </div>
             <div className="row top-spacing tax-calender-outer">
               {/* Calendar */}
-              <div class="col-lg-5 col-md-12 calender-outer remove-spacing">
+              <div className="col-lg-5 col-md-12 calender-outer remove-spacing">
                 <div className="calender">
                   <div className="calendar-header">
-                    <div class="top-header">
-                      <span><h1>Calendar</h1>
-                        {/* <button onClick={() => changeMonth(-1)}>&lt;</button> */}
+                    <div className="top-header">
+                      <span>
+                        <h1>Calendar</h1>
                         <h2>{monthNames[currentDate.getMonth()]} {currentDate.getFullYear()}</h2>
-                        {/* <button onClick={() => changeMonth(1)}>&gt;</button> */}
                       </span>
-                      <span class="select-month">
+                      <span className="select-month">
                         <select
                           value={currentDate.getMonth()}
                           onChange={handleMonthChange}
@@ -803,9 +652,9 @@ const Resaources = () => {
                   </div>
                 </div>
               </div>
+
               {/* Event List */}
               <div className="event-list all-dates">
-                {/* <h3>Event Details</h3> */}
                 {filteredEvents.length > 0 ? (
                   filteredEvents.map((event, idx) => (
                     <div key={idx} className="event-card dates">
@@ -819,8 +668,7 @@ const Resaources = () => {
               </div>
             </div>
           </div>
-        </section >
-        {/* tax calender end */}
+        </section>
         {/* --------------- */}
         {/* faq start */}
         <section id="faq" className="mobile-spacing tablet-spacing">
@@ -845,7 +693,7 @@ const Resaources = () => {
                           </h2>
                           <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                             <div class="accordion-body">
-                              <p>Once you’ve completed and submitted your organizer, you can expect an email from Chawla.CPA within 48 business hours. This email will include a link to schedule your tax appointment with one of our accountants.</p>
+                              <p>Once you’ve completed and submitted your organizer, you can expect an email from <a href="mailto:info@chawlacpa.com">info@chawlacpa.com</a> within 48 business hours. This email will include a link to schedule your tax appointment with one of our accountants.</p>
                             </div>
                           </div>
                         </div>
@@ -869,7 +717,7 @@ const Resaources = () => {
                           </h2>
                           <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                             <div class="accordion-body">
-                              <p>Please allow up to 48 business hours after submitting your organizer, as it may take some time to process. If you still haven’t received a scheduling link after that period, don’t hesitate to reach out to us at <a href="mailto:Chawla.CPA@gmail.com">Chawla.CPA@gmail.com</a>, and we’ll assist you right away.</p>
+                              <p>Please allow up to 48 business hours after submitting your organizer, as it may take some time to process. If you still haven’t received a scheduling link after that period, don’t hesitate to reach out to us at <a href="mailto:info@chawlacpa.com">info@chawlacpa.com</a>, and we’ll assist you right away.</p>
                             </div>
                           </div>
                         </div>
@@ -881,7 +729,7 @@ const Resaources = () => {
                           </h2>
                           <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
                             <div class="accordion-body">
-                              <p>Please allow up to 48 business hours after submitting your organizer, as it may take some time to process. If you still haven’t received a scheduling link after that period, don’t hesitate to reach out to us at <a href="mailto:Chawla.CPA@gmail.com">Chawla.CPA@gmail.com</a>, and we’ll assist you right away.</p>
+                              <p>Please allow up to 48 business hours after submitting your organizer, as it may take some time to process. If you still haven’t received a scheduling link after that period, don’t hesitate to reach out to us at <a href="mailto:info@chawlacpa.com">info@chawlacpa.com</a>, and we’ll assist you right away.</p>
                             </div>
                           </div>
                         </div>
@@ -893,7 +741,7 @@ const Resaources = () => {
                           </h2>
                           <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
                             <div class="accordion-body">
-                              <p>At Chawla.CPA, we proactively file extensions as a precautionary measure to ensure our clients' tax returns are submitted on time. This is a standard practice in the accounting industry. Filing an extension does not mean you're required to use our services for tax filing. It simply gives you up to six additional months to file your return, while still giving you the option to file by the original deadline if you're ready. There is no penalty or downside—it’s simply a safeguard to give you more time and peace of mind.</p>
+                              <p>At <a href="chawlacpa.com">chawlacpa.com</a>, we proactively file extensions as a precautionary measure to ensure our clients' tax returns are submitted on time. This is a standard practice in the accounting industry. Filing an extension does not mean you're required to use our services for tax filing. It simply gives you up to six additional months to file your return, while still giving you the option to file by the original deadline if you're ready. There is no penalty or downside—it’s simply a safeguard to give you more time and peace of mind.</p>
                             </div>
                           </div>
                         </div>
@@ -949,7 +797,7 @@ const Resaources = () => {
                           </h2>
                           <div id="faqCollapseOne" class="accordion-collapse collapse" aria-labelledby="faqHeadingOne" data-bs-parent="#accordionFAQ">
                             <div class="accordion-body">
-                              <p>You’ll receive a copy of your return via email once it's finalized. If you have access to the Onvio portal, your tax returns will also be available there for download anytime after logging in. You can visit the portal at chawla.cpa.com.</p>
+                              <p>You’ll receive a copy of your return via email once it's finalized. If you have access to the Onvio portal, your tax returns will also be available there for download anytime after logging in.</p>
                             </div>
                           </div>
                         </div>
@@ -961,7 +809,7 @@ const Resaources = () => {
                           </h2>
                           <div id="faqCollapseTwo" class="accordion-collapse collapse" aria-labelledby="faqHeadingTwo" data-bs-parent="#accordionFAQ">
                             <div class="accordion-body">
-                              <p>At Chawla.CPA, we occasionally reassign accountants as part of our internal management and workload balancing process to ensure timely and efficient service. If you would prefer to continue working with your previous accountant, feel free to let your current accountant know, and we will do our best to accommodate your request.</p>
+                              <p>At <a href="chawlacpa.com">chawlacpa.com</a>, we occasionally reassign accountants as part of our internal management and workload balancing process to ensure timely and efficient service. If you would prefer to continue working with your previous accountant, feel free to let your current accountant know, and we will do our best to accommodate your request.</p>
                             </div>
                           </div>
                         </div>
@@ -973,7 +821,7 @@ const Resaources = () => {
                           </h2>
                           <div id="faqCollapseThree" class="accordion-collapse collapse" aria-labelledby="faqHeadingThree" data-bs-parent="#accordionFAQ">
                             <div class="accordion-body">
-                              <p>Sometimes the identity verification system may encounter technical issues. If you’re unable to complete your e-signature, please email us at Chawla.CPA@gmail.com . We’ll promptly send you a PDF version of your tax return so you can sign it manually.</p>
+                              <p>Sometimes the identity verification system may encounter technical issues. If you’re unable to complete your e-signature, please email us at <a href="mailto:info@chawlacpa.com">info@chawlacpa.com</a> . We’ll promptly send you a PDF version of your tax return so you can sign it manually.</p>
                             </div>
                           </div>
                         </div>
@@ -997,7 +845,7 @@ const Resaources = () => {
                           </h2>
                           <div id="faqCollapseFive" class="accordion-collapse collapse" aria-labelledby="faqHeadingFive" data-bs-parent="#accordionFAQ">
                             <div class="accordion-body">
-                              <p>Please refer to the tax organizer provided by Chawla.CPA for guidance. Generally, you'll need to upload tax forms such as Form W-2, Form 1099, and documentation related to business income and expenses (like a profit and loss statement), among others.</p>
+                              <p>Please refer to the tax organizer provided by <a href="mailto:info@chawlacpa.com">info@chawlacpa.com</a> for guidance. Generally, you'll need to upload tax forms such as Form W-2, Form 1099, and documentation related to business income and expenses (like a profit and loss statement), among others.</p>
                             </div>
                           </div>
                         </div>
@@ -1009,7 +857,7 @@ const Resaources = () => {
                           </h2>
                           <div id="faqCollapseSix" class="accordion-collapse collapse" aria-labelledby="faqHeadingSix" data-bs-parent="#accordionFAQ">
                             <div class="accordion-body">
-                              <p>If you’ve missed the deadline, contact your accountant at Chawla.CPA immediately. The IRS may assess penalties and interest for late filing, but timely communication with your accountant can help minimize potential issues.</p>
+                              <p>If you’ve missed the deadline, contact your accountant at <a href="chawlacpa.com">chawlacpa.com</a> immediately. The IRS may assess penalties and interest for late filing, but timely communication with your accountant can help minimize potential issues.</p>
                             </div>
                           </div>
                         </div>
@@ -1052,11 +900,13 @@ const Resaources = () => {
                 <div className="col-lg-6 col-md-12 col-xs-12 our-services-box-first remove-spacing">
                   <div className="our-services-box">
                     <div className="image">
-                      <img
-                        src={W4}
-                        alt="W4"
-                        title="W4"
-                      ></img>
+                      <a href="/fw4.pdf" data-discover="true" target="_blank">
+                        <img
+                          src={W4}
+                          alt="W4"
+                          title="W4"
+                        ></img>
+                      </a>
                     </div>
                     <div className="text">
                       <img
@@ -1064,11 +914,12 @@ const Resaources = () => {
                         alt="boxesline"
                         title="boxesline"
                       ></img>
-                      <h5>W4</h5>
+                      <a href="/fw4.pdf" data-discover="true" target="_blank"> <h5>W4</h5></a>
                       <p>
                         The IRS W-4 Form lets employees tell their employer how much federal income tax to withhold from their paycheck. It helps ensure the right amount is taken out based on personal tax situations.
                       </p>
-                      <a class="short-button" href="../../Assests/Img/i9.pdf" data-discover="true">
+
+                      <a class="short-button" href="/fw4.pdf" data-discover="true" target="_blank">
                         <LuArrowUpRight />
                       </a>
                     </div>
@@ -1078,11 +929,13 @@ const Resaources = () => {
                   {" "}
                   <div className="our-services-box">
                     <div className="image">
-                      <img
-                        src={i9}
-                        alt="i9"
-                        title="i9"
-                      ></img>
+                      <a href="/i9.pdf" data-discover="true" target="_blank">
+                        <img
+                          src={i9}
+                          alt="i9"
+                          title="i9"
+                        ></img>
+                      </a>
                     </div>
                     <div className="text">
                       <img
@@ -1090,11 +943,11 @@ const Resaources = () => {
                         alt="boxesline"
                         title="boxesline"
                       ></img>
-                      <h5>I9</h5>
+                      <a href="/i9.pdf" data-discover="true" target="_blank"><h5>I9</h5></a>
                       <p>
                         The I-9 Form is used to verify an employee’s identity and legal authorization to work in the United States. Both the employee and employer must complete it.
                       </p>
-                      <a class="short-button" href="../../Assests/Img/fw4.pdf" data-discover="true">
+                      <a class="short-button" href="/i9.pdf" data-discover="true" target="_blank">
                         <LuArrowUpRight />
                       </a>
                     </div>

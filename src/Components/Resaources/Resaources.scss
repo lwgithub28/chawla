@@ -1,10 +1,5 @@
 #Resaources-page {
   #about-banner {
-    .slider-img {
-      img {
-        padding-right: 40px;
-      }
-    }
 
     .right-text {
       p {
@@ -58,8 +53,10 @@
     padding: 0 80px;
 
     .check-list {
+      padding-left: 20px;
       li {
         padding-bottom: 17px;
+        list-style: disc;
 
         span {
           padding-left: 0px;

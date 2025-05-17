@@ -13,6 +13,7 @@ const StateAndLocalTax = () => {
         img: stateandlocaltax,
         banner: {
             title: "State And Local Tax",
+            subhead: "Stay Compliant and Save More",
             subtitle:
                 (
                     <>
@@ -109,7 +110,7 @@ const StateAndLocalTax = () => {
                         ),
                 },
             ],
-            FinancialPartnerBoxesText: "Let’s Take the Confusion Out of SALT",
+            FinancialPartnerBoxesText: "Let's Turn SALT Complexity into a Strategic Advantage",
             FinancialPartnerBoxes: [
                 {
                     description:

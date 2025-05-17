@@ -81,8 +81,8 @@ const Community = () => {
                                 <div className='community-about-text'>
                                     <img src={quote} alt='quote' title='quote'></img>
                                     <div className="community-text">
-                                        <p className='text-desc'>“We build a true sense of community when we work together. Whether it is donating money to charitable organizations, offering our time for the service of others or mentoring the next generation of leaders, every action brings us closer to making the world a better place to live in. Let’s keep making a positive difference, one step at a time.</p>
-                                        <p className='text-desc'>The Chawla & Associates CPAs Community Foundation is dedicated to nurturing an environment where everyone has access to the opportunities and resources needed to succeed. Our vision is to build a more inclusive and impactful future for all.”</p>
+                                        <p className='text-desc'>We build a true sense of community when we work together. Whether it is donating money to charitable organizations, offering our time for the service of others or mentoring the next generation of leaders, every action brings us closer to making the world a better place to live in. Let’s keep making a positive difference, one step at a time.</p>
+                                        <p className='text-desc'>The Chawla & Associates CPAs Community Foundation is dedicated to nurturing an environment where everyone has access to the opportunities and resources needed to succeed. Our vision is to build a more inclusive and impactful future for all.</p>
                                     </div>
                                     <div className='communnity-about-name'>
                                         <div className='name-designation'>
@@ -168,10 +168,10 @@ const Community = () => {
                 <section id="compaign" className="bgimg mobile-spacing tablet-spacing">
                     <div className='container-fluid'>
                         <div className='row'>
-                            <h3 class="sub-head">/ Campaign </h3>
+                            <h3 class="sub-head">/ Campaigns </h3>
                             <h2 class="main-head">Our Collaborative Efforts
                             </h2>
-                            <p className='text-desc'>As one of the best CPA firms in Illinois, we recognize the opportunity we have to create positive change in our community. While we may not be able to impact the change we want directly, we can partner and support organizations that have the expertise and resources to do so. Here are some of the initiatives we are proud to be a part of</p>
+                            <p className='text-desc'>As one of the best CPA firms in Illinois, we recognize the opportunity we have to create positive change in our community. While we may not be able to impact the change we want directly, we can partner and support organizations that have the expertise and resources to do so. Here are some of the initiatives we are proud to be a part of :-</p>
                             <div className="tabs">
                                 {/* Sidebar Tabs */}
                                 <div className="sidebar-tabs">
@@ -184,7 +184,7 @@ const Community = () => {
                                             >
                                                 <li>{tab.title}</li>
                                                 <Link to="" className="short-button">
-                                                        <LuArrowUpRight />
+                                                    <LuArrowUpRight />
                                                 </Link>
                                             </button>
                                         ))}
@@ -194,9 +194,6 @@ const Community = () => {
                                 <div className="tab-content">
                                     {tabContent[activeTab] && (
                                         <>
-                                            <div className="tab-content-left">
-                                                <img src={tabContent[activeTab].imgSrc} alt={activeTab} title={activeTab} />
-                                            </div>
                                             <div className="tab-content-right">
                                                 <h2>{tabData.find(tab => tab.id === activeTab)?.title}</h2>
                                                 <p className="text-desc">{tabContent[activeTab].description}</p>
@@ -271,6 +268,7 @@ const Community = () => {
                         <div className="awards-inner">
                             <h3 class="sub-head">/ Celebrating Excellence and Impact</h3>
                             <h2 class="main-head">awards and recognition</h2>
+                            <p className="text-desc">Throughout the years, Chawla & Associates CPAs has been honored with many awards, showcasing our commitment to excellence and innovation. Each recognition stands as a testament to our team’s dedication, expertise and the trust placed in us by our valued clients and the communities we proudly serve.</p>
                             <div className="all-awards-box">
                                 <Swiper
                                     spaceBetween={50}
@@ -288,33 +286,29 @@ const Community = () => {
                                     <SwiperSlide>
                                         <div className="awards-box">
                                             <img src={CitizensAppreciatePubliceSafety} alt="CitizensAppreciatePubliceSafety" title="CitizensAppreciatePubliceSafety"></img>
-                                            <h2>Citizens Appreciate Publice Safety</h2>
-                                            <p className="text-desc">Lorem Ipsum is simply dummy text of the printing and typeset- ting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
-                                            <span>Appreciation Award, 2022</span>
+                                            <h2>2014: Small Business of the Year award by Quad County African American Chamber of Commerce</h2>
+                                            <p className="text-desc">We were honored to be recognized for our outstanding achievements by the African American-owned businesses in Kane, Kendall, DuPage and Will counties (the Quad County area). Our firm proudly demonstrates innovation, resilience and significant contributions to the Quad County area communities.</p>
                                         </div>
                                     </SwiperSlide>
                                     <SwiperSlide>
                                         <div className="awards-box">
                                             <img src={ObamaLegacyInitiative} alt="ObamaLegacyInitiative" className="ObamaLegacyInitiative" />
-                                            <h2>Obama Legacy Initiative</h2>
-                                            <p className="text-desc">Lorem Ipsum is simply dummy text of the printing and typeset- ting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
-                                            <span>Appreciation Award, 2022</span>
+                                            <h2>2020: Champion of Change presented by the Ajilla Foundation</h2>
+                                            <p className="text-desc">We were honored with this award in 2020 for driving meaningful change in communities. The Ajilla Foundation recognizes organizations that inspire communities through personal stories and create lasting impact. At Chawla & Associates CPAs, empowering communities has always been the essence of what we do. </p>
                                         </div>
                                     </SwiperSlide>
                                     <SwiperSlide>
                                         <div className="awards-box">
                                             <img src={ForBestCommunitywork} alt="ForBestCommunitywork" className="ForBestCommunitywork" />
-                                            <h2>For Best Community work</h2>
-                                            <p className="text-desc">Lorem Ipsum is simply dummy text of the printing and typeset- ting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
-                                            <span>Appreciation Award, 2022</span>
+                                            <h2>2021: Volunteer of the Year for Goldstar Gardens</h2>
+                                            <p className="text-desc">Our commitment to community engagement earned us recognition in 2021 for outstanding volunteer contributions. We take great pride in this honor and what it represents.</p>
                                         </div>
                                     </SwiperSlide>
                                     <SwiperSlide>
                                         <div className="awards-box">
                                             <img src={ObamaLegacyInitiative} alt="ObamaLegacyInitiative" className="ObamaLegacyInitiative" />
-                                            <h2>Obama Legacy Initiative</h2>
-                                            <p className="text-desc">Lorem Ipsum is simply dummy text of the printing and typeset- ting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
-                                            <span>Appreciation Award, 2022</span>
+                                            <h2>2024: Employer of the Year Award by the United Nations World Day Against Trafficking of Persons</h2>
+                                            <p className="text-desc">Presented during the United Nations World Day Against Trafficking of Persons, Chawla & Associates CPAs is honored to be recognized for our unwavering commitment to combating human trafficking</p>
                                         </div>
                                     </SwiperSlide>
                                 </Swiper>
@@ -330,6 +324,7 @@ const Community = () => {
                         <div className="row">
                             <h3 class="sub-head p-xs-0">/ Gallery </h3>
                             <h2 class="main-head p-xs-0">making lives better everyday</h2>
+                            <p className="text-desc">In our busy lives, it is easy to feel disconnected from the people around us. At Chawla & Associates CPAs, we remain deeply rooted in our community; recognizing the privilege we hold. We are consistently finding ways to give back with purpose and gratitude.  </p>
                         </div>
                         <div className="row">
                             <img src={bettereveryday} title="bettereveryday" alt="bettereveryday" className="p-xs-0"></img>

@@ -62,6 +62,42 @@ const SuccessionPlanning = () => {
                 content:
                     (<>
                         As a team that has worked with thousands of clients in succession planning, we understand that unpredictable events will occur and disrupt your business or personal assets. That is why we serve as your personal consultant and foster a lasting professional relationship. We will continue to review, monitor and adapt your succession plan to meet all your planning goals, requirements and expectations. </>),
+            },
+            {
+                id: "collapseThree",
+                heading: "headingThree",
+                number: "03",
+                title: "Minimize Tax Implications",
+                content:
+                    (
+                        <>
+                            Thanks to years of experience in succession planning, we help you reduce estate, gift and income taxes. We help you preserve wealth for you and your next generation.
+                        </>
+                    ),
+            },
+            {
+                id: "collapseFour",
+                heading: "headingFour",
+                number: "04",
+                title: "Collaborative Planning with Your Advisors",
+                content:
+                    (
+                        <>
+                            We are happy to collaborate with your financial, legal and insurance professionals to create a succession plan that is well-rounded and executable.
+                        </>
+                    ),
+            },
+            {
+                id: "collapseFive",
+                heading: "headingFive",
+                number: "05",
+                title: "Contingency and Emergency Planning",
+                content:
+                    (
+                        <>
+                            We get your business ready for the unexpected with contingency plans that ensure operations and leadership continuity. With our contingency plan, you can go ahead with confidence and peace of mind.
+                        </>
+                    ),
             }
         ],
         SolutionsContent: {

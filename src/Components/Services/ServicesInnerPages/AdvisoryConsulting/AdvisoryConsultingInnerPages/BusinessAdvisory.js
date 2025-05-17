@@ -86,8 +86,8 @@ const BusinessAdvisory = () => {
         Solutions: [
             { id: "01", title: "Ownership Succession Planning", description: "We offer tailored advisory services that are focused on ownership transition. Our goal here is to guarantee business continuity with new ownership or across generations." },
             { id: "02", title: "Management Succession Planning", description: "We help you develop short-term and long-term management succession plans as well as transition strategies. Our advisors will further help with the execution of these plans and strategies." },
-            { id: "03", title: "Family Succession Planning", description: "With our business advisory services in Naperville, we help family owned businesses with all matters unique to family owned businesses." },
-            { id: "04", title: "Risk Management", description: "We assess and mitigate risks across financial, operational and reputational areas as well as develop risk management plans that protect the value of your business." },
+            { id: "03", title: "Tactical Planning & Management", description: "We provide comprehensive planning and management services aimed at helping businesses develop clear, actionable strategies to achieve their long-term goals and improve their overall performance. " },
+            { id: "04", title: "Business Restructuring", description: "Our business restructuring Service involves strategic initiatives to reorganize a business’s operations, assets and financial structure to enhance profitability, unlock value for the stakeholders and mitigate risks." },
             { id: "05", title: "Crisis and Conflict Management", description: "Our team offers internal and external mediation and conflict management services. Our focus is minimizing risks and preserving your business’ value." },
             { id: "06", title: "Strategic Communications", description: "We offer advisory and develop internal and external communication strategies during transitions and other non-recurring events." }
         ],

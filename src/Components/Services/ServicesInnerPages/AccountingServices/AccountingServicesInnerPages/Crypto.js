@@ -28,24 +28,24 @@ const Crypto = () => {
         funfactData: [
             {
                 img: [HappyClients],
-                alt: "Highly Qualified Team",
-                title: "Highly Qualified Team",
-                funfacthead: "Highly Qualified Team",
-                funfacttext: "We take pride in our team of highly qualified accounting professionals, all equipped with accredited certifications. With extensive industry knowledge and hands-on experience, we provide top-notch bookkeeping services."
+                alt: "Crypto Accounting Experts",
+                title: "Crypto Accounting Experts",
+                funfacthead: "Crypto Accounting Experts",
+                funfacttext: "At Chawla & Associates, we understand the complexities of cryptocurrency and specialize in managing digital asset transactions with precision and compliance."
             },
             {
                 img: [Experience],
-                alt: "Exceptional Customer Service",
-                title: "Exceptional Customer Service",
-                funfacthead: "Exceptional Customer Service",
-                funfacttext: "As the leading provider of bookkeeping services in Naperville, we go beyond simply meeting your expectations. Along with delivering the services you have requested, we go the extra mile by offering additional accounting advice, explained in clear, straightforward language."
+                alt: "Maximize Crypto Tax Savings",
+                title: "Maximize Crypto Tax Savings",
+                funfacthead: "Maximize Crypto Tax Savings",
+                funfacttext: "Our deep knowledge of crypto tax regulations allows us to identify every opportunity for deductions, helping you minimize your tax liability and retain more of your profits."
             },
             {
                 img: [States],
-                alt: "No Hidden Charges",
-                title: "No Hidden Charges",
-                funfacthead: "No Hidden Charges",
-                funfacttext: "We believe in complete transparency. All our packages are discussed openly and negotiated fairly, ensuring there are no surprises or hidden fees. You can have full confidence that you will only be charged for the services you have agreed upon."
+                alt: "Focus on Business, We Handle Crypto",
+                title: "Focus on Business, We Handle Crypto",
+                funfacthead: "Focus on Business, We Handle Crypto",
+                funfacttext: "With our dedicated crypto accounting services, you can focus on growing your business while we ensure your crypto finances are accurate, compliant, and optimized."
             }
         ],
         WhyChooseUs: {

@@ -13,6 +13,7 @@ const InternationalTax = () => {
         img: internationaltax,
         banner: {
             title: "International Taxes",
+            subhead: "Your Trusted Partner in International Tax Compliance",
             subtitle:
                 (
                     <>

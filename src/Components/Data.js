@@ -172,7 +172,7 @@ export const teamData = [
   {
     id: 6,
     imgSrc: [JenniferJung],
-    name: "Jennifer Jung",
+    name: "Jennifer",
     position: "Office Manager",
     description: "She has years of experience in the financial sector, and an undying passion for helping others.",
   },
@@ -186,7 +186,7 @@ export const teamData = [
   {
     id: 8,
     imgSrc: [Pankaj],
-    name: "Pankaj Vagadia",
+    name: "Pankaj",
     position: "Accounting and finance professional",
     className: "Pankaj",
     description: "He is skilled in advising clients on accounting, tax preparation, and profit analysis. He lets you navigate the complex finance landscape with confidence. ",
@@ -201,7 +201,7 @@ export const professionalsData = [
     title: "Tax Services",
     description: (
       <>
-        Our proficient <b>tax accountants in Naperville, IL</b>, simplify tax filing for you. Whether it’s income tax preparation, business tax filings, or estate and trust tax planning, we ensure accuracy in all. Even if you face an IRS notice or tax delay, we provide IRS representation and <b>tax notice assistance in Naperville</b>, resolving issues efficiently.
+        Our expert tax accountants in Naperville, IL, make tax filing simple and stress-free. Whether you need help with income tax preparation, business filings, or estate and trust tax planning, we ensure accuracy in every return. If you receive an IRS notice or experience a tax delay, we offer responsive IRS representation and tax notice assistance—resolving issues quickly and efficiently.
       </>
     ),
     link: "/services/taxes",
@@ -294,7 +294,7 @@ export const aboutInfoData = [
     description:
       (
         <>
-          Every financial situation is distinct to itself. As your <b>Naperville CPA</b>, we do not believe in one-size-fits-all solutions. We take our effort to know all about your business and give tailored advice and strategies that pertain to your needs and goals.
+         Every financial situation is distinct. As your CPA in Naperville, we do not believe in one-size-fits-all solutions. We make the effort to understand your business and provide tailored advice and strategies that pertain to your needs and goals.
         </>
       ),
   },
@@ -303,7 +303,7 @@ export const aboutInfoData = [
     description:
       (
         <>
-          We perceive problems and opportunities in advance, and we have a strategic way to get you this and anything more. Whether you are looking for a <b>tax accountant in Naperville</b> or require comprehensive <b>CPA services for small businesses</b>; we've got you covered.
+          We anticipate problems and opportunities before they arise, and we have a strategic approach to help you address them and reach your goals. Whether you’re looking for a tax accountant in Naperville or need comprehensive CPA services for your small business, we’ve got you covered.
         </>
       ),
   },
@@ -312,7 +312,7 @@ export const aboutInfoData = [
     description:
       (
         <>
-          We believe in communication wherein everything is clear. We give explanations to complicated finances in such a way that you will understand, ensuring that you are always updated and capable of making sound decisions. Our <b>CPA Naperville IL services</b> are transparent and straightforward..
+         We believe in clear and open communication. We explain complex financial matters in a way you can understand, ensuring you are always kept up to date and able to make informed decisions. Our CPA in Naperville Il services are transparent and straightforward.
         </>
       ),
   },
@@ -321,7 +321,7 @@ export const aboutInfoData = [
     description:
       (
         <>
-          We are not merely <b>tax accountants in Naperville</b> anymore. We are your trusted financial advisors. We walk with you and help you in every step of your changes. It is our great joy to build long relations with you.
+          We are not merely tax accountants in Naperville — we are your trusted financial advisors. We are with you every step of the way, helping you navigate financial changes and challenges. We take great pride in building long-term relationships with our clients.
         </>
       ),
   },
@@ -332,27 +332,24 @@ export const aboutcoreValuesData = [
     imgSrc: [Passionimg], // Replace with the actual import or path
     alt: "Passion",
     title: "Passion",
-    subtitle: "It’s our culture",
     description:
-      "A vested interest and an inner desire to help you achieve your business and financial goals. ",
+      "We have a vested interest and an inner desire to help you achieve your business and financial goals.",
     className: "passion",
   },
   {
     imgSrc: [TrustedRelationship], // Replace with the actual import or path
     alt: "Trusted Relationship",
     title: "Trusted Relationship",
-    subtitle: "It’s what we stand for",
     description:
-      "A commitment to build and keep your trust through a long term relationship of mutual respect.",
+      "We are committed to building and maintaining your trust through a long-term relationship based on mutual respect.",
     className: "top-spacing trusted-relationship",
   },
   {
     imgSrc: [qualityimg], // Replace with the actual import or path
     alt: "Quality",
     title: "Quality",
-    subtitle: "It’s what defines us",
     description:
-      "A commitment to accomplish your work with the highest standards of applicable guidelines and ethical values.",
+      "We are committed to accomplishing your work with the highest standards of applicable guidelines and ethical values.",
     className: "top-spacing quality",
   },
 ];
@@ -422,7 +419,7 @@ export const accountingSolutionsData = [
 
 export const consultingServicesData = [
   {
-    imgSrc: [businessadvisory], // Replace with actual import or path
+    imgSrc: [businessadvisory],
     alt: "businessadvisory",
     title: "Business Advisory",
     description:

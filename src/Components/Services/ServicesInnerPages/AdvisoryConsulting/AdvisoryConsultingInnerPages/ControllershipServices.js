@@ -33,7 +33,7 @@ const ControllershipServices = () => {
                 description: "Our controller services are tailored to meet the unique demands of your growing business by ensuring precision and support at every stage.",
             },
             {
-                title: "All-Rounded Solutions",
+                title: "Seamless Financial Management",
                 description: "We provide comprehensive services. Expertly managing your accounting and bookkeeping to ensure accuracy, compliance, and seamless financial operations.",
             },
             {
@@ -62,6 +62,28 @@ const ControllershipServices = () => {
                 content:
                     (<>
                         We provide timely, comprehensive financial data, carefully presented in a clear and accessible format. You can use this data to enhance your business's efficiency and make informed decisions. </>),
+            },
+            {
+                id: "collapseThree",
+                heading: "headingThree",
+                number: "03",
+                title: "Financial Reporting and Analysis",
+                content:
+                    (<>
+                        Our team delivers accurate, easy-to-understand financial reports that highlight performance gaps, trends and opportunities. We go beyond the numbers to help you make strategic adjustments that drive growth.
+                    </>
+                    ),
+            },
+            {
+                id: "collapseFour",
+                heading: "headingFour",
+                number: "04",
+                title: "KPI Development and Monitoring",
+                content:
+                    (<>
+                        We help you create and track key performance indicators that align with your goals. When you monitor the right metrics, you gain clarity on what is working and what needs to be changed to achieve your goals.
+                    </>
+                    ),
             }
         ],
         SolutionsContent: {

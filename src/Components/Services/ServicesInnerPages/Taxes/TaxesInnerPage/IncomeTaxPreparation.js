@@ -16,7 +16,7 @@ const IncomeTaxPreparation = () => {
       subhead: "When You Think Income Tax, Think Chawla & Associates",
       subtitle: (
         <>
-          Chawla & Associates understands that navigating income tax preparation can be daunting.That is why, since our incorporation in 1997, our income <b>tax preparation services in Naperville</b> have been refined to transform the complexities of income tax into effortless simplicity.We combine decades of expertise with a client- first approach to deliver services that are not only comprehensive but also tailored to your unique tax needs.Whether you are an individual or a small business owner, we will craft a personalized income tax solution that fits your unique needs and goals.
+          Chawla & Associates understands that navigating income tax preparation can be daunting. That is why, since our incorporation in 1997, our income <b>tax preparation services in Naperville</b> have been refined to transform the complexities of income tax into effortless simplicity. We combine decades of expertise with a client- first approach to deliver services that are not only comprehensive but also tailored to your unique tax needs. Whether you are an individual or a small business owner, we will craft a personalized income tax solution that fits your unique needs and goals.
         </>
       ),
     },
@@ -70,7 +70,7 @@ const IncomeTaxPreparation = () => {
         ),
 
       // ------------------
-      taxPrepTitle: "Our firm is different because we are a relationship-focused firm that wants to grow with you. ",
+      taxPrepTitle: "We are a firm built on long-term client relationships. ",
       taxPrepDesc: (
         <>
           We are experienced, knowledgeable, and proactive in tax planning for both high-net-worth individuals and businesses. When you bring us in to handle <b>income tax for small businesses</b>, we will show you how to take full advantage of federal and state-level tax deductions, credits, and loopholes.

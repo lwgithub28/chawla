@@ -1,6 +1,11 @@
 #community {
-    #about-banner .right-text p {
-        padding-top: 10px;
+    #about-banner {
+         .slider-img img{
+            object-position: top;
+         }
+        .right-text p {
+            padding-top: 10px;
+        }
     }
 
     #community-about,
@@ -135,6 +140,10 @@
         background-image: url(../../Assests/Img/SectorsBg.webp);
         color: var(--white);
 
+        .sub-head {
+            color: var(--white);
+        }
+
         .main-head {
             color: var(--white);
         }
@@ -169,7 +178,7 @@
                         display: flex;
                         justify-content: space-between;
                         align-items: center;
-                        padding: 14px 25px;
+                        padding: 10px 25px;
                         color: var(--white);
                         font-family: var(--Montserrat);
                         border-bottom: 1px solid var(--white);
@@ -181,6 +190,10 @@
                         }
 
                         .short-button {
+                            width: 30px;
+                            height: 30px;
+                            border-radius: 6px;
+
                             button {
                                 width: 30px;
                                 height: 30px;
@@ -228,7 +241,7 @@
                 }
 
                 .tab-content-right {
-                    width: 70%;
+                    width: 100%;
                     padding-left: 20px;
                     display: flex;
                     flex-direction: column;
@@ -317,6 +330,7 @@
     }
 
     #partnership {
+        text-align: center;
         padding-top: 80px;
         padding-bottom: 0px;
 
@@ -371,24 +385,45 @@
             height: 500px;
             object-fit: cover;
         }
+
+        .text-desc {
+            padding-top: 10px;
+            padding-left: 200px;
+            padding-right: 200px;
+        }
     }
 
     #awards {
+        text-align: center;
         background: linear-gradient(90deg, rgb(236, 242, 243) 0%, rgb(250, 252, 252) 100%);
         padding-top: 80px;
         padding-bottom: 80px;
         margin-top: 80px;
 
+        .text-desc {
+            padding-top: 10px;
+            padding-left: 200px;
+            padding-right: 200px;
+        }
+
         .all-awards-box {
             padding-top: 40px;
 
             .swiper-wrapper {
-                height: 700px;
+                height: 750px;
 
                 .swiper-slide {
                     margin-right: 30px;
 
+                    h2 {
+                        padding-bottom: 0;
+                    }
 
+                    .text-desc {
+                        padding-left: 0;
+                        padding-right: 0;
+                        text-align: center;
+                    }
                 }
             }
 
@@ -412,7 +447,8 @@
                 }
 
                 h2 {
-                    font-size: 20px;
+                    font-size: 16px;
+                    line-height: 1.3rem;
                     font-family: var(--Montserrat);
                     font-weight: 600;
                     padding-top: 30px;
@@ -618,13 +654,15 @@
                     padding-right: 20px;
                 }
             }
-            .row{
+
+            .row {
                 flex-direction: column-reverse;
             }
         }
 
         #partnership {
             text-align: center;
+
             .Partnerships-box {
                 margin-top: 20px;
             }

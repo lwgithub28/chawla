@@ -146,63 +146,63 @@
             display: flex;
             align-items: center;
             justify-content: center;
-          
+
             svg {
               font-size: 18px;
               fill: var(--main-color);
               transition: fill 0.3s;
             }
-          
+
             &:hover {
               background-color: var(--main-color);
-          
+
               svg {
                 fill: #fff;
               }
             }
           }
-          
+
         }
       }
 
-    .socialize {
-      color: var(--black);
-      font-size: 21px;
-      font-weight: 600;
-      padding-top: 90px;
+      .socialize {
+        color: var(--black);
+        font-size: 21px;
+        font-weight: 600;
+        padding-top: 90px;
+      }
+    }
+
+  }
+
+  .contact-form {
+    padding-left: 80px;
+
+    label {
+      width: 100%;
+      color: var(--light-desc);
+      font-family: var(--Montserrat);
+      font-size: 15px;
+    }
+
+    input,
+    textarea {
+      width: 100%;
+      border: none;
+      border-bottom: 1px solid var(--border);
+      margin-bottom: 30px;
+      padding: 4px 0;
+      font-family: var(--Montserrat);
+
+      &:focus-visible {
+        outline: none;
+      }
+    }
+
+    .common-btn {
+      width: 150px;
     }
   }
-
-}
-
-.contact-form {
-  padding-left: 80px;
-
-  label {
-    width: 100%;
-    color: var(--light-desc);
-    font-family: var(--Montserrat);
-    font-size: 15px;
-  }
-
-  input,
-  textarea {
-    width: 100%;
-    border: none;
-    border-bottom: 1px solid var(--border);
-    margin-bottom: 30px;
-    padding: 4px 0;
-    font-family: var(--Montserrat);
-
-    &:focus-visible {
-      outline: none;
-    }
-  }
-
-  .common-btn {
-    width: 150px;
-  }
-}
 }
 
 // contact form end
@@ -219,8 +219,10 @@
 
   .slider-img {
     img {
-      width: 100%;
-      padding-right: 20px;
+      width: 90%;
+      height: 450px;
+      object-fit: cover;
+      border-radius: 20px;
     }
   }
 }
@@ -295,6 +297,11 @@
       margin-top: 30px;
     }
   }
+
+  #about-banner .slider-img img {
+    width: 100%;
+    height: auto;
+  }
 }
 
 /* Extra small devices (tablets) */
@@ -312,4 +319,8 @@
       padding-left: 40px;
     }
   }
+      #about-banner .slider-img img {
+      width: 100%;
+      height: auto;
+    }
 }

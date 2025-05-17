@@ -327,7 +327,7 @@ const AccountingServicesContent = ({ contentData }) => {
                         <div className='row'>
                             <h2 class="main-head p-xs-0">A Cryptocurrency CPA You Can Trust</h2>
                             <p class="text-desc p-xs-0">Cryptocurrency has very complex rules when it comes to reporting and taxation. Lucky for you, Chawla & Associates is here to help.
-                                <br></br><br></br>  Our CPAs in Naperville Il have been keeping up with cryptocurrencies ever since Bitcoin came to life back in 2008. With experience working with cryptocurrency investors in Illinois, we know what it takes to avoid having the IRS knocking at your door. We can advise on tax strategies including maximizing deductions and lowering your tax rate.
+                                <br></br><br></br>  Our CPAs in Naperville IL have been keeping up with cryptocurrencies ever since Bitcoin came to life back in 2008. With experience working with cryptocurrency investors in Illinois, we know what it takes to avoid having the IRS knocking at your door. We can advise on tax strategies including maximizing deductions and lowering your tax rate.
                                 <br></br><br></br>We are your go-to firm when you need to understand cryptocurrency tax and accounting. As the best CPAs in Naperville, we review your finances and organize them in a way that makes sense so that you have complete transparency and maximize your earnings. In addition to tax services, we offer a full-service accounting support to help you with the financial aspect of your investments.</p>
                         </div>
                     </div>

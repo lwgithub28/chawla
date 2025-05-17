@@ -9,7 +9,6 @@ import "swiper/css/pagination";
 import 'swiper/css/navigation';
 import { Helmet } from "react-helmet";
 import { sectorsData, teamData, professionalsData, coreValuesData } from "../../Components/Data";
-import Testimonial from "../CommonComp/Testimonial";
 import ContactForm from "../CommonComp/ContactForm";
 import Map from "../CommonComp/Map";
 // import required modules
@@ -34,7 +33,7 @@ import allteam from "../../Assests/Img/all-team.png";
 // import Connectwithusbgimg from "../../Assests/Img/Connectwithusbgimg.webp";
 import firsthomebanner from "../../Assests/Img/first-home-banner.webp";
 import secondhomebanner from "../../Assests/Img/second-home-banner.webp";
-import thirdbannerhome from "../../Assests/Img/third-home-banner.webp";
+import thirdbannerhome from "../../Assests/Img/third-banner.webp";
 // Import logos
 import Logo1 from "../../Assests/Img/QuickBooks.webp";
 import Logo2 from "../../Assests/Img/ShareFile-logo.webp";
@@ -167,7 +166,7 @@ const Home = () => {
         <section id="logo-slider" className="mobile-spacing tablet-spacing">
           <div className="container-fluid p-xs-0 padding-md-0">
             <p className="trusted">
-              Trusted by Business and Individuals around the world
+              Powered by Industry-Leading Solutions for Maximum Accuracy and Efficiency
             </p>
             <Swiper
               slidesPerView={4}
@@ -542,7 +541,7 @@ const Home = () => {
                 <h2 className="main-head">The Financial Minds Driving Your Success
                 </h2>
                 <Link to="/about/#members" className="bg-remove-btn">
-                Our Team <MdArrowOutward />
+                  Know Your Team <MdArrowOutward />
                 </Link>
               </div>
               <div className="col-sm-4 col-md-12 col-lg-8 main p-xs-0 padding-md-0">
@@ -621,8 +620,8 @@ const Home = () => {
         <div className="google-reviews" id="google-reviews">
           <div className="container-fluid p-xs-0">
             <div className="row">
-              <h2 className="main-head">What Our Customers Say</h2>
-              <div class="elfsight-app-145612f7-a096-419c-a355-b1451166cd93" data-elfsight-app-lazy></div>
+              <h2 className="main-head">We sell peace of mind</h2>
+              <div class="elfsight-app-eb105fe7-7e78-455f-96cf-3e96d491489b" data-elfsight-app-lazy></div>
             </div>
           </div>
         </div>

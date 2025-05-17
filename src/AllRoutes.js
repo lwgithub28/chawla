@@ -34,8 +34,10 @@ import SeniorTaxAccountant from "./Components/Careers/CareersJobPosition/SeniorT
 import AuditAssociate from "./Components/Careers/CareersJobPosition/AuditAssociate";
 import BookkeepingSpecialist from "./Components/Careers/CareersJobPosition/BookkeepingSpecialist";
 import AdministrativeAssistant from "./Components/Careers/CareersJobPosition/AdministrativeAssistant";
+import OtherResources from "./Components/OtherResources/OtherResources";
 import TermsAndConditions from "./Components/Terms/TermsAndConditions";
 import PrivacyPolicy from "./Components/Terms/PrivacyPolicy";
+import NoPage from "./Components/nopage/NoPage";
 import Footer from "./Components/CommonComp/Footer/Footer";
 const AllRoutes = () => {
   return (
@@ -55,7 +57,7 @@ const AllRoutes = () => {
         <Route path="services/advisory-consulting" element={<AdvisoryConsulting />} />
         <Route path="services/taxes" element={<Taxes />} />
         <Route path="services/taxes/income-tax-preparation" element={<IncomeTaxPreparation />} />
-        <Route path="services/taxes/business-tax-preparation" element={<BusinessTaxPreparation />}/>
+        <Route path="services/taxes/business-tax-preparation" element={<BusinessTaxPreparation />} />
         <Route path="services/taxes/state-local-tax" element={<StateLocalTax />} />
         <Route path="services/taxes/IRS-representation" element={<IRSRepresentation />} />
         <Route path="services/taxes/international-tax" element={<InternationalTax />} />
@@ -67,7 +69,7 @@ const AllRoutes = () => {
         <Route path="services/accounting-services/crypto" element={<Crpto />} />
         <Route path="/services/advisory-consulting/business-advisory" element={<BusinessAdvisory />} />
         <Route path="/services/advisory-consulting/CFO" element={<CFO />} />
-        <Route  path="/services/advisory-consulting/controllership-services" element={<ControllershipServices />}/>
+        <Route path="/services/advisory-consulting/controllership-services" element={<ControllershipServices />} />
         <Route path="/services/advisory-consulting/succession-planning" element={<SuccessionPlanning />} />
         <Route path="/services/advisory-consulting/tax-financial-planning" element={<TaxFinancialPlanning />} />
         <Route path="/services/advisory-consulting/M&A-strategy" element={<MAStrategy />} />
@@ -75,8 +77,10 @@ const AllRoutes = () => {
         <Route path="/contact/careers/audit-associate" element={<AuditAssociate />} />
         <Route path="/contact/careers/bookkeeping-specialist" element={<BookkeepingSpecialist />} />
         <Route path="/contact/careers/administrative-assistant" element={<AdministrativeAssistant />} />
+        <Route path="/other-resources" element={<OtherResources />} />
         <Route path="/terms-and-conditions" element={<TermsAndConditions />} />
         <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+        <Route path="*" element={<NoPage />} />
       </Routes>
       <Footer />
     </>

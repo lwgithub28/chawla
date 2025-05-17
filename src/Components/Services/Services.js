@@ -36,7 +36,7 @@ const Services = () => {
             <div className="row">
               <div className="col-lg-5 col-md-12 Professionals-text">
                 <span className="text">
-                  <h3 className="sub-head">/ Core Values</h3>
+                  <h3 className="sub-head">/  Tax Services</h3>
                   <h2 className="main-head">Taxes Preparation</h2>
                 </span>
               </div>
@@ -51,13 +51,15 @@ const Services = () => {
                 <div className="row">
                   <div className="col-md-6 first-box  icon-box">
                     <span>
-                      <img
-                        src={beforeabouthead}
-                        alt="beforeabouthead"
-                        title="beforeabouthead"
-                        loading="lazy"
-                      ></img>
-                      <h1 className="main-head">income tax preparation</h1>
+                      <Link to="/services/taxes/income-tax-preparation">
+                        <img
+                          src={beforeabouthead}
+                          alt="beforeabouthead"
+                          title="beforeabouthead"
+                          loading="lazy"
+                        ></img>
+                      </Link>
+                      <Link to="/services/taxes/income-tax-preparation"><h1 className="main-head">income tax preparation</h1></Link>
                       <p class="text-desc">
                         We ensure accurate and efficient tax filing, helping individuals and businesses maximize deductions while staying fully compliant with IRS regulations. Our team stays updated with the latest tax laws to optimize your refunds and minimize liabilities.
                       </p>
@@ -68,13 +70,15 @@ const Services = () => {
                   </div>
                   <div className="col-md-6 taxation-inner-box icon-box">
                     <span>
+                      <Link to="/services/taxes/business-tax-preparation">
                         <img
                           src={beforeabouthead}
                           alt="beforeabouthead"
                           title="beforeabouthead"
                           loading="lazy"
                         ></img>
-                      <h1 className="main-head">business tax preparation</h1>
+                      </Link>
+                      <Link to="/services/taxes/business-tax-preparation">  <h1 className="main-head">business tax preparation</h1></Link>
                       <p class="text-desc">
                         From small to large businesses, we provide tailored <b>tax services in Naperville</b> to optimize your financial health, reduce liabilities, and ensure compliance. Our proactive approach helps you stay ahead of tax deadlines, avoid penalties, and plan for future growth.
                       </p>
@@ -87,13 +91,15 @@ const Services = () => {
                 <div className="row top-spacing">
                   <div className="col-md-6 first-box icon-box">
                     <span>
-                      <img
-                        src={beforeabouthead}
-                        alt="beforeabouthead"
-                        title="beforeabouthead"
-                        loading="lazy"
-                      ></img>
-                      <h1 className="main-head">irs representation</h1>
+                      <Link to="/services/taxes/IRS-representation">
+                        <img
+                          src={beforeabouthead}
+                          alt="beforeabouthead"
+                          title="beforeabouthead"
+                          loading="lazy"
+                        ></img>
+                      </Link>
+                      <Link to="/services/taxes/IRS-representation"><h1 className="main-head">IRS representation</h1> </Link>
                       <p class="text-desc">
                         If you're facing an IRS audit, tax dispute, or unpaid tax liabilities, our experienced professionals advocate on your behalf. We provide negotiation support, tax resolution strategies, and <b>IRS delay solutions in Naperville</b>, ensuring the best outcome for your case.
                       </p>
@@ -104,13 +110,15 @@ const Services = () => {
                   </div>
                   <div className="col-md-6 taxation-inner-box icon-box">
                     <span>
+                      <Link to="/services/taxes/international-tax">
                       <img
                         src={beforeabouthead}
                         alt="beforeabouthead"
                         title="beforeabouthead"
                         loading="lazy"
                       ></img>
-                      <h1 className="main-head">international taxes</h1>
+                      </Link>
+                     <Link to="/services/taxes/international-tax"> <h1 className="main-head">international taxes</h1></Link>
                       <p class="text-desc">
                         Managing cross-border tax matters? We offer expert guidance on international taxation, ensuring compliance with U.S. and foreign tax regulations. Our team helps businesses and individuals minimize global tax burdens and avoid double taxation.
                       </p>
@@ -123,13 +131,15 @@ const Services = () => {
                 <div className="row top-spacing">
                   <div className="col-md-6 first-box icon-box">
                     <span>
+                      <Link to="/services/taxes/state-local-tax">
                       <img
                         src={beforeabouthead}
                         alt="beforeabouthead"
                         title="beforeabouthead"
                         loading="lazy"
                       ></img>
-                      <h1 className="main-head">state & local taxes</h1>
+                      </Link>
+                     <Link to="/services/taxes/state-local-tax"> <h1 className="main-head">state & local taxes</h1></Link>
                       <p class="text-desc">
                         Understanding state and local tax laws can be complex, but our experts help you avoid costly penalties, leverage deductions, and stay compliant with regulations. Whether it's sales tax, payroll tax, or franchise tax, we ensure smooth tax filings and audits.
                       </p>
@@ -140,13 +150,15 @@ const Services = () => {
                   </div>
                   <div className="col-md-6 taxation-inner-box icon-box">
                     <span>
+                          <Link to="/services/taxes/estate-trust-tax">
                       <img
                         src={beforeabouthead}
                         alt="beforeabouthead"
                         title="beforeabouthead"
                         loading="lazy"
                       ></img>
-                      <h1 className="main-head">estate & trust taxes</h1>
+                      </Link>
+                      <Link to="/services/taxes/estate-trust-tax"> <h1 className="main-head">estate & trust taxes</h1></Link>
                       <p class="text-desc">
                         We provide strategic estate and trust tax planning to protect your assets and ensure a smooth transfer of wealth to your beneficiaries. Our tax-efficient strategies help minimize estate taxes and maximize financial security for your loved ones.
                       </p>
@@ -195,14 +207,16 @@ const Services = () => {
                   <div className="solutions-box">
                     <span>
                       <div className="icon-box-img">
-                        <img
-                          src={solution.imgSrc}
-                          alt={solution.alt}
-                          title={solution.alt}
-                          loading="lazy"
-                        />
+                        <Link to={solution.buttonLink}>
+                          <img
+                            src={solution.imgSrc}
+                            alt={solution.alt}
+                            title={solution.alt}
+                            loading="lazy"
+                          />
+                        </Link>
                       </div>
-                      <h1 className="main-head">{solution.title}</h1>
+                      <Link to={solution.buttonLink}><h1 className="main-head">{solution.title}</h1></Link>
                       <p>{solution.description}</p>
                     </span>
                     <Link to={solution.buttonLink} className="short-button">
@@ -238,12 +252,14 @@ const Services = () => {
                 >
                   <div className="our-services-box">
                     <div className="image">
-                      <img
-                        src={service.imgSrc}
-                        alt={service.alt}
-                        title={service.alt}
-                        loading="lazy"
-                      />
+                      <Link to={service.buttonLink}>
+                        <img
+                          src={service.imgSrc}
+                          alt={service.alt}
+                          title={service.alt}
+                          loading="lazy"
+                        />
+                      </Link>
                     </div>
                     <div className="text">
                       <img
@@ -251,7 +267,7 @@ const Services = () => {
                         alt="boxesline"
                         title="boxesline"
                       />
-                      <h5>{service.title}</h5>
+                      <Link to={service.buttonLink}> <h5>{service.title}</h5></Link>
                       <p>{service.description}</p>
                       <Link to={service.buttonLink} className="short-button">
                         <LuArrowUpRight />

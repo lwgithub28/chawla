@@ -34,6 +34,10 @@ a {
   text-decoration: none !important;
 }
 
+a:focus-visible {
+  outline: none;
+}
+
 img {
   width: 100%;
 }
@@ -388,10 +392,12 @@ ul.check-list {
   .fraunces {
     padding-top: 200px;
   }
-  .main-head{
+
+  .main-head {
     font-size: 40px;
     line-height: 3.4rem;
   }
+
   .tablet-spacing {
     padding-left: 20px !important;
     padding-right: 20px !important;

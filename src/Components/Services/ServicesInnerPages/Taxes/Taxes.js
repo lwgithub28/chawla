@@ -64,10 +64,11 @@ const Taxes = () => {
                       title="beforeabouthead"
                       loading="lazy"
                     ></img>
-                    <h1 className="main-head">income tax preparation</h1>
+                    <Link to="/services/taxes/income-tax-preparation"> <h1 className="main-head">income tax preparation</h1>
                     <p class="text-desc">
                       Partner with the <b>best CPA in Naperville</b> to simplify tax season with expert guidance and personalized services. We guarantee maximum deductions and a stress-free filing process.
                     </p>
+                    </Link>
                   </span>
                   <Link to="/services/taxes/income-tax-preparation" className="short-button">
                       <LuArrowUpRight />
@@ -81,10 +82,11 @@ const Taxes = () => {
                       title="beforeabouthead"
                       loading="lazy"
                     ></img>
-                    <h1 className="main-head">business tax preparation</h1>
+                    <Link to="/services/taxes/business-tax-preparation"><h1 className="main-head">business tax preparation</h1>
                     <p class="text-desc">
                       Strengthen your business’ financial health by leveraging our meticulous tax preparation and proactive strategy.
                     </p>
+                    </Link>
                   </span>
                   <Link to="/services/taxes/business-tax-preparation" className="short-button">
                       <LuArrowUpRight />
@@ -98,11 +100,12 @@ const Taxes = () => {
                       title="beforeabouthead"
                       loading="lazy"
                     ></img>
-                    <h1 className="main-head">IRS representation
+                   <Link to="/services/taxes/IRS-representation"><h1 className="main-head">IRS representation
                     </h1>
                     <p class="text-desc">
                       Rest easy with our dedicated team handling all IRS communications and resolutions, so you can focus on what matters most.
                     </p>
+                    </Link> 
                   </span>
                   <Link to="/services/taxes/IRS-representation" className="short-button">
                       <LuArrowUpRight />
@@ -116,10 +119,11 @@ const Taxes = () => {
                       title="beforeabouthead"
                       loading="lazy"
                     ></img>
-                    <h1 className="main-head">international taxes</h1>
+                    <Link to="/services/taxes/international-tax"> <h1 className="main-head">international taxes</h1>
                     <p class="text-desc">
                       Effortlessly manage cross-border tax challenges with our specialized in-house team and their extensive knowledge of international regulations.
                     </p>
+                    </Link>
                   </span>
                   <Link to="/services/taxes/international-tax" className="short-button">
                       <LuArrowUpRight />
@@ -133,10 +137,10 @@ const Taxes = () => {
                       title="beforeabouthead"
                       loading="lazy"
                     ></img>
-                    <h1 className="main-head">state & local taxes</h1>
+                      <Link to="/services/taxes/state-local-tax"><h1 className="main-head">state & local taxes</h1>
                     <p class="text-desc">
                       Effortlessly manage cross-border tax challenges with our specialized in-house team and their extensive knowledge of international regulations.
-                    </p>
+                    </p></Link>
                   </span>
                   <Link to="/services/taxes/state-local-tax" className="short-button">
                       <LuArrowUpRight />
@@ -150,10 +154,10 @@ const Taxes = () => {
                       title="beforeabouthead"
                       loading="lazy"
                     ></img>
-                    <h1 className="main-head">estate & trust taxes</h1>
+                   <Link to="/services/taxes/estate-trust-tax"><h1 className="main-head">estate & trust taxes</h1>
                     <p class="text-desc">
                       Secure your legacy with comprehensive estate and trust tax planning, ensuring your assets are preserved for future generations.
-                    </p>
+                    </p></Link> 
                   </span>
                   <Link to="/services/taxes/estate-trust-tax" className="short-button">
                       <LuArrowUpRight />
@@ -171,7 +175,7 @@ const Taxes = () => {
         <section id="why-choose-us" className="mobile-spacing tablet-spacing right-img-section">
           <div className="container-fluid">
             <div className="row">
-              <div className="col-lg-9 col-md-12 col-sm-12 left-text p-xs-0 padding-md-0">
+              <div className="col-lg-12 col-md-12 col-sm-12 left-text p-xs-0 padding-md-0">
                 <h3 className="sub-head">/ Why Choose Us</h3>
                 <h2 className="main-head">
                   The Chawla CPA Advantage
@@ -297,10 +301,10 @@ const Taxes = () => {
                   At Chawla & Associates, we pride ourselves on providing a highly personalized approach to individual and <b>business tax in Naperville</b>. Get in touch with us today to experience the Chawla & Associates difference.
                 </p>
                 <Link className="bg-remove-btn-svg" to="/contact">
-                    get in touch
-                    <span>
-                      <MdArrowOutward />
-                    </span>
+                  get in touch
+                  <span>
+                    <MdArrowOutward />
+                  </span>
                 </Link>
               </div>
             </div>

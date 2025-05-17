@@ -66,13 +66,13 @@ const AccountingServices = () => {
                       title="beforeabouthead"
                       loading="lazy"
                     ></img>
-                    <h1 className="main-head">Bookkeeping Services
+                    <Link to="/services/accounting-services/bookkeeping-services"> <h1 className="main-head">Bookkeeping Services
                     </h1>
-                    <p class="text-desc">
-                      Chawla & Associates comprehensive bookkeeping services help you record transactions, analyze trends and track progress. We will ensure your books are accurate and up-to-date.
-                    </p>
+                      <p class="text-desc">
+                        Chawla & Associates comprehensive bookkeeping services help you record transactions, analyze trends and track progress. We will ensure your books are accurate and up-to-date.
+                      </p></Link>
                   </span>
-                  <Link to="/services/taxes/income-tax-preparation" className="short-button">
+                  <Link to="/services/accounting-services/bookkeeping-services" className="short-button">
                     <LuArrowUpRight />
                   </Link>
                 </div>
@@ -84,12 +84,13 @@ const AccountingServices = () => {
                       title="beforeabouthead"
                       loading="lazy"
                     ></img>
-                    <h1 className="main-head">Financial Statements</h1>
-                    <p class="text-desc">
-                      We provide accurate, timely and detailed financial reporting to support decision-making. From preparing income statements and balance sheets to equity summaries and cash flow statements, we present your data clearly and with compliance with regulatory standards.
-                    </p>
+                    <Link to="/services/accounting-services/financial-statements">
+                      <h1 className="main-head">Financial Statements</h1>
+                      <p class="text-desc">
+                        We provide accurate, timely and detailed financial reporting to support decision-making. From preparing income statements and balance sheets to equity summaries and cash flow statements, we present your data clearly and with compliance with regulatory standards.
+                      </p></Link>
                   </span>
-                  <Link to="/services/taxes/business-tax-preparation" className="short-button">
+                  <Link to="/services/accounting-services/financial-statements" className="short-button">
                     <LuArrowUpRight />
                   </Link>
                 </div>
@@ -101,13 +102,13 @@ const AccountingServices = () => {
                       title="beforeabouthead"
                       loading="lazy"
                     ></img>
-                    <h1 className="main-head">Payroll
+                    <Link to="/services/accounting-services/payroll"><h1 className="main-head">Payroll
                     </h1>
-                    <p class="text-desc">
-                      Outsourcing Payroll services to us guarantees your employees always get paid on time and accurately. We also keep you compliant with labor laws and tax regulations. We handle all the details so you can focus on running your business.
-                    </p>
+                      <p class="text-desc">
+                        Outsourcing Payroll services to us guarantees your employees always get paid on time and accurately. We also keep you compliant with labor laws and tax regulations. We handle all the details so you can focus on running your business.
+                      </p></Link>
                   </span>
-                  <Link to="/services/taxes/state-local-tax" className="short-button">
+                  <Link to="/services/accounting-services/payroll" className="short-button">
                     <LuArrowUpRight />
                   </Link>
                 </div>
@@ -119,13 +120,12 @@ const AccountingServices = () => {
                       title="beforeabouthead"
                       loading="lazy"
                     ></img>
-                    <h1 className="main-head">Audit & Assurance</h1>
-                    <p class="text-desc">
-                      We will paint a clear and accurate picture of your finances while ensuring compliance with applicable regulations and standards. Our services include independent reviews, audits, and a range of other assurance engagements that build trust with stakeholders and support decision-making.
-
-                    </p>
+                    <Link to="/services/accounting-services/audit-assurance">  <h1 className="main-head">Audit & Assurance</h1>
+                      <p class="text-desc">
+                        We will paint a clear and accurate picture of your finances while ensuring compliance with applicable regulations and standards. Our services include independent reviews, audits, and a range of other assurance engagements that build trust with stakeholders and support decision-making.
+                      </p></Link>
                   </span>
-                  <Link to="/services/taxes/IRS-representation" className="short-button">
+                  <Link to="/services/accounting-services/audit-assurance" className="short-button">
                     <LuArrowUpRight />
                   </Link>
                 </div>
@@ -137,12 +137,12 @@ const AccountingServices = () => {
                       title="beforeabouthead"
                       loading="lazy"
                     ></img>
-                    <h1 className="main-head">Crypto</h1>
+                     <Link to="/services/accounting-services/crypto"> <h1 className="main-head">Crypto</h1>
                     <p class="text-desc">
                       From crypto tac planning to financial reporting and bookkeeping, we ensure all transactions are accurate and compliant with the regulations. Our cryptocurrency services help you navigate the complexities of digital assets with confidence.
-                    </p>
+                    </p></Link>
                   </span>
-                  <Link to="/services/taxes/international-tax" className="short-button">
+                  <Link to="/services/accounting-services/crypto" className="short-button">
                     <LuArrowUpRight />
                   </Link>
                 </div>

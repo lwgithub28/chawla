@@ -53,7 +53,7 @@ const BusinessTaxPreparation = () => {
           img: [States],
           alt: "States",
           title: "States",
-          funfacthead: "Uncover More Tax Deductions",
+          funfacthead: "More Tax Deductions",
           funfacttext: "We find more opportunities for your business that traditional tax services overlook."
         }
       ],

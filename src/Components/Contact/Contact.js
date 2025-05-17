@@ -24,8 +24,8 @@ const Contact = () => {
         {/* banner start */}
         <section id="contact-banner" className="mobile-spacing tablet-spacing">
           <div className="container-fluid p-xs-0 padding-md-0">
-            <h1>Turn Your Financial Challenges into Opportunities with Top-rated CPA in Naperville</h1>
-            <p className="text-desc">At Chawla & Associates, our expert CPAs strive to simplify your financial journey. Whether you're an individual, a small business, or a well-established enterprise, our <b>accounting firm in Naperville</b> is committed to rendering personalized advisory services targeted to your unique needs. We take pride in delivering accuracy and transparency to help you reach your ultimate goals. Are you ready to discuss your business specific needs?</p>
+            <h1>Contact Us Today</h1>
+            <p className="text-desc">Whether you are starting out or scaling up, our top-rated CPA in Naperville is here to guide you with confidence. Your path to expert financial guidance begins here. Get in touch with us today.</p>
           </div>
         </section>
         {/*banner end */}
@@ -52,7 +52,7 @@ const Contact = () => {
                 <div className="address">
                   <div className="office">
                     <h4>OFFICE -</h4>
-                    <p><a href="https://maps.app.goo.gl/VEkCbGE9cwYyNJfi9" target="_blank">2752 Forgue Dr Suite 100-B, Naperville, IL 60564, United States</a></p>
+                    <p><a href="https://maps.app.goo.gl/MwpMWEch5YviwQgg7" target="_blank">2752 Forgue Dr Suite 100-B, Naperville, IL 60564</a></p>
                   </div>
                   <div className="conatct">
                     <h4>CONTACT-</h4>

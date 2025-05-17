@@ -29,7 +29,7 @@ const AdvisoryConsulting = () => {
         {/* about-banner start */}
         <Banner
           bannerImage={TaxesInnerBanner}
-          title="Business Startup & Consulting Services"
+          title="Expert Advisory for Smarter Business Decisions"
           description="Nobody knows your business better than you, but in the Chawla & Associates business advisory division, we understand that you could use someone to maximize your full financial potential. With our business advisory services, we want you to think of us as a trusted contact that handles all your complex financial products, research, mergers, acquisitions and more."
           buttonText="Talk to Your CPA"
         />
@@ -63,13 +63,14 @@ const AdvisoryConsulting = () => {
                       title="beforeabouthead"
                       loading="lazy"
                     ></img>
-                    <h1 className="main-head">Business Advisory</h1>
-                    <p class="text-desc">
-                      Our team of experienced professionals specializes in offering advisory services tailored to the unique needs of small businesses. Our objective is to help businesses chart a course for long-term success. We work with you to identify gaps, opportunities and action plans to achieve your goals.
-                    </p>
+                    <Link to="/services/advisory-consulting/business-advisory"><h1 className="main-head">Business Advisory</h1>
+                      <p class="text-desc">
+                        Our team of experienced professionals specializes in offering advisory services tailored to the unique needs of small businesses. Our objective is to help businesses chart a course for long-term success. We work with you to identify gaps, opportunities and action plans to achieve your goals.
+                      </p>
+                    </Link>
                   </span>
                   <Link to="/services/advisory-consulting/business-advisory" className="short-button">
-                      <LuArrowUpRight />
+                    <LuArrowUpRight />
                   </Link>
                 </div>
                 <div className="col-lg-4 col-md-6 first-box  icon-box">
@@ -80,13 +81,14 @@ const AdvisoryConsulting = () => {
                       title="beforeabouthead"
                       loading="lazy"
                     ></img>
-                    <h1 className="main-head">CFO</h1>
-                    <p class="text-desc">
-                      Our fractional chief financial officer gives you the knowledge and expertise of a full-time CFO. The added benefit is the flexibility of accessing the services you need only when you need it. Our CFOs add value to your organization by offering advice on significant financial and strategic business decisions.
-                    </p>
+                    <Link to="/services/advisory-consulting/CFO"> <h1 className="main-head">CFO</h1>
+                      <p class="text-desc">
+                        Our fractional chief financial officer gives you the knowledge and expertise of a full-time CFO. The added benefit is the flexibility of accessing the services you need only when you need it. Our CFOs add value to your organization by offering advice on significant financial and strategic business decisions.
+                      </p>
+                    </Link>
                   </span>
                   <Link to="/services/advisory-consulting/CFO" className="short-button">
-                      <LuArrowUpRight />
+                    <LuArrowUpRight />
                   </Link>
                 </div>
                 <div className="col-lg-4 col-md-6 first-box  icon-box">
@@ -97,15 +99,15 @@ const AdvisoryConsulting = () => {
                       title="beforeabouthead"
                       loading="lazy"
                     ></img>
-                    <h1 className="main-head">Controllership Services
+                    <Link to="/services/advisory-consulting/controllership-services"> <h1 className="main-head">Controllership Services
                     </h1>
-                    <p class="text-desc">
-                      We offer controllership services that will keep your books up-to-date and provide timely financial information for management. We will assign you a dedicated part-time personal accountant to deliver meaningful financial statements that support your CFO.
-
-                    </p>
+                      <p class="text-desc">
+                        We offer controllership services that will keep your books up-to-date and provide timely financial information for management. We will assign you a dedicated part-time personal accountant to deliver meaningful financial statements that support your CFO.
+                      </p>
+                    </Link>
                   </span>
                   <Link to="/services/advisory-consulting/controllership-services" className="short-button">
-                      <LuArrowUpRight />
+                    <LuArrowUpRight />
                   </Link>
                 </div>
                 <div className="col-lg-4 col-md-6 first-box  icon-box">
@@ -116,13 +118,14 @@ const AdvisoryConsulting = () => {
                       title="beforeabouthead"
                       loading="lazy"
                     ></img>
-                    <h1 className="main-head">Succession Planning</h1>
-                    <p class="text-desc">
-                      Our succession planning process helps your organization establish a clear path to continuity. We help you identify key job skills, relationships, knowledge and practices so that you get the right people in the right roles to keep your business growing.
-                    </p>
+                    <Link to="/services/advisory-consulting/succession-planning"><h1 className="main-head">Succession Planning</h1>
+                      <p class="text-desc">
+                        Our succession planning process helps your organization establish a clear path to continuity. We help you identify key job skills, relationships, knowledge and practices so that you get the right people in the right roles to keep your business growing.
+                      </p>
+                    </Link>
                   </span>
                   <Link to="/services/advisory-consulting/succession-planning" className="short-button">
-                      <LuArrowUpRight />
+                    <LuArrowUpRight />
                   </Link>
                 </div>
                 <div className="col-lg-4 col-md-6 first-box icon-box remove-icon-box-spacing">
@@ -133,13 +136,14 @@ const AdvisoryConsulting = () => {
                       title="beforeabouthead"
                       loading="lazy"
                     ></img>
-                    <h1 className="main-head">Tax & Financial Planning</h1>
-                    <p class="text-desc">
-                      We offer the right guidance and strategies to help you understand the tax implications of your financial choices as well as those that come into play when making major business and life decisions. We expand your knowledge and expertise in tax and financial planning.
-                    </p>
+                    <Link to="/services/advisory-consulting/tax-financial-planning"> <h1 className="main-head">Tax & Financial Planning</h1>
+                      <p class="text-desc">
+                        We offer the right guidance and strategies to help you understand the tax implications of your financial choices as well as those that come into play when making major business and life decisions. We expand your knowledge and expertise in tax and financial planning.
+                      </p>
+                    </Link>
                   </span>
                   <Link to="/services/advisory-consulting/tax-financial-planning" className="short-button">
-                      <LuArrowUpRight />
+                    <LuArrowUpRight />
                   </Link>
                 </div>
                 <div className="col-lg-4 col-md-6 first-box  icon-box">
@@ -150,13 +154,14 @@ const AdvisoryConsulting = () => {
                       title="beforeabouthead"
                       loading="lazy"
                     ></img>
-                    <h1 className="main-head">M&A Strategy</h1>
-                    <p class="text-desc">
-                      With experience and a deep knowledge of the M&A process, our experts will assist you both on the sell-side and buy-side transactions. We take the time to understand your objectives so as to offer M&A strategies that match your priorities.
-                    </p>
+                    <Link to="/services/advisory-consulting/M&A-strategy"> <h1 className="main-head">M&A Strategy</h1>
+                      <p class="text-desc">
+                        With experience and a deep knowledge of the M&A process, our experts will assist you both on the sell-side and buy-side transactions. We take the time to understand your objectives so as to offer M&A strategies that match your priorities.
+                      </p>
+                    </Link>
                   </span>
                   <Link to="/services/advisory-consulting/M&A-strategy" className="short-button">
-                      <LuArrowUpRight />
+                    <LuArrowUpRight />
                   </Link>
                 </div>
               </div>

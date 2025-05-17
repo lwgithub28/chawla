@@ -13,6 +13,7 @@ const IRSRepresentation = () => {
         img: IrsRepresentation,
         banner: {
             title: "IRS Representation",
+            subhead: "Facing the IRS? We’ve Got You Covered",
             subtitle:
                 (
                     <>
@@ -99,7 +100,7 @@ const IRSRepresentation = () => {
                     title: "Appeal IRS decisions, where necessary",
                 },
             ],
-            FinancialPartnerBoxesText: "Take a Chance on Us",
+            FinancialPartnerBoxesText: "Put IRS Concerns in Trusted Hands",
             FinancialPartnerBoxes: [
                 {
                     description:

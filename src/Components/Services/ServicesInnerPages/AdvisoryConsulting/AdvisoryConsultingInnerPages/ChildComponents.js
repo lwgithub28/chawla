@@ -53,7 +53,7 @@ const AdvisoryConsultingContent = ({ contentData }) => {
                 {/* nav end */}
                 {/* -------------------- */}
                 {/* TexthreePoints start */}
-                <section id='Business-Advisory-services'  className='mobile-spacing tablet-spacing'>
+                <section id='Business-Advisory-services' className='mobile-spacing tablet-spacing'>
                     <div className='container-fluid'>
                         <div className='row Business-Advisory-services-content'>
                             {contentData.TexthreePoints.map((point, index) => (
@@ -75,9 +75,13 @@ const AdvisoryConsultingContent = ({ contentData }) => {
                 <section id='comprehensive-business-advisory-solutions' className='bgimg mobile-spacing tablet-spacing'>
                     <div className='container-fluid'>
                         <div className='row'>
-                            <div className='col-lg-6 col-md-12 p-xs-0 padding-md-0 comprehensive-business-advisory-solutions-left'>
+                            <div className='col-lg-9 col-md-12 p-xs-0 padding-md-0 comprehensive-business-advisory-solutions-left'>
                                 <h3 class="sub-head">/ Growth </h3>
                                 <h2 class="main-head">{contentData.Growth.title}</h2>
+                            </div>
+                        </div>
+                        <div className='row'>
+                            <div className='col-lg-6 col-md-12 p-xs-0 padding-md-0 comprehensive-business-advisory-solutions-left'>
                                 <p class="text-desc">{contentData.Growth.description}</p>
                                 <img src={collabrativeculture} alt='collabrative culture' title='collabrative culture'></img>
                             </div>
@@ -114,7 +118,7 @@ const AdvisoryConsultingContent = ({ contentData }) => {
                             </div>
                         </div>
                     </div>
-                </section>
+                </section >
                 {/* Growth end */}
                 {/* --------------------------- */}
                 {/*  Solutions start */}
@@ -181,7 +185,7 @@ const AdvisoryConsultingContent = ({ contentData }) => {
                     </div>
                 </section>
                 {/* ask-us end */}
-            </div>
+            </div >
         </>
     )
 }

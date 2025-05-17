@@ -7,7 +7,7 @@ import DiscoveryInitialConsultation from "../../../../../Assests/Img/Discovery-I
 import ComprehensiveAnalysisBusinessAssessment from "../../../../../Assests/Img/Comprehensive-Analysis-Business-Assessment.webp";
 import StrategicPlanningCustomizedSolutions from "../../../../../Assests/Img/Strategic-Planning-Customized-Solutions.webp";
 import TaxFinancialPlanningimg from "../../../../../Assests/Img/Tax-Financial-Planning-img.webp";
-
+import Monitoring from "../../../../../Assests/Img/Monitoring.webp";
 const TaxAndFinancialPlanning = () => {
     const contentData = {
         mainid: "TaxAndFinancialPlanning",
@@ -138,7 +138,7 @@ const TaxAndFinancialPlanning = () => {
                 description: 'Our team then crafts tailored solutions to help you achieve your goals. '
             },
             {
-                imgSrc: StrategicPlanningCustomizedSolutions,
+                imgSrc: Monitoring,
                 alt: 'Monitoring  ',
                 title: 'Monitoring',
                 description: 'We don’t stop at implementation, we continuously monitor and refine our solutions to ensure sustainable growth. '

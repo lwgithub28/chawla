@@ -6,7 +6,7 @@ import AdvisoryConsultingContent from './ChildComponents';
 import DiscoveryInitialConsultation from "../../../../../Assests/Img/Discovery-Initial-Consultation.webp";
 import ComprehensiveAnalysisBusinessAssessment from "../../../../../Assests/Img/Comprehensive-Analysis-Business-Assessment.webp";
 import StrategicPlanningCustomizedSolutions from "../../../../../Assests/Img/Strategic-Planning-Customized-Solutions.webp";
-import ImplementationofStrategies from "../../../../../Assests/Img/Implementation-of-Strategies.webp";
+import ContinuousSupport from "../../../../../Assests/Img/continuous support.webp";
 import MAStrategyServices from "../../../../../Assests/Img/MAStrategyServices.webp";
 const MAStrategy = () => {
     const contentData = {
@@ -129,7 +129,7 @@ const MAStrategy = () => {
                 description: 'Our firm provides valuation expertise and assists in structuring the deal to optimize tax efficiency while ensuring legal compliance.'
             },
             {
-                imgSrc: StrategicPlanningCustomizedSolutions,
+                imgSrc: ContinuousSupport,
                 alt: 'Continuous Support',
                 title: 'Continuous Support',
                 description: 'Our advisory services include negotiating terms and facilitating a seamless transition. Additionally, we offer integration support to ensure success post-transaction.'

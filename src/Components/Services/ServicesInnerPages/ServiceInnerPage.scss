@@ -32,6 +32,15 @@ div#financial-statements {
         .check-list {
             .outsouced-bookeeping-list {
                 padding-top: 10px;
+
+                .col-md-6 {
+                    width: 100%;
+
+                    p {
+                        padding-bottom: 0;
+                        margin-bottom: 0;
+                    }
+                }
             }
 
             padding-top: 0px;
@@ -164,8 +173,14 @@ div#Crypto #ask-us {
     display: block !important;
 }
 
-#taxes .text-desc.taxes-inner {
-    text-align: center;
+#taxes {
+    #about-banner .slider-img img {
+        object-position: top;
+    }
+
+    .text-desc.taxes-inner {
+        text-align: center;
+    }
 }
 
 .taxes-inner {
@@ -426,7 +441,7 @@ div#InternationalTax {
 
     #Business-Advisory-Solutions {
         .box {
-            height: 400px;
+            height: 320px;
         }
     }
 
@@ -474,7 +489,7 @@ div#InternationalTax {
 
     #Business-Advisory-Solutions {
         .box {
-            height: 420px;
+            height: 340px;
         }
     }
 
@@ -566,7 +581,7 @@ div#InternationalTax {
 
     #Business-Advisory-Solutions {
         .box {
-            height: 440px;
+            height: 360px;
         }
     }
 
@@ -611,7 +626,7 @@ div#InternationalTax {
     }
 
     #Business-Advisory-Solutions .box {
-        height: 430px;
+        height: 320px;
     }
 
     .outsouced-bookeeping-inner {
@@ -660,15 +675,20 @@ div#Payroll {
 div#Crypto .crypto-inner {
     padding-top: 20px;
 
-    li {
-        display: flex;
+    .col-md-6 {
+        width: 100%;
 
-        p {
-            padding-left: 15px;
-            margin-bottom: 0;
-            padding-right: 0;
+        li {
+            display: flex;
+
+            p {
+                padding-left: 15px;
+                margin-bottom: 0;
+                padding-right: 0;
+            }
         }
     }
+
 }
 
 .service-inner {
@@ -830,7 +850,7 @@ div#Crypto .crypto-inner {
     }
 
     #connect-with-us {
-        background-image: url(../../../Assests//Img/industry-connect-banner.webp);
+        background-image: url(../../../Assests//Img/service-ctc.webp);
         padding-bottom: 60px;
 
         b {
@@ -1230,7 +1250,7 @@ div#Crypto .bookkeeping-services-content .how-it-works-box {
 }
 
 #outsouced-bookeeping {
-    padding: 70px 80px 0 80px;
+    padding: 70px 80px 60px 80px;
 
     h2 {
         font-size: 40px;
@@ -1238,7 +1258,6 @@ div#Crypto .bookkeeping-services-content .how-it-works-box {
 
     p {
         font-size: 17px;
-        padding-right: 150px;
     }
 
 
@@ -1354,11 +1373,11 @@ div#Crypto .bookkeeping-services-content .how-it-works-box {
 
         .Business-Advisory-box {
             height: 172px;
-            padding: 30px;
+            padding: 30px 20px;
 
             .main-head {
                 line-height: 1.7rem;
-                font-size: 20px;
+                font-size: 18px;
             }
 
             p {
@@ -1383,6 +1402,7 @@ div#Crypto .bookkeeping-services-content .how-it-works-box {
     .Business-Advisory-inner-right {
         background: var(--main-color);
         color: var(--white);
+        border: 1px solid #004f59;
 
         h2 {
             font-size: 30px;
@@ -1399,7 +1419,7 @@ div#Crypto .bookkeeping-services-content .how-it-works-box {
     .Business-Advisory-inner-left {
         img {
             border-radius: 0 10px;
-            height: 480px;
+            height: 540px;
             object-fit: cover;
         }
     }
@@ -1415,6 +1435,10 @@ div#Crypto .bookkeeping-services-content .how-it-works-box {
     padding-bottom: 80px;
     margin-top: 80px;
 
+    .sub-head {
+        color: var(--white);
+    }
+
     .main-head {
         color: var(--white);
     }
@@ -1422,7 +1446,7 @@ div#Crypto .bookkeeping-services-content .how-it-works-box {
     .text-desc {
         color: #8d8887;
         font-size: 16px;
-        padding-top: 5px;
+        padding-top: 25px;
     }
 
     .comprehensive-business-advisory-solutions-left {
@@ -1438,7 +1462,6 @@ div#Crypto .bookkeeping-services-content .how-it-works-box {
 
     .accordion {
         padding-left: 40px;
-        margin-top: 115px;
 
         .accordion-item {
             background-color: transparent;
@@ -1467,6 +1490,7 @@ div#Crypto .bookkeeping-services-content .how-it-works-box {
                     align-items: center;
                     justify-content: center;
                     margin-bottom: 0;
+                    font-size: 16px;
                 }
             }
 
@@ -1554,12 +1578,16 @@ section#Business-Advisory-Solutions {
         padding-right: 80px;
     }
 
+    .text-desc {
+        padding-top: 10px;
+    }
+
     .box {
         padding: 30px;
         border-radius: 20px;
         background: #fff;
         text-align: center;
-        height: 350px;
+        height: 300px;
         margin-top: 30px;
         display: flex;
         flex-direction: column;

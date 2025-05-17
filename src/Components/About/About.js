@@ -32,8 +32,8 @@ const About = () => {
 
   const timelineData = [
     {
-      year: "1997",
-      title: "1997: Incorporation",
+      year: "Started in 1997",
+      title: "Started in 1997: Incorporation",
       description: "Chawla & Associates was founded with a vision to provide trusted, high-quality CPA services in Naperville, IL. We have lived up to that promise."
     },
     {
@@ -68,7 +68,7 @@ const About = () => {
     },
     {
       year: "2024-2025",
-      title: "2024: A Workplace Built on Integrity & Trust",
+      title: "2024-2025: A Workplace Built on Integrity & Trust",
       description: "In a moment of great pride, Chawla & Associates was named Employer of the Year by the United Nations World Day Against Trafficking of Persons."
     },
   ];
@@ -96,7 +96,7 @@ const About = () => {
           title="Rooted in Trust and Excellence—Your Go-To Tax Accountant in Naperville, IL"
           description={
             <>
-              Chawla & Associates offers expert <b>CPA services for small businesses</b> and leading brands, from custom strategies to maximizing returns to minimizing liabilities. Let our expertise and precision handle your taxes.
+              Chawla & Associates offers expert CPA services for small businesses and leading brands, providing custom strategies that maximize returns and minimize liabilities. Trust our expertise and precision to handle your taxes.
             </>
           }
           buttonText="Hire Your CPA"
@@ -125,10 +125,10 @@ const About = () => {
           <div class="container-fluid p-xs-0 padding-md-0">
             <span className="our-story-interst-line">
               <h2>
-                Looking Ahead: A Future of Financial Empowerment
+                Our Foundation
               </h2>
               <p>
-                From a small firm with a bold vision to a recognized leader in tax, accounting, and advisory services, Chawla & Associates continues to evolve with a focus on expanding accessible CFO and advisory services. We remain dedicated to helping businesses and individuals achieve financial stability and success—today and in the future.
+                At Chawla & Associates, we believe that values form the foundation of success and the lasting relationships our CPA in Naperville, IL builds with our clients. We are passionate about providing excellent accounting, tax planning, and financial advisory services. The value we place on trust is immeasurable, and we strive to earn it through our unwavering commitment to quality and the development of enduring partnerships.
               </p>
             </span>
             <div className="timeline-container">
@@ -139,7 +139,7 @@ const About = () => {
                 navigation
                 pagination={{ clickable: true }}
                 autoplay={{
-                  delay: 1500, // 3 seconds
+                  delay: 5500, // 3 seconds
                   disableOnInteraction: false,
                 }}
                 breakpoints={{
@@ -175,7 +175,7 @@ const About = () => {
               </div>
               <div className="col-md-12 col-lg-8 Professionals-text-desc remove-spacing">
                 <p className="text-desc">
-                  At Chawla & Associates, we think that values make up the very foundation of success and the continuation of an endless relationship with clients in <b>CPA Naperville, IL</b>. We are passionate about rendering excellent accounting, tax planning, and financial consultation and advisory services. The value placed on trust is immeasurable, and we intend to earn it by an unwavering focus on quality and the development of enduring partnerships.
+                  At Chawla & Associates, we think that values make up the very foundation of success and the continuation of an endless relationship with clients. We are passionate about rendering excellent accounting, tax planning, and financial consultation and advisory services. The value placed on trust is immeasurable, and we intend to earn it by an unwavering focus on quality and the development of enduring partnerships.
                 </p>
               </div>
             </div>
@@ -339,7 +339,7 @@ const About = () => {
                   ></img>
                 </div>
                 <div className="col-md-12 col-lg-9 p-xs-0 all-memebers-details">
-                  <h2 class="main-head">Anil Jha</h2>
+                  <h2 class="main-head">Anil</h2>
                   <h4>Technology Leader</h4>
                   <p class="text-desc">
                     Anil has great experience as a technology leader in staff development and complex program management. He has worked in various industries like telecom, software, and public safety. He used to lead analytics, IT, operations, and R&D teams. Anil's forte is in building performance-oriented teams and maintaining good relations with clients. Having such expertise, he is a great consultant with the best bits of advice possible for his clients.
@@ -403,7 +403,7 @@ const About = () => {
                   ></img>
                 </div>
                 <div className="col-md-12 col-lg-9 p-xs-0 all-memebers-details">
-                  <h2 class="main-head">Jennifer Jung</h2>
+                  <h2 class="main-head">Jennifer</h2>
                   <h4>Office Manager</h4>
                   <p class="text-desc">
                     Jennifer Jung brings nearly a decade of experience in the financial sector, along with a deep passion for helping others succeed. With a background in licensing, contracting, and financial services, she ensures seamless operations while fostering a client-focused approach. A Chicagoland native, she balances her professional expertise with a love for family, travel, and lifelong learning, always striving to make a positive impact.
