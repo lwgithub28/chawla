@@ -6,13 +6,18 @@ import { Swiper, SwiperSlide } from "swiper/react";
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/pagination";
-import 'swiper/css/navigation';
+import "swiper/css/navigation";
 import { Helmet } from "react-helmet";
-import { sectorsData, teamData, professionalsData, coreValuesData } from "../../Components/Data";
+import {
+  sectorsData,
+  teamData,
+  professionalsData,
+  coreValuesData,
+} from "../../Components/Data";
 import ContactForm from "../CommonComp/ContactForm";
 import Map from "../CommonComp/Map";
 // import required modules
-import { EffectFade, Autoplay, Navigation, Pagination } from 'swiper/modules';
+import { EffectFade, Autoplay, Navigation, Pagination } from "swiper/modules";
 import { LuArrowUpRight } from "react-icons/lu";
 import { IoCheckmarkSharp } from "react-icons/io5";
 import { MdArrowOutward } from "react-icons/md";
@@ -54,7 +59,10 @@ const Home = () => {
     <>
       <Helmet>
         <title> Trusted CPA Firm in Naperville</title>
-        <meta name="description" content="Chawla & Associates is the best CPA in Naperville offering tailored tax preparation, accounting and strategic consulting services to individuals and businesses." />
+        <meta
+          name="description"
+          content="Chawla & Associates is the best CPA in Naperville offering tailored tax preparation, accounting and strategic consulting services to individuals and businesses."
+        />
       </Helmet>
       <div className="fraunces" id="home">
         {/* homebanner start */}
@@ -76,10 +84,20 @@ const Home = () => {
               <div class="container-fluid banner">
                 <div class="row">
                   <div class="col-sm-12 col-md-6 col-lg-6 col-xs-6 right-text p-xs-0 padding-md-0">
-                    <h1>Maximize Profits & Minimize Taxes with Expert CPA in Naperville, IL </h1>
+                    <h1>
+                      Maximize Profits & Minimize Taxes with Expert CPA in
+                      Naperville, IL{" "}
+                    </h1>
                     <p>We Don’t Just Balance Books—We Build Trust!</p>
-                    <Link class="bg-remove-btn-svg" to="/contact" data-discover="true">
-                      Connect with your CPA<span><MdArrowOutward />  </span>
+                    <Link
+                      class="bg-remove-btn-svg"
+                      to="/contact"
+                      data-discover="true"
+                    >
+                      Connect with your CPA
+                      <span>
+                        <MdArrowOutward />{" "}
+                      </span>
                     </Link>
                   </div>
                   <div class="col-sm-12 col-md-6 col-lg-6 col-xs-6 slider-img p-xs-0 padding-md-0">
@@ -105,10 +123,22 @@ const Home = () => {
               <div class="container-fluid banner">
                 <div class="row">
                   <div class="col-sm-12 col-md-6 col-lg-6 col-xs-6 right-text p-xs-0 padding-md-0">
-                    <h1>Stress-Free Tax & Accounting Solutions—Backed by Expertise </h1>
-                    <p>From IRS Notices to Tax Planning, We’ve Got You Covered!</p>
-                    <Link class="bg-remove-btn-svg" to="/contact" data-discover="true"> Talk to a CPA Today!<span><MdArrowOutward />
-                    </span>
+                    <h1>
+                      Stress-Free Tax & Accounting Solutions—Backed by Expertise{" "}
+                    </h1>
+                    <p>
+                      From IRS Notices to Tax Planning, We’ve Got You Covered!
+                    </p>
+                    <Link
+                      class="bg-remove-btn-svg"
+                      to="/contact"
+                      data-discover="true"
+                    >
+                      {" "}
+                      Talk to a CPA Today!
+                      <span>
+                        <MdArrowOutward />
+                      </span>
                     </Link>
                   </div>
                   <div class="col-sm-12 col-md-6 col-lg-6 col-xs-6 slider-img p-xs-0 padding-md-0">
@@ -134,10 +164,20 @@ const Home = () => {
               <div class="container-fluid banner">
                 <div class="row">
                   <div class="col-sm-12 col-md-6 col-lg-6 col-xs-6 right-text p-xs-0 padding-md-0">
-                    <h1>Make Every Dollar Count With Expert Financial Advisory & Consulting </h1>
+                    <h1>
+                      Make Every Dollar Count With Expert Tax Advisory &
+                      Consulting{" "}
+                    </h1>
                     <p>We Help You Make Smarter Financial Decisions!</p>
-                    <Link class="bg-remove-btn-svg" to="/contact" data-discover="true">
-                      Talk to Your CPA !<span><MdArrowOutward />  </span>
+                    <Link
+                      class="bg-remove-btn-svg"
+                      to="/contact"
+                      data-discover="true"
+                    >
+                      Talk to Your CPA !
+                      <span>
+                        <MdArrowOutward />{" "}
+                      </span>
                     </Link>
                   </div>
                   <div class="col-sm-12 col-md-6 col-lg-6 col-xs-6 slider-img p-xs-0 padding-md-0">
@@ -166,7 +206,8 @@ const Home = () => {
         <section id="logo-slider" className="mobile-spacing tablet-spacing">
           <div className="container-fluid p-xs-0 padding-md-0">
             <p className="trusted">
-              Powered by Industry-Leading Solutions for Maximum Accuracy and Efficiency
+              Powered by Industry-Leading Solutions for Maximum Accuracy and
+              Efficiency
             </p>
             <Swiper
               slidesPerView={4}
@@ -182,8 +223,11 @@ const Home = () => {
             >
               {logos.map((logo, index) => (
                 <SwiperSlide key={index}>
-                  <img src={logo.src}
-                    alt={`Logo ${index + 1}`} className={`w-full  ${logo.className}`} />
+                  <img
+                    src={logo.src}
+                    alt={`Logo ${index + 1}`}
+                    className={`w-full  ${logo.className}`}
+                  />
                 </SwiperSlide>
               ))}
             </Swiper>
@@ -192,7 +236,10 @@ const Home = () => {
         {/* logo slider end */}
         {/* ------------------ */}
         {/* satisfied-client start */}
-        <section id="satisfied-client" className="mobile-spacing tablet-spacing">
+        <section
+          id="satisfied-client"
+          className="mobile-spacing tablet-spacing"
+        >
           <div className="container-fluid">
             <div className="row">
               <div className="col-lg-5 col-md-12 col-sm-6 p-xs-0">
@@ -204,12 +251,15 @@ const Home = () => {
                       title="SatisfiedClients"
                       loading="lazy"
                     ></img>
-                    <p className="experience-heading">IRS Issue Resolution Success Rate</p>
+                    <p className="experience-heading">
+                      IRS Issue Resolution Success Rate
+                    </p>
                     <p className="number">98%</p>
                   </span>
                   <span className="right-text">
                     <p>
-                      Get fast and effective <b>IRS notice solutions in Naperville</b> with our proven expertise in tax resolution.
+                      Get fast and effective <b>IRS notice solutions </b> with
+                      our proven expertise in tax resolution.
                     </p>
                   </span>
                 </div>
@@ -232,12 +282,16 @@ const Home = () => {
                       title="YearOfExperience"
                       loading="lazy"
                     ></img>
-                    <p className="experience-heading">Tax Savings for Our Clients</p>
+                    <p className="experience-heading">
+                      Tax Savings for Our Clients
+                    </p>
                     <p className="number">$100M+</p>
                   </span>
                   <span className="right-text">
                     <p>
-                      As a <b>top-rated CPA firm in Naperville, IL</b>, we help businesses and individuals minimize tax liabilities while maximizing savings.
+                      As a <b>top-rated CPA firm in Naperville, IL</b>, we help
+                      businesses and individuals minimize tax liabilities while
+                      maximizing savings.
                     </p>
                   </span>
                 </div>
@@ -253,12 +307,16 @@ const Home = () => {
                       title="StatesTerritories"
                       loading="lazy"
                     ></img>
-                    <p className="experience-heading">Client Retention & Satisfaction Rate</p>
+                    <p className="experience-heading">
+                      Client Retention & Satisfaction Rate
+                    </p>
                     <p className="number">99%</p>
                   </span>
                   <span className="right-text">
                     <p>
-                      Our <b>accounting firm in Naperville</b> delivers personalized tax and financial solutions with unmatched client satisfaction.
+                      Our <b>accounting firm in Naperville</b> delivers
+                      personalized tax and financial solutions with unmatched
+                      client satisfaction.
                     </p>
                   </span>
                 </div>
@@ -281,12 +339,15 @@ const Home = () => {
                       title="SuccessfulProjects"
                       loading="lazy"
                     ></img>
-                    <p className="experience-heading">Businesses Rely on Us for Advisory Services</p>
+                    <p className="experience-heading">
+                      Businesses Rely on Us for Advisory Services
+                    </p>
                     <p className="number">200+</p>
                   </span>
                   <span className="right-text">
                     <p>
-                      Our <b>CPA firm in Naperville</b> helps businesses make smarter financial decisions for sustained growth.
+                      Our <b>CPA firm </b> helps businesses make smarter
+                      financial decisions for sustained growth.
                     </p>
                   </span>
                 </div>
@@ -297,18 +358,28 @@ const Home = () => {
         {/* satisfied-client end */}
         {/* ------------------ */}
         {/* Professionals start */}
-        <section id="Professionals" className="bgimg mobile-spacing tablet-spacing">
+        <section
+          id="Professionals"
+          className="bgimg mobile-spacing tablet-spacing"
+        >
           <div className="container-fluid">
             <div className="row">
               <div className="col-lg-5 col-md-12 Professionals-text">
                 <span className="text">
                   <h3 className="sub-head">/ Our Services</h3>
-                  <h2 className="main-head">Your One-Stop CPA Firm in Naperville, IL</h2>
+                  <h2 className="main-head">
+                    Your One-Stop CPA Firm in Naperville, IL
+                  </h2>
                 </span>
               </div>
               <div className="col-lg-7 col-md-12 Professionals-text-desc">
                 <p className="text-desc">
-                  Chawla & Associates renders comprehensive financial services tailored to individuals and their businesses. As a <b>top-rated CPA firm in Naperville, IL</b>, we specialize in tax preparation, accounting, and strategic consulting to help you stay compliant, maximize savings, and expand with supreme assurance.
+                  Chawla & Associates renders comprehensive financial services
+                  tailored to individuals and their businesses. As a{" "}
+                  <b>top-rated CPA firm in Naperville, IL</b>, we specialize in
+                  tax preparation, accounting, and strategic tax advisory to
+                  help you stay compliant, maximize savings, and expand with
+                  supreme assurance.
                 </p>
               </div>
             </div>
@@ -316,12 +387,13 @@ const Home = () => {
               {professionalsData.map((box, index) => (
                 <div
                   key={index}
-                  className={`col-sm-4 col-md-4 col-lg-4 Professionals-box ${index === 0
-                    ? "Professionals-first-box"
-                    : index === 1
+                  className={`col-sm-4 col-md-4 col-lg-4 Professionals-box ${
+                    index === 0
+                      ? "Professionals-first-box"
+                      : index === 1
                       ? "Professionals-second-box"
                       : "Professionals-third-box"
-                    }`}
+                  }`}
                 >
                   <div className="image-box">
                     <Link to={box.link}>
@@ -345,7 +417,10 @@ const Home = () => {
                     >
                       <LuArrowUpRight />
                     </Link>
-                    <Link to={box.link}> <h3>{box.title}</h3></Link>
+                    <Link to={box.link}>
+                      {" "}
+                      <h3>{box.title}</h3>
+                    </Link>
                     <p>{box.description}</p>
                     {/* <p dangerouslySetInnerHTML={{ __html: box.description }}></p> */}
                   </div>
@@ -357,7 +432,10 @@ const Home = () => {
         {/* Professionals end */}
         {/* ------------------ */}
         {/* about-us start */}
-        <section id="about-us" className="mobile-spacing tablet-spacing right-img-section">
+        <section
+          id="about-us"
+          className="mobile-spacing tablet-spacing right-img-section"
+        >
           <div className="container-fluid">
             <div className="row">
               <div className="col-lg-7 col-md-12 col-sm-12 left-text p-xs-0 padding-md-0">
@@ -366,7 +444,13 @@ const Home = () => {
                   Chawla & Associates– A Legacy of Trust and Expertise
                 </h2>
                 <p className="text-desc">
-                  For more than 36 years, we have been the <b>top-rated CPA firm in Naperville, IL</b>, offering both individuals and businesses professional tax, accounting, and financial advising services. With proactive advice and solutions, we take pride in partnering with growth-oriented clients. We aim to positively influence your financial journey by adhering to our core principles of ethics, inclusivity, and associations.
+                  For more than 25 years, we have been one of the top-rated CPA
+                  firms in Naperville and surrounding suburbs, offering both
+                  individuals and businesses professional tax advisory. With
+                  proactive advice and solutions, we take pride in partnering
+                  with growth-oriented clients. We aim to positively influence
+                  your financial journey by adhering to our core principles of
+                  ethics, inclusivity, and meaningful partnerships.
                 </p>
                 <ul className="check-list">
                   <li>
@@ -409,7 +493,9 @@ const Home = () => {
           <div className="container-fluid">
             <div className="row">
               <h3 className="sub-head p-xs-0 padding-md-0">/ Sectors</h3>
-              <h2 className="main-head p-xs-0 padding-md-0">Your Industry’s All-in-One Financial Partner</h2>
+              <h2 className="main-head p-xs-0 padding-md-0">
+                Your Industry’s All-in-One Financial Partner
+              </h2>
               <div className="row sectors-box">
                 {sectorsData.map((sector) => (
                   <div
@@ -436,7 +522,10 @@ const Home = () => {
         {/* sectors end */}
         {/* ------------------------ */}
         {/* community work start */}
-        <section id="community-work" className="bgimg mobile-spacing tablet-spacing">
+        <section
+          id="community-work"
+          className="bgimg mobile-spacing tablet-spacing"
+        >
           <div className="container-fluid">
             <div className="row">
               <div className="top-middle-head">
@@ -445,7 +534,14 @@ const Home = () => {
                   Numbers Drive Us, Giving Back Defines Us
                 </h2>
                 <p className="text-desc">
-                  Giving back to the community is a fundamental part of our values. We at Chawla & Associates think that making a difference is more important than merely increasing profits. Our CPA firm is dedicated to making a significant difference through volunteer work, charitable contributions, and pro bono work. We support farmers of Punjab, non profits, and sustainable initiatives to create a better and more inclusive future for all.
+                  Giving back to the community is a fundamental part of our
+                  values. We at Chawla & Associates think that making a
+                  difference is more important than merely increasing profits.
+                  Our CPA firm is dedicated to making a significant difference
+                  through volunteer work, charitable contributions, and pro bono
+                  work. We support farmers of Punjab, non profits, and
+                  sustainable initiatives to create a better and more inclusive
+                  future for all.
                 </p>
               </div>
             </div>
@@ -478,51 +574,67 @@ const Home = () => {
               </div>
               <div className="col-lg-5 col-sm-12 col-md-12 all-icon-box p-xs-0 padding-md-0">
                 <div className="icon-box">
-                  <span className="icon">
-                    <img
-                      src={homeless}
-                      alt="homeless"
-                      title="homeless"
-                      loading="lazy"
-                    ></img>
-                  </span>
+                  <a href="https://pagri.org/" target="_blank">
+                    <span className="icon">
+                      <img
+                        src={homeless}
+                        alt="homeless"
+                        title="homeless"
+                        loading="lazy"
+                      ></img>
+                    </span>
+                  </a>
                   <span className="text">
-                    <h4>Pagri: Transforming Punjab’s Agriculture</h4>
+                    <a href="https://pagri.org/" target="_blank">
+                      <h4>Pagri: Transforming Punjab’s Agriculture</h4>
+                    </a>
                     <p>
-                      Pagri is transforming Punjab’s agriculture, and we proudly support its mission for rural growth!
+                      Pagri is transforming Punjab’s agriculture, and we proudly
+                      support its mission for rural growth!
                     </p>
                   </span>
                 </div>
                 <div className="icon-box">
-                  <span className="icon">
-                    <img
-                      src={collective}
-                      alt="collective"
-                      title="collective"
-                      loading="lazy"
-                    ></img>
-                  </span>
+                  <a href="https://dheeanpukardian.org/" target="_blank">
+                    <span className="icon">
+                      <img
+                        src={collective}
+                        alt="collective"
+                        title="collective"
+                        loading="lazy"
+                      ></img>
+                    </span>
+                  </a>
                   <span className="text">
-                    <h4>Dheean Pukardian: Educate Girls, Stop Female Feticide!</h4>
+                    <a href="https://dheeanpukardian.org/" target="_blank">
+                      {" "}
+                      <h4>
+                        Dheean Pukardian: Educate Girls, Stop Female Feticide!
+                      </h4>
+                    </a>
                     <p>
-                      Dheean Pukardian empowers underprivileged girls in India to fight female feticide and build a just society!
+                      Dheean Pukardian empowers underprivileged girls in India
+                      to fight female feticide and build a just society!
                     </p>
                   </span>
                 </div>
                 <div className="icon-box">
-                  <span className="icon">
-                    <img
-                      src={Enviroment}
-                      alt="Enviroment"
-                      title="Enviroment"
-                      className="Enviroment"
-                      loading="lazy"
-                    ></img>
-                  </span>
+                  <a>
+                    <span className="icon">
+                      <img
+                        src={Enviroment}
+                        alt="Enviroment"
+                        title="Enviroment"
+                        className="Enviroment"
+                        loading="lazy"
+                      ></img>
+                    </span>
+                  </a>
                   <span className="text">
                     <h4>The Oli Gardens: Sustainable Farming, Food for All!</h4>
                     <p>
-                      The Oli Gardens promotes sustainable farming to fight food insecurity and nourish those in need!
+                      The Oli Gardens promotes sustainable farming to fight food
+                      insecurity and nourish those in need!
                     </p>
                   </span>
                 </div>
@@ -538,7 +650,8 @@ const Home = () => {
             <div className="row">
               <div className="col-sm-4 col-md-12 col-lg-4 sidebar p-xs-0 padding-md-0">
                 <h3 className="sub-head">/ Our Team</h3>
-                <h2 className="main-head">The Financial Minds Driving Your Success
+                <h2 className="main-head">
+                  The Financial Minds Driving Your Success
                 </h2>
                 <Link to="/about/#members" className="bg-remove-btn">
                   Know Your Team <MdArrowOutward />
@@ -546,7 +659,12 @@ const Home = () => {
               </div>
               <div className="col-sm-4 col-md-12 col-lg-8 main p-xs-0 padding-md-0">
                 <p>
-                  We are more than just accountants—we are strategic partners in your financial planning and growth. At Chawla & Associates, our team of seasoned CPAs, tax specialists, and financial advisers, who are among the <b>best CPA firms in Naperville, IL</b>, provides unmatched experience, creative solutions, and personalized attention to help you deal with any financial dilemma easily.
+                  We are more than just accountants—we are strategic partners in
+                  your tax planning and growth. At Chawla & Associates, we are
+                  strategic partners in your tax planning and growth. We are
+                  among the best CPA firms in Naperville, IL, providing
+                  unmatched experience, creative solutions, and personalized
+                  attention to help you deal with any tax dilemma easily.
                 </p>
                 <div className="row team-member-all-img">
                   <div className="row team-member">
@@ -586,14 +704,21 @@ const Home = () => {
         {/* meet our team end */}
         {/* --------------------- */}
         {/* connect with us start */}
-        <section id="connect-with-us" className="bgimg mobile-spacing tablet-spacing">
+        <section
+          id="connect-with-us"
+          className="bgimg mobile-spacing tablet-spacing"
+        >
           <div className="container-fluid p-xs-0">
             <div className="row">
               <div className="col-lg-6 col-md-9 Connectwithusbgtext padding-md-0">
                 <h3 className="sub-head">/ Connect with us</h3>
-                <h2 className="main-head">Take Control of Your Finances with Naperville’s Trusted CPA</h2>
+                <h2 className="main-head">
+                  Take Control of Your Finances with Naperville’s Trusted CPA
+                </h2>
                 <p className="text-desc">
-                  Stop stressing over taxes, accounting, and financial complexities—let the experts handle it. Keep your finances on track. Get ahead this tax season!
+                  Stop stressing over taxes, accounting, and financial
+                  complexities—let the experts handle it. Keep your finances on
+                  track. Get ahead this tax season!
                 </p>
                 <Link to="/contact" className="bg-remove-btn-svg">
                   Book a Consultation
@@ -621,7 +746,10 @@ const Home = () => {
           <div className="container-fluid p-xs-0">
             <div className="row">
               <h2 className="main-head">We sell peace of mind</h2>
-              <div class="elfsight-app-eb105fe7-7e78-455f-96cf-3e96d491489b" data-elfsight-app-lazy></div>
+              <div
+                class="elfsight-app-eb105fe7-7e78-455f-96cf-3e96d491489b"
+                data-elfsight-app-lazy
+              ></div>
             </div>
           </div>
         </div>
@@ -632,9 +760,7 @@ const Home = () => {
             <div className="row CoreValues-inner">
               <div className="top-middle-head">
                 <h3 className="sub-head">/ Core Values</h3>
-                <h2 className="main-head">
-                  The Pillars of Our CPA Firm
-                </h2>
+                <h2 className="main-head">The Pillars of Our CPA Firm</h2>
               </div>
               <div className="row CoreValues-boxes p-xs-0">
                 {coreValuesData.map((value, index) => (
@@ -675,7 +801,7 @@ const Home = () => {
         <Map />
         {/* map end */}
         {/* --------------------- */}
-      </div >
+      </div>
     </>
   );
 };

@@ -24,8 +24,8 @@ const Services = () => {
         {/* banner start */}
         <Banner
           bannerImage={SeviceBanner}
-          title="Your One-Stop Solution for Tax, Accounting, and Financial Advisory Services"
-          description="At Chawla and Associates, our CPAs offer businesses and individuals holistic services, including expert accounting, tax planning, and financial consulting assistance. Get customized answers by contacting us today!"
+          title="Your One-Stop Solution for Tax, Accounting, and tax advisory Services"
+          description="At Chawla and Associates, our CPAs offer businesses and individuals holistic services, including expert accounting and tax advisory assistance. Get customized answers by contacting us today!"
           buttonText="Connect with your CPA"
         />
         {/*banner end */}
@@ -189,7 +189,7 @@ const Services = () => {
               <div className="col-lg-7 col-md-12 remove-spacing">
                 <h3 className="sub-head">/ Accounting Solutions</h3>
                 <h2 className="main-head">
-                  Trustworthy Accounting Services Naperville for Financial Clarity & Growth
+                  Trustworthy Accounting Services in Naperville for Financial Clarity & Growth
                 </h2>
               </div>
             </div>
@@ -239,7 +239,7 @@ const Services = () => {
                 <span className="text">
                   <h3 className="sub-head">/ Advisory & Consulting Services</h3>
                   <h2 className="main-head">
-                    Expert Tax Advisory and Consulting Naperville for Smarter Financial Decisions
+                   Expert Tax Advisory and Consulting in Naperville for Smarter Financial Decisions
                   </h2>
                 </span>
               </div>

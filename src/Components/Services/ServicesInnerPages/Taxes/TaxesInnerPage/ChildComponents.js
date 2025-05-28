@@ -117,7 +117,7 @@ const TaxPreparationContent = ({ contentData }) => (
                                         <li>
                                             <IoCheckmarkSharp />
                                             <span>Foreign Businesses</span>
-                                            <p>Expanding into the U.S. provides access to the world's most lucrative market. With over 36 years of experience operating in the U.S., we are uniquely equipped to provide expert guidance through its complex tax and regulatory landscape.</p>
+                                            <p>Expanding into the U.S. provides access to the world's most lucrative market. With more than 25 years of experience operating in the U.S., we are uniquely equipped to provide expert guidance through its complex tax and regulatory landscape.</p>
                                         </li>
                                         <li>
                                             <IoCheckmarkSharp />
@@ -176,7 +176,7 @@ const TaxPreparationContent = ({ contentData }) => (
                                 </div>
                                 <div className='tax-preparation-inner-right-text internationaltax-inner'>
                                     <h2 class="main-head">Have Your Own Personal Advisor</h2>
-                                    <p class="text-desc">International tax requires tailored solutions, as a one-size-fits-all approach simply doesn’t work. That is why at Chawla & Associates, we pride ourselves on being your dedicated advisors in navigating international tax matters. You can choose from our team of experienced tax accountants to have a personal consultant by your side. That way, you will have an experienced <b>international tax accountant</b> on call to craft personalized strategies that are as unique as you.
+                                    <p class="text-desc">International tax requires tailored solutions, as a one-size-fits-all approach simply doesn’t work. That is why at Chawla & Associates, we pride ourselves on being your dedicated advisors in navigating international tax matters. You can choose from our team of experienced tax accountants to have a personal consultant by your side. That way, you will have an experienced <b>international tax accountants</b> on call to craft personalized strategies that are as unique as you.
                                         <br></br><br></br>Contact us today to learn more about having your own personal advisor from Chawla & Associates.
                                     </p>
                                 </div>
@@ -263,7 +263,7 @@ const TaxPreparationContent = ({ contentData }) => (
                                 <div className='tax-preparation-inner-right-text internationaltax-inner'>
                                     <h2 class="main-head">International Tax Advisory – Chart Your Path to Global Success! </h2>
                                     <p class="text-desc">When your business moves to the global stage, you might have more tax questions than answers. Chawla & Associates will guide you through complex regulations and reporting requirements. We provide solutions, even for challenges you didn’t know existed.<br></br><br></br>
-                                        Whether you are conducting business across borders or are an expatriate, trust us with your tax planning. We will demystify complicated tax laws and ensure you remain compliant with federal and state regulations. Our <b>international tax accountant</b> will help you avoid penalties and overpayments.
+                                        Whether you are conducting business across borders or are an expatriate, trust us with your tax planning. We will demystify complicated tax laws and ensure you remain compliant with federal and state regulations. Our <b>international tax accountants</b> will help you avoid penalties and overpayments.
                                     </p>
                                 </div>
                                 <div className='tax-preparation-inner-right-text'>

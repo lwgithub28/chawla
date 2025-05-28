@@ -55,12 +55,12 @@ const BookkeepingServices = () => {
             mainHead: "Why You Need Outsourced Bookkeeping Services",
             textDesc: (
                <>
-                    In today’s fast- paced marketplace, efficient bookkeeping is crucial. With our outsourced <b>bookkeeping services in Naperville</b>, we offer an efficient and cost- effective way to manage your business’ financial records. By entrusting this fundamental task to our experienced CPAs, you will be able to not only save time and money but also reduce errors and gain more insight into your finances. Our bookkeeping services will transform your financial management and set your business up for long - term success.
+                    In today’s fast- paced marketplace, efficient bookkeeping is crucial. With our outsourced <b>bookkeeping services in Naperville</b>, we offer an efficient and cost- effective way to manage your business’ financial records. By entrusting this fundamental task to our experienced CPAs, you will be able to not only save time and money but also reduce errors and gain more insight into your finances. Our bookkeeping services will transform your financial management and set your business up for long-term success.
                 </>
             ),
             benefits: [
                 { title: "Cost Savings", description: "When you hire us, you will avoid costs associated with recruiting, hiring and training an in-house team. We offer access to specialized knowledge and experience but at a fraction of the cost. Our competitive rates will ensure that you cut down on operational costs thus increasing your profits.  " },
-                { title: "Expertise & Accuracy", description: "With the extensive expertise of a dedicated team of certified CPAs, we guarantee accuracy in bookkeeping. Our skilled bookkeepers ensure complete compliance with tax laws and regulations; giving you peace of mind and confidence in financial management." },
+                { title: "Expertise & Accuracy", description: "With the extensive expertise of a dedicated team of CPAs, we guarantee accuracy in bookkeeping. Our skilled bookkeepers ensure complete compliance with tax laws and regulations; giving you peace of mind and confidence in financial management." },
                 { title: "Time-Saving", description: "Focus on expanding your business and strengthening client connections by reclaiming valuable time that would otherwise be spent in bookkeeping. Our bookkeeping services are designed to handle every aspect of financial management." },
                 {
                     title: "Scalability", description:

@@ -47,7 +47,7 @@ const EstateAndTrustTax = () => {
                     alt: "Decades of Experience ",
                     title: "Decades of Experience ",
                     funfacthead: "Decades of Experience ",
-                    funfacttext: "With more than 36 years in the business, we have handled virtually any kind of estate and trust tax in the United States."
+                    funfacttext: "With more than 25 years in the business, we have handled virtually any kind of estate and trust tax in the United States."
                 },
                 {
                     img: [States],
@@ -63,7 +63,7 @@ const EstateAndTrustTax = () => {
                     <>
                         <b>Estate & trust tax</b> is not just for the one percent; it is important for everyone, especially if you have children, a spouse, or a business. With a strong grasp of estate and trust tax, we will help you develop an estate and trust plan that protects your wealth and minimizes the tax burden for you and the people you love.
                         <br></br><br></br>
-                        Our firm has been helping clients like you for more than 36 years. We collaborate with attorneys, investment advisors, and other financial experts to develop long-term estate plans tailored to you. We also keep up with tax law changes that affect estate and trust tax preparation.
+                        Our firm has been helping clients like you for more than 25 years. We collaborate with attorneys, investment advisors, and other financial experts to develop long-term estate plans tailored to you. We also keep up with tax law changes that affect estate and trust tax preparation.
                         <br></br><br></br>
                         The beauty of working with Chawla & Associates is that you don’t deal with a different <b>tax accountant in Naperville</b> everytime you contact us. We focus on building lasting and beneficial professional relationships with you. One way of doing that is by assigning you one CPA to answer your calls and craft solutions that are unique to you.
 

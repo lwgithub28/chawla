@@ -312,7 +312,7 @@ const AccountingServicesContent = ({ contentData }) => {
                                             </div>
                                         </div>
                                     ))}
-                                    <p className='text-desc bookkeeping-services-inner'>Whether you need monthly bookkeeping services or a bookkeeper that serves as your own personal assistant, Chawla & Associates got you covered. For more than 36 years, our company has always been relationship-focused. We take pride in growing with you. Contact us today for the best <b>bookkeeping services for small businesses</b> in the country. </p>
+                                    <p className='text-desc bookkeeping-services-inner'>Whether you need monthly bookkeeping services or a bookkeeper that serves as your own personal assistant, Chawla & Associates got you covered. For more than 25 years, our company has always been relationship-focused. We take pride in growing with you. Contact us today for the best <b>bookkeeping services for small businesses</b> in the country. </p>
                                 </div>
                             </div>
                             {/* <div className='col-sm-3 col-md-12 col-lg-3 img bgimg p-xs-0'> </div> */}

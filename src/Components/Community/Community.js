@@ -105,7 +105,7 @@ const Community = () => {
                     <div className='container-fluid p-xs-0 padding-md-0'>
                         <h3 class="sub-head">/ Partnerships with Impact </h3>
                         <h2 class="main-head">our strategy & partnerships</h2>
-                        <p className="text-desc">At Chawla & Associates, we believe in good corporate citizenship. This means being an active part of the community, showing support for community initiatives and bringing people together. Our job as a financial advisory and consulting firm may be taking care of the financial health of our clients but this is not the only health that is important to us. We believe in uplifting our community.
+                        <p className="text-desc">At Chawla & Associates, we believe in good corporate citizenship. This means being an active part of the community, showing support for community initiatives and bringing people together. Our job as a consulting firm may be taking care of the financial health of our clients but this is not the only health that is important to us. We believe in uplifting our community.
                             <br></br><br></br>
                             Community health is the foundation of unity and growth. At Chawla & Associates, we deeply value the power of building each other up to nurture a thriving and healthy community. To date, our firm has proudly contributed over $500,000 to support charitable organizations both locally and globally. We have also given over 3,500 hours to service organizations and not for profit. This furthers our commitment to creating a meaningful and lasting impact in the community.
                         </p>

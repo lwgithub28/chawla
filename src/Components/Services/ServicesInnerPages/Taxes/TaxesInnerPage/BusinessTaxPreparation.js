@@ -126,7 +126,7 @@ const BusinessTaxPreparation = () => {
               <>
                 Our extensive tax law knowledge, dedicated human support, and proactive financial planning, will leave you feeling confident about your taxes every year.
                 <br></br><br></br>
-                Chawla & Associates was founded to save business owners time and money, and we've successfully done so for 36 years and counting.
+                Chawla & Associates was founded to save business owners time and money, and we've successfully done so for more than 25 years.
                 <br></br><br></br>
                 Connect with the <b>best CPA in Naperville</b> today to experience the difference.
                 <br></br><br></br>

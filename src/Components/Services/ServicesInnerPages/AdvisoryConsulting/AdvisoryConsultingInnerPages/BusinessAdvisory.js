@@ -33,7 +33,7 @@ const BusinessAdvisory = () => {
             },
             {
                 title: "Decades of Experience",
-                description: "Our firm has been in business for over 36 years. We have seen it all and will offer the best support to empower you.",
+                description: "Our firm has been in business for over 25 years. We have seen it all and will offer the best support to empower you.",
             },
             {
                 title: "We Grow With You",

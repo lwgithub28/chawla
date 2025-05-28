@@ -8,17 +8,21 @@ import "./Navbar.scss";
 const Navbar = () => {
   const [isMobileMenuActive, setIsMobileMenuActive] = useState(false);
   const [isMobileServicesDropdownOpen, setIsMobileServicesDropdownOpen] = useState(false);
+  const [isMobileContactDropdownOpen, setIsMobileContactDropdownOpen] = useState(false);
 
   const toggleMobileMenu = () => {
     setIsMobileMenuActive(!isMobileMenuActive);
     setIsMobileServicesDropdownOpen(false);
+    setIsMobileContactDropdownOpen(false);
   };
 
   return (
     <>
       <div className="navbar-top">
         <nav className="navbar">
-          <div className="logo"><Link to="/"><img src={logo} alt="logo" title="logo" /></Link></div>
+          <div className="logo">
+            <Link to="/"><img src={logo} alt="logo" title="logo" /></Link>
+          </div>
           <div className="nav-all-links">
             <ul className="nav-links">
               <li><Link to="/">Home</Link></li>
@@ -66,7 +70,12 @@ const Navbar = () => {
               </li>
               <li><Link to="/industries">Industries</Link></li>
               <li><Link to="/resources">Resources</Link></li>
-              <li><Link to="/contact">Contact</Link></li>
+              <li className="dropdown-click single-column">
+                <span className="dropdown-toggle"><Link to="/contact">Contact</Link></span>
+                <ul className="dropdown-menu single-column">
+                  <li><Link to="/careers">Career</Link></li>
+                </ul>
+              </li>
               <li><Link to="/community">Community</Link></li>
             </ul>
           </div>
@@ -95,12 +104,10 @@ const Navbar = () => {
           <ul>
             <li><Link to="/" onClick={toggleMobileMenu}>Home</Link></li>
             <li><Link to="/about" onClick={toggleMobileMenu}>About</Link></li>
+
             <li>
-              <div
-                className="mobile-dropdown-toggle"
-                onClick={() => setIsMobileServicesDropdownOpen(prev => !prev)}
-              >
-                <Link to="/services" onClick={toggleMobileMenu}>Services</Link> 
+              <div className="mobile-dropdown-toggle" onClick={() => setIsMobileServicesDropdownOpen(prev => !prev)}>
+                <Link to="/services" onClick={toggleMobileMenu}>Services</Link>
                 {isMobileServicesDropdownOpen ? <MdArrowDropUp /> : <MdArrowDropDown />}
               </div>
               {isMobileServicesDropdownOpen && (
@@ -144,11 +151,25 @@ const Navbar = () => {
                 </ul>
               )}
             </li>
+
             <li><Link to="/industries" onClick={toggleMobileMenu}>Industries</Link></li>
             <li><Link to="/resources" onClick={toggleMobileMenu}>Resources</Link></li>
-            <li><Link to="/contact" onClick={toggleMobileMenu}>Contact</Link></li>
+
+            <li>
+              <div className="mobile-dropdown-toggle" onClick={() => setIsMobileContactDropdownOpen(prev => !prev)}>
+                <Link to="/contact" onClick={toggleMobileMenu}>Contact</Link>
+                {isMobileContactDropdownOpen ? <MdArrowDropUp /> : <MdArrowDropDown />}
+              </div>
+              {isMobileContactDropdownOpen && (
+                <ul className="mobile-submenu contact-submenu">
+                  <li><Link to="/careers" onClick={toggleMobileMenu}>Career</Link></li>
+                </ul>
+              )}
+            </li>
+
             <li><Link to="/community" onClick={toggleMobileMenu}>Community</Link></li>
           </ul>
+
           <div className="common-btns">
             <span className="number">
               <a href="tel:(630) 922-8600">

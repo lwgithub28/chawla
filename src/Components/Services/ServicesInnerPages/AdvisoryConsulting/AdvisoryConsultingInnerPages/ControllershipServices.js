@@ -52,7 +52,7 @@ const ControllershipServices = () => {
                 number: "01",
                 title: "Careful Planning and Personalized Financial Guidance",
                 content:
-                    (<>Beyond accounting and bookkeeping, our controller can help your business get to the next level through careful planning and tailored financial guidance. Our team offers proven financial strategies to streamline operations, reduce expenses, improve financial controls, get a grip on cash flow and increase your bottom line.  </>),
+                    (<>Beyond accounting and bookkeeping, our controller can help your business get to the next level through careful planning and guidance. Our team offers proven strategies to streamline operations, reduce expenses, improve financial controls, get a grip on cash flow and increase your bottom line.  </>),
             },
             {
                 id: "collapseTwo",

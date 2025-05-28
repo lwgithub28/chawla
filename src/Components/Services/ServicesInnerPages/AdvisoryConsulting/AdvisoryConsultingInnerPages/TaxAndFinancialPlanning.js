@@ -43,7 +43,7 @@ const TaxAndFinancialPlanning = () => {
         ],
         Growth: {
             title: "An Experienced Partner for Sustainable Financial Growth",
-            description: "Tax optimization is not a one-time thing but an ongoing process. Our financial advisor in Naperville will continuously monitor your portfolio and financial situation to make sure you are making the most of every opportunity to save. We work with you to minimize the impact of taxes on your wealth without losing focus on your goals.",
+            description: "Tax optimization is not a one-time thing but an ongoing process. Our team will continuously monitor your portfolio and financial situation to make sure you are making the most of every opportunity to save. We work with you to minimize the impact of taxes on your wealth without losing focus on your goals.",
         },
         faqData: [
             {
@@ -106,7 +106,7 @@ const TaxAndFinancialPlanning = () => {
         ],
         SolutionsContent: {
             Title: "Our Financial Planning Services ",
-            description: "Our financial advisor in Naperville has the industrial expertise and technical knowledge to build a tax minimization strategy that is personalized to you. We strive to be with you during decision-making, rather than coming in when there is trouble. This approach enables us to stay up-to-date on your activities thus enabling us to keep you in the best tax and financial position. ",
+            description: "Our team in Naperville has the industrial expertise and technical knowledge to build a tax minimization strategy that is personalized to you. We strive to be with you during decision-making, rather than coming in when there is trouble. This approach enables us to stay up-to-date on your activities thus enabling us to keep you in the best tax and financial position. ",
         },
         Solutions: [
             { id: "01", title: "Estate and Trust Planning", description: (<>Don’t let someone else dictate what you do with your estate. Hire us to impose your will and values. Our expert team delivers a seamless, efficient experience, providing comprehensive solutions to protect your assets and preserve your legacy.</>) },

@@ -25,7 +25,7 @@ const WorkWithUs = () => {
                 <Banner
                     bannerImage={WorkWithUsbanner}
                     title="Join Our Team and Shape the Future of Finance"
-                    description="At Chawla & Associates CPAs, we specialize in tax, accountancy, financial advisory and consulting. Led by Roger, our team is made up of trusted advisors who are involved in multifaceted projects and work with specialists from various fields. By joining our team, you will get the opportunity to continuously develop, and grow within a close-knit and professional team. We help individuals and businesses grow. And we grow ourselves. That is why we welcome enthusiastic new colleagues, from starter to senior, to join our team."
+                    description="At Chawla & Associates CPAs, we specialize in tax, accountancy and consulting. Led by Roger, our team is made up of trusted advisors who are involved in multifaceted projects and work with specialists from various fields. By joining our team, you will get the opportunity to continuously develop, and grow within a close-knit and professional team. We help individuals and businesses grow. And we grow ourselves. That is why we welcome enthusiastic new colleagues, from starter to senior, to join our team."
                     buttonText="Talk to Your CPA"
                 />
                 {/* about-banner end */}
