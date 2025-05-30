@@ -39,22 +39,16 @@ const InternationalTax = () => {
             funfactData: [
                 {
                     img: [HappyClients],
-                    alt: "HappyClients",
-                    title: "HappyClients",
                     funfacthead: "Cross-border transactions and structuring",
                     funfacttext: "Our international tax accountants assist businesses with cross-border tax strategies, ensuring compliance, optimizing savings, and supporting seamless business transitions."
                 },
                 {
                     img: [Experience],
-                    alt: "Experience",
-                    title: "Experience",
                     funfacthead: "Enhance Your Global Tax Profile",
                     funfacttext: "With ever-evolving tax regulations and rising compliance demands, we combine expertise, advanced technology, and tailored processes to help you stay ahead. "
                 },
                 {
                     img: [States],
-                    alt: "States",
-                    title: "States",
                     funfacthead: "Global Research",
                     funfacttext: "We identify and match relevant government programs—such as grants, tax credits, and subsidies—to your business, ensuring maximum benefits and streamlined execution."
                 }

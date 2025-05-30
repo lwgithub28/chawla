@@ -528,8 +528,8 @@ const Resaources = () => {
               <div className="col-lg-5 col-md-12 col-sm-12 img remove-spacing">
                 <img
                   src={Documentsimg}
-                  alt="Documentsimg"
-                  title="Documentsimg"
+                  alt="What To Bring For Your Appointment"
+                  title="What To Bring For Your Appointment"
                   className="aboutusimg"
                 ></img>
               </div>
@@ -562,8 +562,8 @@ const Resaources = () => {
                       <a href="/tax_organizer.pdf" target="_blank">
                         <img
                           src={ClientTaxOrganizer}
-                          alt="ClientTaxOrganizer"
-                          title="ClientTaxOrganizer"
+                          alt="Client Tax Organizer"
+                          title="Client Tax Organizer"
                         ></img>
                       </a>
                     </div>
@@ -588,8 +588,8 @@ const Resaources = () => {
                       <Link to="/other-resources">
                         <img
                           src={OtherResources}
-                          alt="OtherResources"
-                          title="OtherResources"
+                          alt="Other Resources"
+                          title="Other Resources"
                         ></img>
                       </Link>
                     </div>

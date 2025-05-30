@@ -38,22 +38,16 @@ const IncomeTaxPreparation = () => {
       funfactData: [
         {
           img: [HappyClients],
-          alt: "4000+ Happy Clients",
-          title: "4000+ Happy Clients",
           funfacthead: "4000+ Happy Clients",
           funfacttext: "We have processed more than 10,000 tax returns since our inception."
         },
         {
           img: [Experience],
-          alt: "3 Decades of Experience",
-          title: "3 Decades of Experience",
           funfacthead: "3 Decades of Experience",
           funfacttext: "Trusted by thousands of businesses and individuals nationwide, we simplify income tax preparations with expertise you can count on."
         },
         {
           img: [States],
-          alt: "Serving 50 States",
-          title: "Serving 50 States",
           funfacthead: "Serving 50 States",
           funfacttext: "Wherever you are, our expert CPAs are only a phone call away, ready to assist with all your income tax needs."
         }

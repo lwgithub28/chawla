@@ -80,8 +80,8 @@ const Industries = () => {
                     <div className="icon-box-img">
                       <img
                         src={ProvenTrackRecord}
-                        alt="ProvenTrackRecord"
-                        title="ProvenTrackRecord"
+                        alt="Proven Track Record"
+                        title="Proven Track Record"
                         loading="lazy"
                       ></img>
                     </div>
@@ -98,12 +98,12 @@ const Industries = () => {
                     <div className="icon-box-img">
                       <img
                         src={IndustrySpecificExpertise}
-                        alt="IndustrySpecificExpertise"
-                        title="IndustrySpecificExpertise"
+                        alt="Industry Specific Expertise"
+                        title="Industry Specific Expertise"
                         loading="lazy"
                       ></img>
                     </div>
-                    <h3>Industry-Specific Expertise</h3>
+                    <h3>Industry Specific Expertise</h3>
                     <p>
                       We understand the financial difficulties of real estate,
                       healthcare, construction, retail, technology, and more.
@@ -115,8 +115,8 @@ const Industries = () => {
                     <div className="icon-box-img">
                       <img
                         src={ScalableServices}
-                        alt="ScalableServices"
-                        title="ScalableServices"
+                        alt="Scalable Services"
+                        title="Scalable Services"
                         loading="lazy"
                       ></img>
                     </div>
@@ -132,8 +132,8 @@ const Industries = () => {
                     <div className="icon-box-img">
                       <img
                         src={PersonalizedAttention}
-                        alt="PersonalizedAttention"
-                        title="PersonalizedAttention"
+                        alt="Personalized Attention"
+                        title="Personalized Attention"
                         loading="lazy"
                       ></img>
                     </div>
@@ -150,8 +150,8 @@ const Industries = () => {
                     <div className="icon-box-img">
                       <img
                         src={GlobalStandards}
-                        alt="GlobalStandards"
-                        title="GlobalStandards"
+                        alt="Global Standards"
+                        title="Global Standards"
                         loading="lazy"
                       ></img>
                     </div>

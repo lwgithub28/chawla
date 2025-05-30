@@ -246,8 +246,8 @@ const About = () => {
                   <span className="left-img">
                     <img
                       src={SatisfiedClients}
-                      alt="SatisfiedClients"
-                      title="SatisfiedClients"
+                      alt="IRS Issue Resolution Success Rate"
+                      title="IRS Issue Resolution Success Rate"
                       loading="lazy"
                     ></img>
                     <p className="experience-heading">
@@ -257,9 +257,8 @@ const About = () => {
                   </span>
                   <span className="right-text">
                     <p>
-                      Get fast and effective{" "}
-                      <b>IRS notice solutions</b> with our proven
-                      expertise in tax resolution.
+                      Get fast and effective <b>IRS notice solutions</b> with
+                      our proven expertise in tax resolution.
                     </p>
                   </span>
                 </div>
@@ -278,8 +277,8 @@ const About = () => {
                   <span className="left-img">
                     <img
                       src={YearOfExperience}
-                      alt="YearOfExperience"
-                      title="YearOfExperience"
+                      alt="Tax Savings for Our Clients"
+                      title="Tax Savings for Our Clients"
                       loading="lazy"
                     ></img>
                     <p className="experience-heading">
@@ -303,8 +302,8 @@ const About = () => {
                   <span className="left-img">
                     <img
                       src={StatesTerritories}
-                      alt="StatesTerritories"
-                      title="StatesTerritories"
+                      alt="Client Retention & Satisfaction Rate"
+                      title="Client Retention & Satisfaction Rate"
                       loading="lazy"
                     ></img>
                     <p className="experience-heading">
@@ -335,8 +334,8 @@ const About = () => {
                   <span className="left-img">
                     <img
                       src={SuccessfulProjects}
-                      alt="SuccessfulProjects"
-                      title="SuccessfulProjects"
+                      alt="Businesses Rely on Us for Advisory Services"
+                      title="Businesses Rely on Us for Advisory Services"
                       loading="lazy"
                     ></img>
                     <p className="experience-heading">
@@ -346,8 +345,8 @@ const About = () => {
                   </span>
                   <span className="right-text">
                     <p>
-                      Our <b>CPA firm</b> helps businesses make
-                      smarter financial decisions for sustained growth.
+                      Our <b>CPA firm</b> helps businesses make smarter
+                      financial decisions for sustained growth.
                     </p>
                   </span>
                 </div>
@@ -470,8 +469,8 @@ const About = () => {
                     At Chawla & Associates, Hanna is mostly involved in
                     administration, tax preparation, and automation projects.
                     She is a graduate from the University of Illinois at Chicago
-                    and is currently on the road to earning her Enrolled Agent (EA) 
-                    status. Additionally, Hanna is involved in her family's
+                    and is currently on the road to earning her Enrolled Agent
+                    (EA) status. Additionally, Hanna is involved in her family's
                     local honey business. Apart from this, for her love of
                     adventure, she enjoys traveling, volunteering, and hiking in
                     her spare time.

@@ -17,7 +17,8 @@ import {
 import ContactForm from "../CommonComp/ContactForm";
 import Map from "../CommonComp/Map";
 // import required modules
-import { EffectFade, Autoplay, Navigation, Pagination } from "swiper/modules";
+import { Autoplay, Pagination, EffectFade } from "swiper/modules";
+import "swiper/css/effect-fade"; // Import fade styles
 import { LuArrowUpRight } from "react-icons/lu";
 import { IoCheckmarkSharp } from "react-icons/io5";
 import { MdArrowOutward } from "react-icons/md";
@@ -47,12 +48,12 @@ import Logo4 from "../../Assests/Img/SurePrep-Logo.webp";
 import Logo5 from "../../Assests/Img/thomsonreuters-logo.webp";
 
 const logos = [
-  { src: Logo1, className: "logo-style-1" },
-  { src: Logo2, className: "logo-style-2" },
-  { src: Logo3, className: "logo-style-3" },
-  { src: Logo4, className: "logo-style-4" },
-  { src: Logo5, className: "logo-style-5" },
-  { src: Logo3, className: "logo-style-3" },
+  { src: Logo1, className: "logo-style-1", alt: "QuickBooks" },
+  { src: Logo2, className: "logo-style-2", alt: "ShareFile" },
+  { src: Logo3, className: "logo-style-3", alt: "safesend" },
+  { src: Logo4, className: "logo-style-4", alt: "SurePrep" },
+  { src: Logo5, className: "logo-style-5", alt: "thomsonreuters" },
+  { src: Logo3, className: "logo-style-3", alt: "safesend" },
 ];
 const Home = () => {
   return (
@@ -70,89 +71,92 @@ const Home = () => {
           <Swiper
             spaceBetween={30}
             loop={true}
+            effect="fade"
+            fadeEffect={{ crossFade: true }}
+            speed={1000} // Controls smoothness duration in ms
             autoplay={{
               delay: 5000,
               disableOnInteraction: false,
             }}
-            pagination={{
-              clickable: true,
-            }}
-            modules={[Autoplay, Pagination]}
+            pagination={{ clickable: true }}
+            modules={[Autoplay, Pagination, EffectFade]}
             className="mySwiper"
           >
+            {/* Slide 1 */}
             <SwiperSlide>
-              <div class="container-fluid banner">
-                <div class="row">
-                  <div class="col-sm-12 col-md-6 col-lg-6 col-xs-6 right-text p-xs-0 padding-md-0">
+              <div className="container-fluid banner">
+                <div className="row">
+                  <div className="col-sm-12 col-md-6 col-lg-6 col-xs-6 right-text p-xs-0 padding-md-0">
                     <h1>
                       Maximize Profits & Minimize Taxes with Expert CPA in
-                      Naperville, IL{" "}
+                      Naperville, IL
                     </h1>
                     <p>We Don’t Just Balance Books—We Build Trust!</p>
                     <Link
-                      class="bg-remove-btn-svg"
+                      className="bg-remove-btn-svg"
                       to="/contact"
                       data-discover="true"
                     >
-                      Connect with your CPA
+                      Connect with your CPA{" "}
                       <span>
-                        <MdArrowOutward />{" "}
+                        <MdArrowOutward />
                       </span>
                     </Link>
                   </div>
-                  <div class="col-sm-12 col-md-6 col-lg-6 col-xs-6 slider-img p-xs-0 padding-md-0">
+                  <div className="col-sm-12 col-md-6 col-lg-6 col-xs-6 slider-img p-xs-0 padding-md-0">
                     <div className="slider-img-img">
                       <img
                         src={firsthomebanner}
-                        alt="firsthomebanner"
-                        title="firsthomebanner"
+                        alt="Maximize Profits & Minimize Taxes with Expert CPA in Naperville, IL"
+                        title="Maximize Profits & Minimize Taxes with Expert CPA in Naperville, IL"
                         loading="lazy"
                         className="homebanner1"
-                      ></img>
+                      />
                     </div>
                     <div className="team-section">
-                      <img src={allteam} alt="allteam" title="allteam"></img>
+                      <img src={allteam} alt="allteam" title="allteam" />
                       <h2>10,000+</h2>
-                      <p> tax returns processed</p>
+                      <p>tax returns processed</p>
                     </div>
                   </div>
                 </div>
               </div>
             </SwiperSlide>
+
+            {/* Slide 2 */}
             <SwiperSlide>
-              <div class="container-fluid banner">
-                <div class="row">
-                  <div class="col-sm-12 col-md-6 col-lg-6 col-xs-6 right-text p-xs-0 padding-md-0">
+              <div className="container-fluid banner">
+                <div className="row">
+                  <div className="col-sm-12 col-md-6 col-lg-6 col-xs-6 right-text p-xs-0 padding-md-0">
                     <h1>
-                      Stress-Free Tax & Accounting Solutions—Backed by Expertise{" "}
+                      Stress-Free Tax & Accounting Solutions—Backed by Expertise
                     </h1>
                     <p>
                       From IRS Notices to Tax Planning, We’ve Got You Covered!
                     </p>
                     <Link
-                      class="bg-remove-btn-svg"
+                      className="bg-remove-btn-svg"
                       to="/contact"
                       data-discover="true"
                     >
-                      {" "}
                       Talk to a CPA Today!
                       <span>
                         <MdArrowOutward />
                       </span>
                     </Link>
                   </div>
-                  <div class="col-sm-12 col-md-6 col-lg-6 col-xs-6 slider-img p-xs-0 padding-md-0">
+                  <div className="col-sm-12 col-md-6 col-lg-6 col-xs-6 slider-img p-xs-0 padding-md-0">
                     <div className="slider-img-img">
                       <img
                         src={secondhomebanner}
-                        alt="secondhomebanner"
-                        title="secondhomebanner"
+                        alt="Stress-Free Tax & Accounting Solutions—Backed by Expertise"
+                        title="Stress-Free Tax & Accounting Solutions—Backed by Expertise"
                         loading="lazy"
                         className="homebanner1"
-                      ></img>
+                      />
                     </div>
                     <div className="team-section">
-                      <img src={allteam} alt="allteam" title="allteam"></img>
+                      <img src={allteam} alt="allteam" title="allteam" />
                       <h2>4,000+</h2>
                       <p> clients serviced</p>
                     </div>
@@ -160,38 +164,40 @@ const Home = () => {
                 </div>
               </div>
             </SwiperSlide>
+
+            {/* Slide 3 */}
             <SwiperSlide>
-              <div class="container-fluid banner">
-                <div class="row">
-                  <div class="col-sm-12 col-md-6 col-lg-6 col-xs-6 right-text p-xs-0 padding-md-0">
+              <div className="container-fluid banner">
+                <div className="row">
+                  <div className="col-sm-12 col-md-6 col-lg-6 col-xs-6 right-text p-xs-0 padding-md-0">
                     <h1>
                       Make Every Dollar Count With Expert Tax Advisory &
-                      Consulting{" "}
+                      Consulting
                     </h1>
                     <p>We Help You Make Smarter Financial Decisions!</p>
                     <Link
-                      class="bg-remove-btn-svg"
+                      className="bg-remove-btn-svg"
                       to="/contact"
                       data-discover="true"
                     >
                       Talk to Your CPA !
                       <span>
-                        <MdArrowOutward />{" "}
+                        <MdArrowOutward />
                       </span>
                     </Link>
                   </div>
-                  <div class="col-sm-12 col-md-6 col-lg-6 col-xs-6 slider-img p-xs-0 padding-md-0">
+                  <div className="col-sm-12 col-md-6 col-lg-6 col-xs-6 slider-img p-xs-0 padding-md-0">
                     <div className="slider-img-img">
                       <img
                         src={thirdbannerhome}
-                        alt="thirdbannerhome"
-                        title="thirdbannerhome"
+                        alt="Make Every Dollar Count With Expert Tax Advisory & Consulting"
+                        title="Make Every Dollar Count With Expert Tax Advisory & Consulting"
                         loading="lazy"
                         className="homebanner1"
-                      ></img>
+                      />
                     </div>
                     <div className="team-section">
-                      <img src={allteam} alt="allteam" title="allteam"></img>
+                      <img src={allteam} alt="allteam" title="allteam" />
                       <h2>50</h2>
                       <p> Service to all states</p>
                     </div>
@@ -225,7 +231,7 @@ const Home = () => {
                 <SwiperSlide key={index}>
                   <img
                     src={logo.src}
-                    alt={`Logo ${index + 1}`}
+                    alt={logo.alt}
                     className={`w-full  ${logo.className}`}
                   />
                 </SwiperSlide>
@@ -247,8 +253,8 @@ const Home = () => {
                   <span className="left-img">
                     <img
                       src={SatisfiedClients}
-                      alt="SatisfiedClients"
-                      title="SatisfiedClients"
+                      alt="IRS Issue Resolution Success Rate"
+                      title="IRS Issue Resolution Success Rate"
                       loading="lazy"
                     ></img>
                     <p className="experience-heading">
@@ -278,8 +284,8 @@ const Home = () => {
                   <span className="left-img">
                     <img
                       src={YearOfExperience}
-                      alt="YearOfExperience"
-                      title="YearOfExperience"
+                      alt="Tax Savings for Our Clients"
+                      title="Tax Savings for Our Clients"
                       loading="lazy"
                     ></img>
                     <p className="experience-heading">
@@ -303,8 +309,8 @@ const Home = () => {
                   <span className="left-img">
                     <img
                       src={StatesTerritories}
-                      alt="StatesTerritories"
-                      title="StatesTerritories"
+                      alt="Client Retention & Satisfaction Rate"
+                      title="Client Retention & Satisfaction Rate"
                       loading="lazy"
                     ></img>
                     <p className="experience-heading">
@@ -335,8 +341,8 @@ const Home = () => {
                   <span className="left-img">
                     <img
                       src={SuccessfulProjects}
-                      alt="SuccessfulProjects"
-                      title="SuccessfulProjects"
+                      alt="Businesses Rely on Us for Advisory Services"
+                      title="Businesses Rely on Us for Advisory Services"
                       loading="lazy"
                     ></img>
                     <p className="experience-heading">
@@ -477,8 +483,8 @@ const Home = () => {
               <div className="col-lg-5 col-md-12 col-sm-12 img p-xs-0 padding-md-0">
                 <img
                   src={aboutUs}
-                  alt="aboutus"
-                  title="aboutus"
+                  alt="Chawla & Associates– A Legacy of Trust and Expertise"
+                  title="Chawla & Associates– A Legacy of Trust and Expertise"
                   className="aboutusimg"
                   loading="lazy"
                 ></img>
@@ -700,7 +706,6 @@ const Home = () => {
             </div>
           </div>
         </section>
-
         {/* meet our team end */}
         {/* --------------------- */}
         {/* connect with us start */}

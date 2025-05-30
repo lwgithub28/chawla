@@ -173,8 +173,8 @@ const Services = () => {
               <div className="col-lg-4 col-md-12 img remove-spacing">
                 <img
                   src={ServicesTaxesPreparation}
-                  alt="ServicesTaxesPreparation"
-                  title="ServicesTaxesPreparation"
+                  alt="Services Taxes Preparation"
+                  title="Services Taxes Preparation"
                 ></img>
               </div>
             </div>

@@ -316,8 +316,8 @@ const Taxes = () => {
               <div className="col-lg-5 col-md-12 col-sm-12 img p-xs-0 padding-md-0">
                 <img
                   src={WhyChooseUs}
-                  alt="WhyChooseUs"
-                  title="WhyChooseUs"
+                  alt="The Chawla CPA Advantage"
+                  title="The Chawla CPA Advantage"
                   className="aboutusimg"
                   loading="lazy"
                 ></img>
@@ -344,8 +344,8 @@ const Taxes = () => {
                     <div className="icon">
                       <img
                         src={ScheduleConsultation}
-                        alt="ScheduleConsultation"
-                        title="ScheduleConsultation"
+                        alt="Schedule a Consultation"
+                        title="Schedule a Consultation"
                       ></img>
                     </div>
                     <h4>Schedule a Consultation</h4>
@@ -362,8 +362,8 @@ const Taxes = () => {
                     <div className="icon">
                       <img
                         src={SubmitDocuments}
-                        alt="SubmitDocuments"
-                        title="SubmitDocuments"
+                        alt="Submit Your Documents"
+                        title="Submit Your Documents"
                       ></img>
                     </div>
                     <h4>Submit Your Documents</h4>
@@ -380,8 +380,8 @@ const Taxes = () => {
                     <div className="icon">
                       <img
                         src={ReviewsPreprations}
-                        alt="ReviewsPreprations"
-                        title="ReviewsPreprations"
+                        alt="Review and Recommendations"
+                        title="Review and Recommendations"
                       ></img>
                     </div>
                     <h4>Review and Recommendations</h4>
@@ -398,8 +398,8 @@ const Taxes = () => {
                     <div className="icon">
                       <img
                         src={peaceOfMind}
-                        alt="peaceOfMind"
-                        title="peaceOfMind"
+                        alt="Peace of Mind"
+                        title="Peace of Mind"
                       ></img>
                     </div>
                     <h4>Peace of Mind</h4>

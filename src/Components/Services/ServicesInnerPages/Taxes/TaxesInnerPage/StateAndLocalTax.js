@@ -38,22 +38,16 @@ const StateAndLocalTax = () => {
             funfactData: [
                 {
                     img: [HappyClients],
-                    alt: "HappyClients",
-                    title: "HappyClients",
                     funfacthead: "Strategic Consulting",
                     funfacttext: "We assist you with everything from handling large data volumes to designing efficient and effective tax structures that keep you aligned with state and local tax guidelines."
                 },
                 {
                     img: [Experience],
-                    alt: "Experience",
-                    title: "Experience",
                     funfacthead: "Complete Compliance",
                     funfacttext: "Our state and local tax services expertly analyze your intricate data to provide efficient, high-quality reporting solutions for all your state and local compliance requirements."
                 },
                 {
                     img: [States],
-                    alt: "States",
-                    title: "States",
                     funfacthead: "Cash Savings",
                     funfacttext: "The role of Chawla & Associates is to help you save money through tested methodologies that help you identify, negotiate, and implement benefits that offset costs related to tax filing."
                 }

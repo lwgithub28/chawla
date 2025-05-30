@@ -11,7 +11,10 @@ const Contact = () => {
     <>
       <Helmet>
         <title>Contact the Best CPA in Naperville</title>
-        <meta name="description" content="Our accounting services in Naperville are designed to simplify your financial journey. You can contact us in a variety of ways. Including calling (630) 922-8600" />
+        <meta
+          name="description"
+          content="Our accounting services in Naperville are designed to simplify your financial journey. You can contact us in a variety of ways. Including calling (630) 922-8600"
+        />
       </Helmet>
       <div className="fraunces" id="contact-main-page">
         {/* banner start */}
@@ -25,7 +28,11 @@ const Contact = () => {
         <section id="contact-banner" className="mobile-spacing tablet-spacing">
           <div className="container-fluid p-xs-0 padding-md-0">
             <h1>Contact Us Today</h1>
-            <p className="text-desc">Whether you are starting out or scaling up, our top-rated CPA in Naperville is here to guide you with confidence. Your path to expert financial guidance begins here. Get in touch with us today.</p>
+            <p className="text-desc">
+              Whether you are starting out or scaling up, our top-rated CPA in
+              Naperville is here to guide you with confidence. Your path to
+              expert financial guidance begins here. Get in touch with us today.
+            </p>
           </div>
         </section>
         {/*banner end */}
@@ -38,7 +45,6 @@ const Contact = () => {
               <div className="col-md-7 map">
                 <iframe
                   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2978.2861865821565!2d-88.20724172410384!3d41.71434297126012!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880ef7a1c440944b%3A0x8a207400f13acfc9!2sChawla%20%26%20Associates%2C%20CPAs!5e0!3m2!1sen!2sin!4v1733299238875!5m2!1sen!2sin"
-
                   width="100%"
                   style={{ border: 0 }}
                   allowFullScreen=""
@@ -48,15 +54,28 @@ const Contact = () => {
                 ></iframe>
               </div>
               <div className="col-md-5 map-address">
-                <img src={contactMap} alt="contactMap" title="contactMap"></img>
+                <img
+                  src={contactMap}
+                  alt="contact Map"
+                  title="contact Map"
+                ></img>
                 <div className="address">
                   <div className="office">
                     <h4>OFFICE -</h4>
-                    <p><a href="https://maps.app.goo.gl/MwpMWEch5YviwQgg7" target="_blank">2752 Forgue Dr Suite 100-B, Naperville, IL 60564</a></p>
+                    <p>
+                      <a
+                        href="https://maps.app.goo.gl/MwpMWEch5YviwQgg7"
+                        target="_blank"
+                      >
+                        2752 Forgue Dr Suite 100-B, Naperville, IL 60564
+                      </a>
+                    </p>
                   </div>
                   <div className="conatct">
                     <h4>CONTACT-</h4>
-                    <p><a href="tel:(630) 922-8600">(630) 922-8600</a></p>
+                    <p>
+                      <a href="tel:(630) 922-8600">(630) 922-8600</a>
+                    </p>
                   </div>
                 </div>
               </div>
@@ -74,12 +93,16 @@ const Contact = () => {
           <div className="container-fluid">
             <div className="row">
               <div className="col-md-9">
-                <img src={ContactUsTeam} alt="ContactUsTeam" title="ContactUsTeam"></img>
+                <img
+                  src={ContactUsTeam}
+                  alt="Meet The Team"
+                  title="Meet The Team"
+                ></img>
               </div>
               <div className="col-md-3 meet-the-team-text">
                 <h2>Meet The Team</h2>
                 <Link to="/about" className="short-button">
-                    <LuArrowUpRight />
+                  <LuArrowUpRight />
                 </Link>
               </div>
             </div>

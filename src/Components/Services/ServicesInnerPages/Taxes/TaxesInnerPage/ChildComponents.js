@@ -55,13 +55,13 @@ const TaxPreparationContent = ({ contentData }) => (
                         </div>
                         <div className='col-md-7 col-lg-8 p-xs-0'>
                             <div className='tax-preparation-inner-right'>
-                                <img src={contentData.img} alt='taxespreparationrightimg' title='taxespreparationrightimg'></img>
+                                <img src={contentData.img} alt={contentData.banner.title} title={contentData.banner.title}></img>
                                 <div className='tax-preparation-inner-right-text'>
                                     <div className='row funfact-box-outer'>
                                         {contentData.mainContent.funfactData.map((Data, index) => (
                                             <>
                                                 <div className='col-lg-4 col-md-12 funfact-box' id={index}>
-                                                    <img src={Data.img} alt={Data.alt} title={Data.title}></img>
+                                                    <img src={Data.img} alt={Data.funfacthead} title={Data.funfacthead}></img>
                                                     <h3>{Data.funfacthead}</h3>
                                                     <p className='text-desc'>{Data.funfacttext}</p>
                                                 </div>

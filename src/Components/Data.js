@@ -412,7 +412,7 @@ export const accountingSolutionsData = [
   },
   {
     imgSrc: [financialstatements],
-    alt: "financialstatements",
+    alt: "Financial Statements",
     title: "Financial Statements",
     description: (
       <>
@@ -427,7 +427,7 @@ export const accountingSolutionsData = [
   },
   {
     imgSrc: [payrollservices], // Replace with the actual import or path
-    alt: "payrollservices",
+    alt: "Payroll",
     title: "Payroll",
     description: (
       <>
@@ -442,7 +442,7 @@ export const accountingSolutionsData = [
   },
   {
     imgSrc: [auditassurance],
-    alt: "auditassurance",
+    alt: "Audit & Assurance",
     title: "Audit & Assurance",
     description: (
       <>
@@ -458,7 +458,7 @@ export const accountingSolutionsData = [
 
   {
     imgSrc: [crypto],
-    alt: "crypto",
+    alt: "Crypto",
     title: "Crypto",
     description:
       "Crypto taxation is complex, but we simplify it with expert tax and accounting solutions. Our team ensures compliance with evolving IRS regulations, proper capital gains reporting, and strategic planning to minimize tax liabilities. Whether you're an investor, trader, or business dealing with digital assets, we help you stay IRS-compliant and financially secure.",
@@ -469,7 +469,7 @@ export const accountingSolutionsData = [
 export const consultingServicesData = [
   {
     imgSrc: [businessadvisory],
-    alt: "businessadvisory",
+    alt: "Business Advisory",
     title: "Business Advisory",
     description:
       "Gain a strategic edge with expert guidance designed to help your company scale, improve operational efficiency, and navigate financial challenges. Our team provides customized insights, risk assessments, and data-driven solutions to enhance profitability, optimize cash flow, and position your business for sustainable growth.",
@@ -477,7 +477,7 @@ export const consultingServicesData = [
   },
   {
     imgSrc: [cfo],
-    alt: "cfo",
+    alt: "CFO Services",
     title: "CFO Services",
     description:
       "Access outsourced CFO solutions to drive financial leadership, strategic planning, and long-term business success. We assist with financial forecasting, risk management, budget planning, and investment strategies, helping your company stay financially sound and competitive without the overhead of a full-time CFO.",
@@ -485,7 +485,7 @@ export const consultingServicesData = [
   },
   {
     imgSrc: [controllership],
-    alt: "Controllership Services",
+    alt: "Controllership",
     title: "Controllership ",
     description:
       "We provide expert financial management to ensure accurate reporting, cost control, and compliance while strengthening internal controls and financial decision-making. Our controllership services help businesses streamline processes, improve cash flow management, and maintain financial transparency and accountability.",
@@ -493,7 +493,7 @@ export const consultingServicesData = [
   },
   {
     imgSrc: [successionplanning],
-    alt: "successionplanning",
+    alt: "Succession Planning",
     title: "Succession Planning",
     description:
       "Secure your company’s future with a well-structured succession plan for smooth leadership and ownership transitions. Whether preparing for a generational shift, an executive handover, or a business sale, we develop customized exit strategies that ensure stability, business continuity, and financial security for all stakeholders.",
@@ -705,7 +705,7 @@ export const IndustriessectorsData = [
       </>
     ),
   },
-    {
+  {
     imgSrc: [eCommerce],
     title: "eCommerce",
     description: (

@@ -9,12 +9,7 @@ const Banner = ({ bannerImage, title, description }) => {
         <div className="container-fluid about-banner-common">
           <div className="row">
             <div className="col-sm-6 col-md-12 col-lg-6 slider-img">
-              <img
-                src={bannerImage}
-                alt="banner"
-                title="banner"
-                loading="lazy"
-              />
+              <img src={bannerImage} alt={title} title={title} loading="lazy" />
             </div>
             <div className="col-sm-6 col-md-12 col-lg-6 right-text remove-spacing">
               <h1>{title}</h1>

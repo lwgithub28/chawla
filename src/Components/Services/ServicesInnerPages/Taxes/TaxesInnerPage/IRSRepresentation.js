@@ -38,22 +38,16 @@ const IRSRepresentation = () => {
             funfactData: [
                 {
                     img: [HappyClients],
-                    alt: "HappyClients",
-                    title: "HappyClients",
                     funfacthead: "Expert Tax & Financial Guidance",
                     funfacttext: "Our team specializes in navigating the complexities of IRS tax audits, offering advice to help you avoid penalties, and ensuring you understand what the audit entails."
                 },
                 {
                     img: [Experience],
-                    alt: "Experience",
-                    title: "Experience",
                     funfacthead: "Experienced Audit Representation",
                     funfacttext: "With extensive experience handling thousands of cases, you can rest assured you will be in safe hands when you choose us to represent you."
                 },
                 {
                     img: [States],
-                    alt: "States",
-                    title: "States",
                     funfacthead: "Ongoing Financial Management",
                     funfacttext: "We provide invaluable advice on financial management—helping you retain assets, limit penalties, and manage your financial responsibilities during tax audits."
                 }

@@ -23,40 +23,40 @@ const OtherResources = () => {
                             <div className='row'>
                                 <div className='col-lg-3 col-md-6 first'>
                                     <div className='document-box'>
-                                        <Link to="/BusinessExpensesList" target="_blank">
+                                        <Link to="/BusinessExpensesList.pdf" target="_blank">
                                             <img src={document} alt='document' title='document'></img>
                                         </Link>
-                                        <Link to="/BusinessExpensesList" target="_blank">
+                                        <Link to="/BusinessExpensesList.pdf" target="_blank">
                                             <h1 className='main-head'>Business Expenses List</h1>
                                         </Link>
                                     </div>
                                 </div>
                                 <div className='col-lg-3 col-md-6 second'>
                                     <div className='document-box'>
-                                        <Link to="/CorporateDocumentChecklist" target="_blank">
+                                        <Link to="/CorporateDocumentChecklist.pdf" target="_blank">
                                             <img src={document} alt='document' title='document'></img>
                                         </Link>
-                                        <Link to="/CorporateDocumentChecklist" target="_blank">
+                                        <Link to="/CorporateDocumentChecklist.pdf" target="_blank">
                                             <h1 className='main-head'>Corporate Document Checklist</h1>
                                         </Link>
                                     </div>
                                 </div>
                                 <div className='col-lg-3 col-md-6 third'>
                                     <div className='document-box'>
-                                        <Link to="/ForeignTransactionsChecklist" target="_blank">
+                                        <Link to="/ForeignTransactionsChecklist.pdf" target="_blank">
                                             <img src={document} alt='document' title='document'></img>
                                         </Link>
-                                        <Link to="/ForeignTransactionsChecklist" target="_blank">
+                                        <Link to="/ForeignTransactionsChecklist.pdf" target="_blank">
                                             <h1 className='main-head'>Foreign Transactions Checklist</h1>
                                         </Link>
                                     </div>
                                 </div>
                                 <div className='col-lg-3 col-md-6 fourth'>
                                     <div className='document-box'>
-                                        <Link to="/PersonalTaxDocumentChecklist" target="_blank">
+                                        <Link to="/PersonalTaxDocumentChecklist.pdf" target="_blank">
                                             <img src={document} alt='document' title='document'></img>
                                         </Link>
-                                        <Link to="/PersonalTaxDocumentChecklist" target="_blank">
+                                        <Link to="/PersonalTaxDocumentChecklist.pdf" target="_blank">
                                             <h1 className='main-head'>Personal Tax Document Checklist</h1>
                                         </Link>
                                     </div>
