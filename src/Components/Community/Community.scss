@@ -1,0 +1,788 @@
+#community {
+    #about-banner {
+         .slider-img img{
+            object-position: top;
+         }
+        .right-text p {
+            padding-top: 10px;
+        }
+    }
+
+    #community-about,
+    #Partnerships-with-Impact,
+    #compaign,
+    #Driving,
+    #true-growth,
+    #partnership,
+    #Together,
+    #gallery,
+    .awards-inner {
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+
+    #community-about {
+        padding-top: 80px;
+        background-image: url(../../Assests/Img/SectorsBg.webp);
+
+        .Community-About-img {
+            display: flex;
+            align-items: flex-end;
+        }
+
+        .community-about-text-outer {
+            display: flex;
+            align-items: center;
+
+            .community-about-text {
+                padding-bottom: 40px;
+                padding-left: 20px;
+
+                img {
+                    width: 8%;
+                }
+
+                .community-text {
+                    padding: 20px 0;
+
+                    .text-desc {
+                        color: var(--white);
+                        font-size: 15px;
+                        text-align: justify;
+
+                    }
+                }
+
+                .communnity-about-name {
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+
+                    .name-designation {
+                        color: var(--white);
+
+                        h3 {
+                            text-transform: capitalize;
+                        }
+
+                        p {
+                            font-weight: 500;
+                        }
+                    }
+
+                    .quote {
+                        img {
+                            width: 40%;
+                            transform: rotate(180deg);
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    #Partnerships-with-Impact {
+        text-align: center;
+        padding-top: 80px;
+        padding-bottom: 80px;
+
+        .text-desc {
+            padding-top: 10px;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+
+        .Partnerships-with-Impact-boxes {
+
+
+            .icon-box-left {
+                padding-right: 30px;
+            }
+
+            .icon-box-middle {
+                padding-right: 15px;
+                padding-left: 15px;
+            }
+
+
+            .icon-box {
+                padding-top: 50px;
+
+                img {
+                    height: 400px;
+                    object-fit: cover;
+                    border-radius: 0 20px;
+                }
+
+                .icon-box-content {
+                    text-align: left;
+                    padding: 33px 0 0 0;
+
+                    h4 {
+                        font-family: var(--Montserrat);
+                        font-size: 19px;
+                        font-weight: 600;
+                        line-height: 1.7rem;
+                    }
+
+                    p {
+                        font-size: 15px;
+                    }
+                }
+            }
+        }
+    }
+
+    #compaign {
+        text-align: center;
+        padding-top: 80px;
+        padding-bottom: 80px;
+        background-image: url(../../Assests/Img/SectorsBg.webp);
+        color: var(--white);
+
+        .sub-head {
+            color: var(--white);
+        }
+
+        .main-head {
+            color: var(--white);
+        }
+
+        .text-desc {
+            color: var(--white);
+            padding: 0 130px;
+        }
+
+        .tabs {
+            display: flex;
+            width: 100%;
+            padding-top: 40px;
+
+            .sidebar-tabs {
+                width: 30%;
+                display: flex;
+                justify-content: flex-start;
+                flex-direction: column;
+
+                .sidebar-tabs-inner {
+                    border: 1px solid var(--white);
+
+                    button:last-child {
+                        border-bottom: none;
+                    }
+
+                    .tab-btn {
+                        width: 100%;
+                        border: none;
+                        background-color: transparent;
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        padding: 10px 25px;
+                        color: var(--white);
+                        font-family: var(--Montserrat);
+                        border-bottom: 1px solid var(--white);
+
+                        li {
+                            list-style: disc;
+                            font-weight: 500;
+                            font-size: 15px;
+                        }
+
+                        .short-button {
+                            width: 30px;
+                            height: 30px;
+                            border-radius: 6px;
+
+                            button {
+                                width: 30px;
+                                height: 30px;
+                                border-radius: 7px;
+                                background-color: var(--white);
+
+                                svg {
+                                    color: var(--main-color);
+                                }
+                            }
+                        }
+
+                    }
+
+                    .tab-btn.active {
+                        background-color: var(--white);
+                        color: var(--black);
+
+                        li {
+                            font-weight: 600;
+                        }
+
+                        .short-button {
+                            button {
+                                background-color: var(--main-color);
+
+                                svg {
+                                    color: var(--white);
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            .tab-content {
+                width: 65%;
+                text-align: left;
+                padding-left: 60px;
+                display: flex;
+
+                .tab-content-left {
+                    width: 35%;
+
+                }
+
+                .tab-content-right {
+                    width: 100%;
+                    padding-left: 20px;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                }
+
+                img {
+                    height: 295px;
+                    object-fit: cover;
+                }
+
+                h2 {
+                    text-transform: capitalize;
+                    padding-bottom: 5px;
+                    font-size: 24px;
+                }
+
+                .text-desc {
+                    padding: 0;
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+
+    #Driving {
+        text-align: center;
+        padding-top: 80px;
+        padding-bottom: 80px;
+
+        .Driving-number {
+            padding-top: 40px;
+
+            .Driving-counter {
+                padding-left: 10px;
+                padding-right: 10px;
+
+                .main-head {
+                    span {
+                        color: var(--main-color);
+                        font-weight: 800;
+                    }
+                }
+
+                p {
+                    font-weight: 600;
+                    font-size: 14px;
+                    padding-top: 8px;
+                }
+            }
+        }
+    }
+
+    .true-growth {
+        .true-growth-outer-box {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            .true-growth-box {
+                background-image: url(../../Assests/Img/SectorsBg.webp);
+                padding: 50px;
+                width: 600px;
+                z-index: 11;
+                position: relative;
+                margin-right: -50px;
+                height: 300px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                p {
+                    color: var(--white);
+                    margin-bottom: 0;
+                    text-align: center;
+                    font-size: 27px;
+                    font-weight: 500;
+                }
+            }
+        }
+
+        img {
+            height: 400px;
+            object-fit: cover;
+        }
+    }
+
+    #partnership {
+        text-align: center;
+        padding-top: 80px;
+        padding-bottom: 0px;
+
+        :nth-of-type(3) .Partnerships-box img {
+            width: 80%;
+        }
+
+        :nth-of-type(5) .Partnerships-box img {
+            width: 70%;
+        }
+
+        .Partnerships-box {
+            border: 1px solid #81818147;
+            width: 170px;
+            height: 150px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 30px;
+            margin-top: 40px;
+
+            img {
+                width: 90%;
+
+                &:nth-child(4) {
+                    background-color: yellow;
+                }
+            }
+        }
+
+
+    }
+
+    #Together {
+        padding-top: 30px;
+
+        .true-growth-outer-box {
+            .true-growth-box {
+                margin-right: 0px;
+                margin-left: -50px;
+            }
+        }
+    }
+
+    #gallery {
+        text-align: center;
+        padding-top: 80px;
+        padding-bottom: 80px;
+
+        img {
+            margin-top: 30px;
+            height: 500px;
+            object-fit: cover;
+        }
+
+        .text-desc {
+            padding-top: 10px;
+            padding-left: 200px;
+            padding-right: 200px;
+        }
+    }
+
+    #awards {
+        text-align: center;
+        background: linear-gradient(90deg, rgb(236, 242, 243) 0%, rgb(250, 252, 252) 100%);
+        padding-top: 80px;
+        padding-bottom: 80px;
+        margin-top: 80px;
+
+        .text-desc {
+            padding-top: 10px;
+            padding-left: 200px;
+            padding-right: 200px;
+        }
+
+        .all-awards-box {
+            padding-top: 40px;
+
+            .swiper-wrapper {
+                height: 750px;
+
+                .swiper-slide {
+                    margin-right: 30px;
+
+                    h2 {
+                        padding-bottom: 0;
+                    }
+
+                    .text-desc {
+                        padding-left: 0;
+                        padding-right: 0;
+                        text-align: center;
+                    }
+                }
+            }
+
+            .swiper-pagination-bullet {
+                background-color: #7ca2a5;
+                width: 15px;
+                height: 15px;
+            }
+
+            .swiper-pagination-bullet-active {
+                background-color: #004e58;
+                opacity: 1;
+            }
+
+            .awards-box {
+                img {
+                    height: 400px;
+                    object-fit: cover;
+                    object-position: top;
+                    border-radius: 0 20px;
+                }
+
+                h2 {
+                    font-size: 16px;
+                    line-height: 1.3rem;
+                    font-family: var(--Montserrat);
+                    font-weight: 600;
+                    padding-top: 30px;
+                    padding-bottom: 10px;
+                }
+
+                .text-desc {
+                    font-size: 15px;
+                    text-align: justify;
+                }
+
+                span {
+                    color: var(--main-color);
+                    font-family: var(--Montserrat);
+                    font-weight: 600;
+                }
+            }
+        }
+    }
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    #community {
+        #about-banner {
+            padding-top: 30px;
+            text-align: center;
+            padding-bottom: 30px;
+
+            .slider-img {
+                padding-right: 0;
+
+                img {
+                    padding-right: 0;
+                }
+            }
+
+            .right-text {
+                text-align: center;
+
+                h1 {
+                    font-size: 30px;
+                    padding-top: 20px;
+                }
+
+                p {
+                    font-size: 16px;
+                    padding-top: 10px;
+                }
+            }
+        }
+
+        #community-about {
+            padding-top: 50px;
+
+            .row {
+                flex-direction: column-reverse;
+
+                .community-about-text-outer {
+                    .community-about-text {
+                        padding-left: 0px;
+                    }
+                }
+            }
+        }
+
+        #Partnerships-with-Impact {
+            .text-desc {
+                padding-left: 0;
+                padding-right: 0;
+            }
+
+            .Partnerships-with-Impact-boxes {
+                .icon-box {
+                    padding-top: 30px;
+                    padding-right: 0;
+
+                    .icon-box-content {
+                        text-align: center;
+                    }
+                }
+
+            }
+        }
+
+        #compaign {
+            .text-desc {
+                padding: 0;
+            }
+
+            .tabs {
+                padding: 0;
+                display: block;
+
+                .sidebar-tabs {
+                    width: 100%;
+                }
+
+                .tab-content {
+                    width: 100%;
+                    padding-left: 0;
+                    padding-top: 30px;
+                    display: block;
+
+                    .tab-content-left,
+                    .tab-content-right {
+                        width: 100%;
+                        margin: 0 auto;
+                        text-align: center;
+                    }
+
+                    img {
+                        height: 350px;
+                        width: 100%;
+                        object-position: top;
+                    }
+
+                    .tab-content-right {
+                        padding-top: 30px;
+                        padding-left: 0px;
+                    }
+                }
+            }
+        }
+
+        #Driving {
+            padding-bottom: 20px;
+
+            .Driving-number {
+                .Driving-counter {
+                    padding-bottom: 30px;
+                }
+            }
+        }
+
+        #true-growth {
+            padding-left: 0;
+            padding-right: 0;
+
+            .true-growth-outer-box {
+                .true-growth-box {
+                    margin-right: 0px;
+                    padding-left: 20px;
+                    padding-right: 20px;
+                }
+            }
+
+            img {
+                height: auto;
+            }
+        }
+
+        #awards {
+            text-align: center;
+            margin-top: 0;
+            padding-bottom: 50px;
+
+            .awards-inner {
+                padding-left: 0;
+                padding-right: 0;
+            }
+
+            .all-awards-box {
+                padding-top: 20px;
+
+                .awards-box {
+                    img {
+                        height: auto;
+                    }
+
+                    .text-desc {
+                        text-align: center;
+                    }
+                }
+
+                .swiper-wrapper {
+                    height: 800px;
+                }
+            }
+        }
+
+        #gallery {
+            padding-top: 60px;
+            padding-bottom: 60px;
+
+            img {
+                height: auto;
+                margin-top: 15px;
+            }
+        }
+
+        #Together {
+            padding-top: 0;
+
+            img {
+                height: auto;
+            }
+
+            .true-growth-outer-box {
+                .true-growth-box {
+                    margin-left: 0;
+                    padding-left: 20px;
+                    padding-right: 20px;
+                }
+            }
+
+            .row {
+                flex-direction: column-reverse;
+            }
+        }
+
+        #partnership {
+            text-align: center;
+
+            .Partnerships-box {
+                margin-top: 20px;
+            }
+        }
+    }
+}
+
+/* Extra small devices (tablets, 600px and down) */
+@media only screen and (min-width: 600px) and (max-width:992px) {
+    #community {
+        #about-banner {
+            padding-top: 20px;
+
+            .slider-img {
+                padding-right: 0;
+
+                img {
+                    padding-right: 0;
+                }
+            }
+
+            .right-text {
+                text-align: center;
+                padding-top: 50px;
+
+                p {
+                    padding-top: 15px;
+                }
+            }
+        }
+
+        #community-about {
+            .row {
+                flex-direction: column-reverse;
+
+                .Community-About-img {
+                    img {
+                        width: 60%;
+                    }
+                }
+
+                .community-about-text-outer {
+                    .community-about-text {
+                        padding-left: 0;
+                    }
+                }
+            }
+        }
+
+        #Partnerships-with-Impact {
+            .text-desc {
+                padding-left: 0;
+                padding-right: 0;
+                padding-top: 15px;
+            }
+
+            .Partnerships-with-Impact-boxes {
+                .icon-box {
+                    padding-top: 30px;
+                }
+            }
+        }
+
+        #compaign {
+            .text-desc {
+                padding-left: 0;
+                padding-right: 0;
+                padding-top: 15px;
+            }
+
+            .tabs {
+                .sidebar-tabs {
+                    width: 45%;
+                }
+
+                .tab-content {
+                    width: 55%;
+                    display: block;
+
+                    .tab-content-left {
+                        width: 100%;
+                    }
+
+                    .tab-content-right {
+                        width: 100%;
+                        padding-left: 0px;
+                        padding-top: 20px;
+                    }
+                }
+            }
+        }
+
+        .true-growth {
+            .true-growth-outer-box {
+                .true-growth-box {
+                    height: auto;
+                }
+            }
+        }
+
+        #awards {
+            .awards-inner {
+                padding-left: 0;
+                padding-right: 0;
+            }
+        }
+
+        #gallery {
+            img {
+                padding: 0;
+                height: auto;
+            }
+        }
+
+        #partnership {
+
+            .sub-head,
+            .main-head {
+                text-align: center;
+            }
+        }
+    }
+}

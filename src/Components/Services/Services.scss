@@ -1,0 +1,440 @@
+#Services-page {
+
+  // taxation
+  #taxation,
+  #consulting {
+    padding-bottom: 80px;
+
+    .Professionals-text {
+      display: flex;
+      padding: 0;
+
+      img {
+        width: 86%;
+      }
+    }
+
+    .taxation-inner {
+      margin-top: -40px;
+
+      .icon-box {
+        padding-left: 25px;
+        padding-right: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        .main-head {
+          font-size: 22px;
+          line-height: 1.8rem;
+          padding-right: 190px;
+        }
+
+        img {
+          width: 50px;
+          margin-bottom: -46px;
+          margin-left: -44px;
+        }
+
+        p {
+          font-size: 14px;
+        }
+      }
+
+      .short-button button {
+        width: 35px;
+        height: 35px;
+        border-radius: 10px;
+      }
+
+      .top-spacing {
+        padding-top: 60px;
+      }
+
+      .img {
+        img {
+          border-radius: 0 50px;
+          height: 700px;
+          object-fit: cover;
+        }
+      }
+    }
+  }
+
+
+  #taxation {
+    padding-left: 80px;
+    padding-right: 80px;
+
+    .taxation-inner {
+      padding-top: 30px;
+    }
+
+    .Professionals-text-desc {
+      padding-top: 30px;
+      padding-bottom: 30px;
+    }
+  }
+
+
+  //   accountion-solutions
+  #accountion-solutions {
+    background-color: var(--black-bg);
+    padding: 80px;
+    color: var(--white);
+
+    b,
+    .main-head {
+      color: var(--white);
+    }
+
+    .sub-head {
+      color: var(--white);
+    }
+
+    .solutions-boxes {
+      padding-top: 40px;
+
+      .solutions-box {
+        background: linear-gradient(90deg,
+            rgb(0, 79, 89) 0%,
+            rgba(0, 79, 89, 0.22) 100%);
+        padding: 25px;
+        border-radius: 14px;
+<<<<<<< HEAD
+        height: 540px;
+=======
+        height: 580px;
+>>>>>>> 2bf065d (content added)
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-bottom: 45px;
+
+        .icon-box-img {
+          background: linear-gradient(90deg,
+              rgb(0, 79, 89) 0%,
+              rgba(217, 251, 255, 0.06) 100%);
+          width: 85px;
+          height: 85px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          border-radius: 12px;
+
+          img {
+            width: 33px;
+          }
+        }
+
+        .short-button {
+          background-color: var(--white);
+
+          svg {
+            color: var(--main-color);
+          }
+        }
+
+        .main-head {
+          font-size: 30px;
+          padding-top: 18px;
+          padding-bottom: 6px;
+        }
+
+        p {
+<<<<<<< HEAD
+          font-size: 15px;
+=======
+          font-size:17px;
+>>>>>>> 2bf065d (content added)
+        }
+
+        .short-button {
+          button {
+            background-color: var(--white);
+
+            svg {
+              color: var(--main-color);
+            }
+          }
+        }
+      }
+
+      .solutions-box-first {
+        padding-right: 30px;
+      }
+
+      .solutions-box-second {
+        padding-left: 15px;
+        padding-right: 15px;
+      }
+
+      .solutions-box-third {
+        padding-left: 30px;
+      }
+    }
+  }
+
+  //   consulting
+  #consulting {
+    padding: 80px;
+
+    .taxation-inner {
+      padding-left: 80px;
+      padding-right: 80px;
+    }
+
+    .Professionals-text-desc {
+      display: flex;
+      align-items: flex-end;
+      padding-left: 50px;
+    }
+
+    .all-services-box {
+      .remove-spacing {
+        padding-top: 60px;
+      }
+
+      .our-services-box {
+        display: flex;
+
+        .image {
+          width: 50%;
+          padding-right: 30px;
+
+          img {
+            border-radius: 0 25px;
+            height: 370px;
+            object-fit: cover;
+          }
+        }
+
+        .text {
+          width: 50%;
+
+          img {
+            width: 33px;
+          }
+
+          h5 {
+            font-family: var(--Playfair);
+            font-size: 24px;
+            padding-right: 50px;
+            text-transform: capitalize;
+            color: var(--black);
+          }
+
+          p {
+            font-size: 15px;
+          }
+        }
+      }
+    }
+  }
+
+  //   connect-with-us
+  #connect-with-us {
+    background-image: url(../../Assests/Img/service-ctc.webp);
+    margin-bottom: 0;
+
+    .text-desc {
+      padding-right: 0px;
+    }
+  }
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  #Services-page {
+    #about-banner {
+      padding-top: 30px;
+      text-align: center;
+      padding-bottom: 30px;
+
+      .slider-img {
+        padding-right: 0;
+
+        img {
+          padding-right: 0;
+        }
+      }
+
+      .right-text {
+        text-align: center;
+
+        h1 {
+          font-size: 30px;
+          padding-top: 20px;
+        }
+
+        p {
+          font-size: 16px;
+          padding-top: 10px;
+        }
+      }
+    }
+
+    #taxation {
+      text-align: center;
+
+      .Professionals-text {
+        justify-content: center;
+      }
+
+      .Professionals-text-desc {
+        padding-top: 10px;
+      }
+
+      .taxation-inner {
+        .icon-box {
+          padding-left: 0;
+          padding-right: 0;
+          padding-bottom: 40px;
+
+          img {
+            display: none;
+          }
+
+          .main-head {
+            padding-right: 0;
+          }
+
+          .short-button {
+            margin: 0 auto;
+          }
+        }
+
+        .top-spacing {
+          padding-top: 0;
+        }
+
+        .img img {
+          height: 350px;
+        }
+      }
+    }
+
+    #accountion-solutions {
+      text-align: center;
+      padding-bottom: 40px;
+
+      .solutions-boxes {
+        padding-top: 20px;
+
+        .solutions-box {
+          height: auto;
+
+          .icon-box-img,
+          .short-button {
+            margin: 0 auto;
+          }
+        }
+      }
+    }
+
+    #consulting {
+      .all-services-box {
+        .remove-spacing {
+          padding-top: 30px;
+
+          .our-services-box {
+            display: block;
+
+            .image {
+              width: 100%;
+              padding-right: 0;
+            }
+
+            .text {
+              width: 100%;
+              padding-top: 20px;
+              text-align: center;
+
+              h5 {
+                padding-right: 0;
+              }
+
+              p {
+                padding-top: 10px;
+              }
+
+              .short-button {
+                margin: 0 auto;
+              }
+
+              img {
+                display: none;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    #connect-with-us {
+      text-align: center;
+
+      .bg-remove-btn-svg {
+        margin: 0 auto;
+      }
+    }
+  }
+}
+
+/* Extra small devices (tablets, 600px and down) */
+@media only screen and (min-width: 600px) and (max-width:992px) {
+  #Services-page {
+    #about-banner {
+      padding-top: 20px;
+
+      .slider-img {
+        padding-right: 0;
+
+        img {
+          padding-right: 0;
+        }
+      }
+
+      .right-text {
+        text-align: center;
+        padding-top: 50px;
+
+        p {
+          padding-top: 15px;
+        }
+      }
+    }
+
+    #taxation {
+      .taxation-inner {
+        .taxation-inner-boxes {
+          padding-bottom: 40px;
+
+          .Professionals-text-desc {
+            padding-top: 10px;
+          }
+
+          .icon-box .main-head {
+            padding-right: 0;
+          }
+        }
+
+        .img {
+          img {
+            width: 60%;
+            margin-bottom: 0px;
+            height: 500px;
+          }
+        }
+      }
+    }
+
+    #accountion-solutions {
+      .solutions-boxes {
+        .solutions-box {
+          height: auto;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,956 @@
+#Work-with-us {
+<<<<<<< HEAD
+    #discover-your-potential {
+        padding-left: 90px;
+        padding-right: 90px;
+
+        .Professionals-text {
+            margin-bottom: 50px;
+
+            .text-desc {
+                margin-bottom: 0;
+                padding-top: 30px;
+            }
+        }
+
+        .Professionals-text {
+            display: flex;
+            padding: 0;
+
+            .img {
+                width: 12%;
+
+                img {
+                    width: 88%;
+                }
+            }
+
+            .text {
+                width: 84%;
+                padding-top: 10px;
+                padding-bottom: 15px;
+            }
+        }
+
+        .discover-your-potential-boxes {
+            padding-left: 0;
+            padding-right: 0;
+
+            img {
+                height: 350px;
+                object-fit: cover;
+                width: 100%;
+                border-radius: 0 30px 0 30px;
+            }
+
+            h4 {
+                font-family: var(--Montserrat);
+                color: var(--main-color);
+                font-size: 20px;
+                font-weight: 600;
+                padding-top: 24px;
+            }
+
+            p {
+                padding-bottom: 60px;
+            }
+
+            .left-img {
+                padding-right: 40px;
+                padding-left: 0;
+            }
+
+            .right-img {
+                padding-left: 40px;
+                padding-right: 0;
+            }
+        }
+
+    }
+
+    #jobs-available {
+        background-color: var(--black-bg);
+        color: var(--white);
+        padding: 80px 80px;
+
+        .main-head {
+            color: var(--white);
+        }
+
+        .row {
+            justify-content: space-around;
+        }
+
+        .icon-box {
+            background: linear-gradient(90deg, rgb(0, 79, 89) 0%, rgba(0, 79, 89, 0.22) 100%);
+            padding: 40px 25px;
+            border-radius: 12px;
+            height: 330px;
+            position: relative;
+
+            h4 {
+                font-family: var(--Montserrat);
+                font-size: 18px;
+                font-weight: 600;
+            }
+
+            p {
+                font-size: 14px;
+                margin-bottom: 0;
+                font-weight: 200;
+                padding-bottom: 20px;
+            }
+
+            h5 {
+                font-family: var(--Montserrat);
+                font-size: 16px;
+                font-weight: 600;
+            }
+
+            .icon-list {
+                padding: 20px 0;
+
+                ul {
+                    padding-left: 1.2rem;
+                    margin-bottom: 0;
+
+                    li {
+                        list-style: inherit;
+                        font-family: var(--Montserrat);
+                        font-size: 14px;
+                        font-weight: 200;
+                    }
+                }
+            }
+
+            .bg-remove-btn-svg {
+                position: absolute;
+                bottom: 25px;
+                padding: 8px 10px !important;
+                margin-top: 30px;
+
+                button {
+                    width: auto;
+                    color: var(--white);
+                    border: 1px solid var(--white);
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    background-color: transparent;
+                    padding: 8px 10px 8px 20px;
+                    border-radius: 6px;
+                    font-family: var(--Montserrat) !important;
+                    text-transform: capitalize;
+                    font-size: 13px;
+
+                    &:hover {
+                        color: #fff;
+                        background-color: var(--main-color);
+                        transition: all 0.3s ease-in-out;
+                    }
+
+                    &:focus-visible,
+                    &:focus {
+                        box-shadow: none;
+                        outline: none;
+                    }
+
+                    span {
+                        background-color: #fff;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        align-content: center;
+                        width: 25px;
+                        height: 25px;
+                        border-radius: 7px;
+
+                        svg {
+                            color: var(--main-color);
+                            padding-left: 0px;
+                            font-size: 15px;
+                        }
+                    }
+                }
+            }
+        }
+
+        .why-us-boxes {
+            padding-top: 40px;
+        }
+    }
+
+    #support {
+        padding: 90px 80px;
+
+        .row {
+            background: linear-gradient(90deg, rgb(236, 242, 243) 0%, rgb(250, 252, 252) 100%);
+            padding: 0px;
+
+            .text {
+                padding: 30px 60px 30px 30px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+
+                p {
+                    margin-bottom: 40px;
+                    padding-top: 18px;
+                    padding-right: 50px;
+                }
+            }
+
+            .img {
+                background-image: url(../../Assests/Img/support-you.webp);
+            }
+        }
+
+    }
+
+    #connect-with-us {
+        background-image: url(../../Assests/Img/WorkWithusCTA.webp);
+        padding: 60px 80px 60px 80px;
+        margin-bottom: 0;
+    }
+
+    #community-work {
+        .top-middle-head {
+            padding-bottom: 10px;
+        }
+
+        .all-icon-box {
+            padding-left: 80px;
+            padding-right: 80px;
+            padding-top: 20px;
+
+            .icon-box {
+                border: 1px solid var(--white);
+                padding: 30px;
+                border-radius: 10px;
+                margin-bottom: 20px;
+
+                .text {
+                    padding-left: 0;
+                }
+            }
+        }
+    }
+=======
+  #discover-your-potential {
+    padding-left: 90px;
+    padding-right: 90px;
+
+    .Professionals-text {
+      margin-bottom: 50px;
+
+      .text-desc {
+        margin-bottom: 0;
+        padding-top: 30px;
+      }
+    }
+
+    .Professionals-text {
+      display: flex;
+      padding: 0;
+
+      .img {
+        width: 12%;
+
+        img {
+          width: 88%;
+        }
+      }
+
+      .text {
+        width: 84%;
+        padding-top: 10px;
+        padding-bottom: 15px;
+      }
+    }
+
+    .discover-your-potential-boxes {
+      padding-left: 0;
+      padding-right: 0;
+
+      img {
+        height: 350px;
+        object-fit: cover;
+        width: 100%;
+        border-radius: 0 30px 0 30px;
+      }
+
+      h4 {
+        font-family: var(--Montserrat);
+        color: var(--main-color);
+        font-size: 20px;
+        font-weight: 600;
+        padding-top: 24px;
+      }
+
+      p {
+        padding-bottom: 60px;
+      }
+
+      .left-img {
+        padding-right: 40px;
+        padding-left: 0;
+      }
+
+      .right-img {
+        padding-left: 40px;
+        padding-right: 0;
+      }
+    }
+  }
+
+  #jobs-available {
+    background-color: var(--black-bg);
+    color: var(--white);
+    padding: 80px 80px;
+
+    .main-head {
+      color: var(--white);
+    }
+
+    .row {
+      justify-content: space-around;
+    }
+
+    .icon-box {
+      background: linear-gradient(
+        90deg,
+        rgb(0, 79, 89) 0%,
+        rgba(0, 79, 89, 0.22) 100%
+      );
+      padding: 40px 25px;
+      border-radius: 12px;
+      height: 330px;
+      position: relative;
+
+      h4 {
+        font-family: var(--Montserrat);
+        font-size: 18px;
+        font-weight: 600;
+      }
+
+      p {
+        font-size: 14px;
+        margin-bottom: 0;
+        font-weight: 200;
+        padding-bottom: 20px;
+      }
+
+      h5 {
+        font-family: var(--Montserrat);
+        font-size: 16px;
+        font-weight: 600;
+      }
+
+      .icon-list {
+        padding: 20px 0;
+
+        ul {
+          padding-left: 1.2rem;
+          margin-bottom: 0;
+
+          li {
+            list-style: inherit;
+            font-family: var(--Montserrat);
+            font-size: 14px;
+            font-weight: 200;
+          }
+        }
+      }
+
+      .bg-remove-btn-svg {
+        position: absolute;
+        bottom: 25px;
+        padding: 8px 10px !important;
+        margin-top: 30px;
+
+        button {
+          width: auto;
+          color: var(--white);
+          border: 1px solid var(--white);
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          background-color: transparent;
+          padding: 8px 10px 8px 20px;
+          border-radius: 6px;
+          font-family: var(--Montserrat) !important;
+          text-transform: capitalize;
+          font-size: 13px;
+
+          &:hover {
+            color: #fff;
+            background-color: var(--main-color);
+            transition: all 0.3s ease-in-out;
+          }
+
+          &:focus-visible,
+          &:focus {
+            box-shadow: none;
+            outline: none;
+          }
+
+          span {
+            background-color: #fff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            align-content: center;
+            width: 25px;
+            height: 25px;
+            border-radius: 7px;
+
+            svg {
+              color: var(--main-color);
+              padding-left: 0px;
+              font-size: 15px;
+            }
+          }
+        }
+      }
+    }
+
+    .why-us-boxes {
+      padding-top: 40px;
+    }
+  }
+
+  #support {
+    padding: 90px 80px;
+
+    .row {
+      background: linear-gradient(
+        90deg,
+        rgb(236, 242, 243) 0%,
+        rgb(250, 252, 252) 100%
+      );
+      padding: 0px;
+
+      .text {
+        padding: 30px 60px 30px 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        p {
+          margin-bottom: 40px;
+          padding-top: 18px;
+          padding-right: 50px;
+        }
+      }
+
+      .img {
+        background-image: url(../../Assests/Img/support-you.webp);
+      }
+    }
+  }
+
+  #connect-with-us {
+    background-image: url(../../Assests/Img/WorkWithusCTA.webp);
+    padding: 60px 80px 60px 80px;
+    margin-bottom: 0;
+  }
+
+  #community-work {
+    .top-middle-head {
+      padding-bottom: 10px;
+    }
+
+    .all-icon-box {
+      padding-left: 80px;
+      padding-right: 80px;
+      padding-top: 20px;
+
+      .icon-box {
+        border: 1px solid var(--white);
+        padding: 30px;
+        border-radius: 10px;
+        margin-bottom: 20px;
+        a {
+          background: transparent;
+          font-weight: 400;
+          color: #fff;
+        }
+        .text {
+          padding-left: 0;
+          p {
+            color: var(--white);
+          }
+        }
+      }
+    }
+  }
+>>>>>>> 2bf065d (content added)
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+<<<<<<< HEAD
+    #Work-with-us {
+        #about-banner {
+            padding-top: 30px;
+            text-align: center;
+            padding-bottom: 30px;
+
+            .slider-img {
+                padding-right: 0;
+
+                img {
+                    padding-right: 0;
+                }
+            }
+
+            .right-text {
+                text-align: center;
+
+                h1 {
+                    font-size: 30px;
+                    padding-top: 20px;
+                }
+
+                p {
+                    font-size: 16px;
+                    padding-top: 10px;
+                }
+            }
+        }
+
+        #discover-your-potential {
+            padding-bottom: 30px;
+
+            .Professionals-text {
+                margin-bottom: 30px;
+
+                .text {
+                    text-align: center;
+                }
+
+                .text-desc {
+                    padding-top: 10px;
+                    text-align: center;
+                }
+            }
+
+            .discover-your-potential-boxes {
+                .left-img {
+                    padding-right: 0;
+                    text-align: center;
+                }
+
+                p {
+                    padding-bottom: 20px;
+                }
+
+                .right-img {
+                    padding-left: 0;
+                    text-align: center;
+                }
+            }
+        }
+
+        #jobs-available {
+            .why-us-boxes {
+                padding-top: 20px;
+
+                .icon-box {
+                    margin-bottom: 30px;
+                    height: auto;
+                    text-align: center;
+
+                    .bg-remove-btn-svg {
+                        position: static;
+                        margin-top: 10px;
+                        margin: 0 auto;
+                    }
+                }
+            }
+        }
+
+        #support {
+            padding: 0px 0 0px 0;
+
+            .row {
+                .text {
+                    padding: 50px 20px 30px 20px;
+                    text-align: center;
+
+                    p {
+                        padding-right: 0;
+                        padding-top: 6px;
+                        margin-bottom: 0;
+                    }
+                }
+
+                .img {
+                    height: 300px;
+                }
+            }
+        }
+
+        #community-work {
+
+            .top-middle-head,
+            .all-icon-box {
+                padding-left: 0;
+                padding-right: 0;
+            }
+
+            .all-icon-box {
+                padding-top: 10px;
+
+                .icon-box {
+                    padding: 28px;
+
+                    .text {
+                        text-align: center;
+
+                        h4 {
+                            font-size: 22px;
+                        }
+
+                        p {
+                            font-size: 15px;
+                            padding-top: 8px;
+                        }
+                    }
+                }
+            }
+        }
+
+        #connect-with-us {
+            .Connectwithusbgtext {
+                text-align: center;
+
+                .bg-remove-btn-svg {
+                    margin: 0 auto;
+                }
+            }
+        }
+
+        #servicesSlider {
+            padding-bottom: 60px;
+        }
+
+    }
+}
+
+/* Extra small devices (tablets, 600px and down) */
+@media only screen and (min-width: 600px) and (max-width:992px) {
+    #Work-with-us {
+        #about-banner {
+            padding-top: 20px;
+
+            .slider-img {
+                padding-right: 0;
+
+                img {
+                    padding-right: 0;
+                }
+            }
+
+            .right-text {
+                text-align: center;
+                padding-top: 50px;
+
+                p {
+                    padding-top: 15px;
+                }
+            }
+        }
+
+        #discover-your-potential {
+            .Professionals-text {
+                .text-desc {
+                    padding-top: 10px;
+                }
+            }
+
+            .discover-your-potential-boxes {
+                p {
+                    padding-bottom: 40px;
+                }
+
+                .left-img {
+                    padding-right: 20px;
+                }
+
+                .right-img {
+                    padding-left: 20px;
+                }
+            }
+        }
+
+        #jobs-available {
+            padding-bottom: 60px;
+
+            .icon-box {
+                margin-bottom: 30px;
+            }
+        }
+
+        #support {
+            padding-left: 0;
+            padding-right: 0;
+
+            .row {
+                .text {
+                    padding-left: 20px;
+                    padding-right: 20px;
+
+                    p {
+                        margin-bottom: 0;
+                    }
+                }
+            }
+        }
+
+        #community-work {
+            .top-middle-head {
+                padding-left: 0;
+                padding-right: 0;
+            }
+
+            .all-icon-box {
+                padding-left: 0;
+                padding-right: 0;
+            }
+        }
+
+
+    }
+}
+=======
+  #Work-with-us {
+    #about-banner {
+      padding-top: 30px;
+      text-align: center;
+      padding-bottom: 30px;
+
+      .slider-img {
+        padding-right: 0;
+
+        img {
+          padding-right: 0;
+        }
+      }
+
+      .right-text {
+        text-align: center;
+
+        h1 {
+          font-size: 30px;
+          padding-top: 20px;
+        }
+
+        p {
+          font-size: 16px;
+          padding-top: 10px;
+        }
+      }
+    }
+
+    #discover-your-potential {
+      padding-bottom: 30px;
+
+      .Professionals-text {
+        margin-bottom: 30px;
+
+        .text {
+          text-align: center;
+        }
+
+        .text-desc {
+          padding-top: 10px;
+          text-align: center;
+        }
+      }
+
+      .discover-your-potential-boxes {
+        .left-img {
+          padding-right: 0;
+          text-align: center;
+        }
+
+        p {
+          padding-bottom: 20px;
+        }
+
+        .right-img {
+          padding-left: 0;
+          text-align: center;
+        }
+      }
+    }
+
+    #jobs-available {
+      .why-us-boxes {
+        padding-top: 20px;
+
+        .icon-box {
+          margin-bottom: 30px;
+          height: auto;
+          text-align: center;
+
+          .bg-remove-btn-svg {
+            position: static;
+            margin-top: 10px;
+            margin: 0 auto;
+          }
+        }
+      }
+    }
+
+    #support {
+      padding: 0px 0 0px 0;
+
+      .row {
+        .text {
+          padding: 50px 20px 30px 20px;
+          text-align: center;
+
+          p {
+            padding-right: 0;
+            padding-top: 6px;
+            margin-bottom: 0;
+          }
+        }
+
+        .img {
+          height: 300px;
+        }
+      }
+    }
+
+    #community-work {
+      .top-middle-head,
+      .all-icon-box {
+        padding-left: 0;
+        padding-right: 0;
+      }
+
+      .all-icon-box {
+        padding-top: 10px;
+
+        .icon-box {
+          padding: 28px;
+
+          .text {
+            text-align: center;
+
+            h4 {
+              font-size: 22px;
+            }
+
+            p {
+              font-size: 15px;
+              padding-top: 8px;
+            }
+          }
+        }
+      }
+    }
+
+    #connect-with-us {
+      .Connectwithusbgtext {
+        text-align: center;
+
+        .bg-remove-btn-svg {
+          margin: 0 auto;
+        }
+      }
+    }
+
+    #servicesSlider {
+      padding-bottom: 60px;
+    }
+  }
+}
+
+/* Extra small devices (tablets, 600px and down) */
+@media only screen and (min-width: 600px) and (max-width: 992px) {
+  #Work-with-us {
+    #about-banner {
+      padding-top: 20px;
+
+      .slider-img {
+        padding-right: 0;
+
+        img {
+          padding-right: 0;
+        }
+      }
+
+      .right-text {
+        text-align: center;
+        padding-top: 50px;
+
+        p {
+          padding-top: 15px;
+        }
+      }
+    }
+
+    #discover-your-potential {
+      .Professionals-text {
+        .text-desc {
+          padding-top: 10px;
+        }
+      }
+
+      .discover-your-potential-boxes {
+        p {
+          padding-bottom: 40px;
+        }
+
+        .left-img {
+          padding-right: 20px;
+        }
+
+        .right-img {
+          padding-left: 20px;
+        }
+      }
+    }
+
+    #jobs-available {
+      padding-bottom: 60px;
+
+      .icon-box {
+        margin-bottom: 30px;
+      }
+    }
+
+    #support {
+      padding-left: 0;
+      padding-right: 0;
+
+      .row {
+        .text {
+          padding-left: 20px;
+          padding-right: 20px;
+
+          p {
+            margin-bottom: 0;
+          }
+        }
+      }
+    }
+
+    #community-work {
+      .top-middle-head {
+        padding-left: 0;
+        padding-right: 0;
+      }
+
+      .all-icon-box {
+        padding-left: 0;
+        padding-right: 0;
+      }
+    }
+  }
+}
+>>>>>>> 2bf065d (content added)

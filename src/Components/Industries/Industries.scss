@@ -1,0 +1,291 @@
+#industries-page {
+  #about-banner {
+    padding-bottom: 50px;
+
+    .slider-img img {
+      padding-right: 0px;
+    }
+
+    .right-text p {
+      padding-bottom: 0px;
+    }
+  }
+
+  #sectors {
+    background: linear-gradient(90deg,
+        rgb(236, 242, 243) 0%,
+        rgb(250, 252, 252) 100%);
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+    .sectors-box {
+      padding-top: 50px;
+
+      .icon-box {
+        // flex-direction: inherit;
+        border: 1px solid var(--main-color);
+        padding-bottom: 0;
+        margin-bottom: 30px;
+        border-radius: 20px;
+        padding: 30px;
+        height: 440px;
+
+        p {
+          margin-bottom: 0;
+        }
+
+        // .icon-box-content {
+        //   text-align: left;
+        //   padding-left: 20px;
+
+        //   h3 {
+        //     padding-top: 0;
+        //   }
+        //   p{
+        //     margin-bottom: 0;
+        //   }
+        // }
+      }
+    }
+
+    .Professionals-boxes-link {
+      font-size: 20px;
+      padding: 20px;
+
+      button {
+        width: 50px;
+        height: 50px;
+      }
+    }
+  }
+
+  #whyus {
+    background-color: var(--black-bg);
+    color: var(--white);
+    padding: 60px 80px;
+
+    .main-head {
+      color: var(--white);
+    }
+
+    .top-middle-head {
+      text-align: center;
+      padding: 0 320px 50px 320px;
+
+      b {
+        color: var(--white);
+      }
+
+      .sub-head {
+        color: var(--white);
+      }
+    }
+
+    .col {
+      background: linear-gradient(90deg,
+          rgb(0, 79, 89) 0%,
+          rgb(0 79 89 / 22%) 100%);
+      padding: 30px 15px;
+      border-radius: 12px;
+      text-align: center;
+    }
+
+    .why-us-boxes {
+      gap: 35px;
+
+      .icon-box {
+        .icon-box-img {
+          background: rgb(0, 79, 89);
+          background: linear-gradient(90deg,
+              rgba(0, 79, 89, 1) 0%,
+              rgb(217 251 255 / 6%) 100%);
+          width: 85px;
+          height: 85px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin: 0 auto;
+          border-radius: 12px;
+
+          img {
+            width: 45px;
+          }
+        }
+
+        h3 {
+          font-family: var(--Montserrat);
+          font-size: 18px;
+          padding-top: 25px;
+          padding-bottom: 5px;
+        }
+
+        p {
+          font-weight: 300;
+          font-size: 15px;
+        }
+      }
+    }
+  }
+
+  #connect-with-us {
+    background-image: url(../../Assests/Img/WorkWithusCTA.webp);
+    // padding-bottom: 60px;
+    margin-bottom: 80px;
+
+    b {
+      color: var(--white);
+    }
+  }
+
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  #industries-page {
+    #about-banner {
+      padding-top: 30px;
+      text-align: center;
+      padding-bottom: 30px;
+
+      .slider-img {
+        padding-right: 0;
+
+        img {
+          padding-right: 0;
+        }
+      }
+
+      .right-text {
+        text-align: center;
+
+        h1 {
+          font-size: 30px;
+          padding-top: 20px;
+        }
+
+        p {
+          font-size: 16px;
+          padding-top: 10px;
+        }
+      }
+    }
+
+    #sectors {
+      margin-top: 20px;
+
+      .row {
+        justify-content: center;
+      }
+
+      .sectors-box {
+        margin-top: 20px;
+
+        .icon-box {
+          height: auto;
+          padding: 20px;
+        }
+      }
+    }
+
+    #whyus {
+      .row {
+        justify-content: center;
+      }
+
+      .top-middle-head {
+        padding-bottom: 20px;
+      }
+
+      .why-us-boxes {
+        display: block;
+
+        .col {
+          width: 100%;
+          margin-bottom: 30px;
+        }
+      }
+    }
+
+    #servicesSlider {
+      padding-bottom: 60px;
+    }
+
+    #connect-with-us {
+      text-align: center;
+
+      .bg-remove-btn-svg {
+        margin: 0 auto;
+      }
+    }
+
+  }
+}
+
+/* Extra small devices (tablets, 600px and down) */
+@media only screen and (min-width: 600px) and (max-width:992px) {
+  #industries-page {
+    #about-banner {
+      padding-top: 30px;
+      text-align: center;
+      padding-bottom: 30px;
+
+      .slider-img {
+        padding-right: 0;
+
+        img {
+          padding-right: 0;
+          width: 100%;
+        }
+      }
+
+      .right-text {
+        text-align: center;
+
+        h1 {
+          font-size: 30px;
+          padding-top: 20px;
+        }
+
+        p {
+          font-size: 16px;
+          padding-top: 10px;
+        }
+      }
+    }
+
+    #sectors {
+      .row {
+        justify-content: center;
+      }
+
+      .sectors-box {
+        .icon-box {
+          height: auto;
+        }
+      }
+    }
+
+    #whyus {
+      .row {
+        justify-content: center;
+
+        .top-middle-head {
+          padding-bottom: 20px;
+        }
+      }
+
+      .why-us-boxes {
+        display: block;
+
+        .col {
+          margin-bottom: 20px;
+        }
+      }
+    }
+
+    #connect-with-us {
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+  }
+}

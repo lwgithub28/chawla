@@ -1,0 +1,676 @@
+#Resaources-page {
+  #about-banner {
+<<<<<<< HEAD
+
+=======
+>>>>>>> 2bf065d (content added)
+    .right-text {
+      p {
+        padding-bottom: 0;
+      }
+    }
+  }
+
+  #logo-slider {
+    padding: 0px 80px 80px 80px;
+  }
+
+  #tax-guide {
+    padding: 50px 80px 80px 80px;
+
+    .tax-guide-boxes {
+      padding-top: 50px;
+
+      .tax-guide-box {
+        color: var(--white);
+        text-align: center;
+        background: rgb(0, 79, 89);
+<<<<<<< HEAD
+        background: linear-gradient(90deg,
+            rgb(0, 79, 89) 0%,
+            rgb(0 79 89 / 72%) 100%);
+=======
+        background: linear-gradient(
+          90deg,
+          rgb(0, 79, 89) 0%,
+          rgb(0 79 89 / 72%) 100%
+        );
+>>>>>>> 2bf065d (content added)
+        padding: 60px 10px 30px 10px;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        img {
+          width: 68%;
+        }
+
+        h4 {
+          font-family: var(--Montserrat);
+          font-size: 19px;
+          padding-top: 35px;
+          padding-bottom: 10px;
+        }
+
+        p {
+          font-weight: 300;
+        }
+      }
+    }
+  }
+
+  #your-appointment {
+    padding: 0 80px;
+
+    .check-list {
+      padding-left: 20px;
+      li {
+        padding-bottom: 17px;
+        list-style: disc;
+
+        span {
+          padding-left: 0px;
+          padding-right: 40px;
+          font-weight: 400;
+          color: var(--black);
+        }
+
+        svg {
+          color: var(--main-color);
+          font-size: 20px;
+        }
+      }
+    }
+
+    .left-text {
+      justify-content: center;
+    }
+  }
+
+  #our-services-resouces {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    margin-top: 80px;
+<<<<<<< HEAD
+    background: linear-gradient(90deg,
+        rgb(236, 242, 243) 0%,
+        rgb(250, 252, 252) 100%);
+=======
+    background: linear-gradient(
+      90deg,
+      rgb(236, 242, 243) 0%,
+      rgb(250, 252, 252) 100%
+    );
+>>>>>>> 2bf065d (content added)
+
+    .remove-container-padding {
+      padding-left: 0;
+    }
+
+    .top-heading-resources {
+      display: flex;
+
+      .text {
+        margin: 0 auto;
+        text-align: center;
+      }
+
+      .text-desc {
+        padding-left: 180px;
+        padding-right: 180px;
+        padding-top: 10px;
+      }
+
+      .image {
+        width: 16%;
+      }
+    }
+
+    .our-services-boxes {
+      padding-left: 80px;
+      padding-right: 80px;
+      padding-top: 60px;
+
+      .our-services-box-first {
+        padding-right: 40px;
+      }
+
+      .our-services-box-second {
+        padding-left: 40px;
+      }
+
+      .our-services-box {
+        display: flex;
+
+        .image {
+          width: 50%;
+          padding-right: 30px;
+
+          img {
+            border-radius: 0 25px;
+            height: 260px;
+            object-fit: cover;
+          }
+        }
+
+        .text {
+          width: 50%;
+
+          img {
+            width: 50px;
+          }
+
+          h5 {
+            font-family: var(--Playfair);
+            font-size: 31px;
+            padding-right: 50px;
+            color: var(--black);
+          }
+        }
+      }
+    }
+  }
+
+  //   tax-calender
+  #tax-calender {
+    padding: 80px;
+
+    .tax-calender-outer {
+      padding-top: 40px;
+
+      .calender-outer {
+        padding-right: 30px;
+
+        .calender {
+<<<<<<< HEAD
+          background: linear-gradient(180deg,
+              rgba(232, 239, 240, 1) 0%,
+              rgba(255, 255, 255, 1) 100%);
+=======
+          background: linear-gradient(
+            180deg,
+            rgba(232, 239, 240, 1) 0%,
+            rgba(255, 255, 255, 1) 100%
+          );
+>>>>>>> 2bf065d (content added)
+          border: 1px solid var(--calender-color);
+          border-radius: 20px;
+          padding: 30px 20px 30px 30px;
+
+          .calendar-header {
+            padding: 10px 0px;
+            color: white;
+
+            .top-header {
+              display: flex;
+              justify-content: space-between;
+              align-items: flex-start;
+              width: 100%;
+
+              .select-month {
+                padding: 0 20px 0 0;
+                background-color: transparent;
+                border: 1px solid var(--select);
+                border-radius: 10px;
+
+                select {
+                  border: none;
+                  background-color: transparent;
+                  padding: 15px 10px;
+                  font-family: var(--Montserrat);
+
+                  &:focus-visible {
+                    outline: none;
+                  }
+                }
+              }
+            }
+
+            // button {
+            //   background: none;
+            //   border: none;
+            //   color: white;
+            //   font-size: 1.2rem;
+            //   cursor: pointer;
+            // }
+            h1 {
+              font-family: var(--Montserrat);
+              color: var(--black);
+              font-size: 22px;
+              font-weight: 500;
+            }
+
+            h2 {
+              font-family: var(--Montserrat);
+              color: var(--main-color);
+              font-size: 24px;
+              letter-spacing: 0px;
+              font-weight: 600;
+              padding-top: 30px;
+            }
+          }
+
+          .calendar-grid {
+            display: grid;
+            grid-template-columns: repeat(7, 1fr);
+            text-align: center;
+
+            .calendar-day-name {
+              font-weight: bold;
+              padding: 10px 0 10px 4px;
+              display: flex;
+              color: var(--light-desc);
+              font-family: var(--Montserrat);
+              font-weight: 400;
+              font-size: 17px;
+              border-bottom: 1px solid #ccc;
+              margin-bottom: 10px;
+            }
+
+            .calendar-day,
+            .empty-day {
+              padding: 16px 10px 16px 10px;
+              display: flex;
+              font-family: var(--Montserrat);
+              color: var(--black);
+              font-weight: 400;
+            }
+          }
+
+          .calendar-day.today,
+          .calendar-day.on-date,
+          .calendar-day.selected {
+            color: white;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 8px;
+          }
+
+          .calendar-day.today {
+            background-color: var(--main-color);
+          }
+
+          .calendar-day.on-date,
+          .calendar-day.selected {
+            background-color: var(--black-bg);
+          }
+        }
+      }
+    }
+
+    .event-list {
+      flex: 1;
+    }
+
+    .all-dates {
+      height: 450px;
+      overflow-y: scroll;
+      padding-right: 120px;
+<<<<<<< HEAD
+
+=======
+      .no-events {
+        margin-bottom: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        font-size: 24px;
+      }
+>>>>>>> 2bf065d (content added)
+      /* Dates container styles */
+      .dates {
+        padding-top: 20px;
+
+        h4 {
+          font-family: var(--Montserrat);
+          font-size: 19px;
+          font-weight: 600;
+        }
+
+        p {
+          color: var(--light-color);
+          font-size: 15px;
+        }
+      }
+    }
+  }
+
+  //   faq
+  #faq {
+    padding: 80px;
+    background-color: var(--bg-grey);
+    color: #fff;
+
+    .sub-head,
+    .main-head {
+      color: var(--white);
+    }
+
+    .faq-accordion {
+      padding-top: 40px;
+
+      .accordion-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+<<<<<<< HEAD
+
+=======
+>>>>>>> 2bf065d (content added)
+        h5 {
+          margin-bottom: 0;
+          font-family: var(--Montserrat);
+          font-size: 16px;
+        }
+
+        .icon.rotate {
+          transform: rotate(180deg);
+        }
+      }
+
+      .accordion-item {
+        background-color: transparent;
+        border: none;
+        margin-bottom: 20px;
+
+        .accordion-button {
+          background-color: transparent;
+          box-shadow: none;
+          padding: 0;
+          color: var(--white);
+          font-family: var(--Montserrat);
+          font-weight: 500;
+          padding: 20px 15px;
+          cursor: pointer;
+          transition: background 0.3s;
+          background-color: var(--main-color);
+          color: var(--white);
+          border-radius: 12px;
+        }
+
+        .accordion-button::after {
+          background-size: 1rem;
+          background-image: url(../../Assests/Img/down.webp);
+        }
+      }
+
+      .accordion-body {
+<<<<<<< HEAD
+
+=======
+>>>>>>> 2bf065d (content added)
+        p {
+          margin: 0;
+          color: var(--white);
+          font-size: 15px;
+        }
+      }
+
+      .accordion-content.show {
+        max-height: 100%;
+        /* Adjust as needed for content */
+      }
+    }
+  }
+
+  // connect-with-us
+  #connect-with-us {
+    padding-bottom: 60px;
+    margin-top: -2px;
+    background-image: url(../../Assests//Img/ResourcesCTA.png) !important;
+
+    .Connectwithusbgtext {
+      padding-bottom: 0px;
+    }
+
+    .text-desc {
+      padding-right: 0px;
+      padding-top: 10px;
+    }
+  }
+
+  .New-Employee-Forms {
+    margin-top: 0 !important;
+
+    .our-services-boxes {
+      .our-services-box {
+        .text img {
+          width: 30px !important;
+        }
+
+        .image img {
+          height: 315px !important;
+        }
+      }
+    }
+  }
+}
+
+<<<<<<< HEAD
+
+=======
+>>>>>>> 2bf065d (content added)
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  #Resaources-page {
+    #about-banner {
+      padding-top: 30px;
+      text-align: center;
+      padding-bottom: 30px;
+
+      .slider-img {
+        padding-right: 0;
+
+        img {
+          padding-right: 0;
+        }
+      }
+
+      .right-text {
+        text-align: center;
+
+        h1 {
+          font-size: 30px;
+          padding-top: 20px;
+        }
+
+        p {
+          font-size: 16px;
+          padding-top: 10px;
+        }
+      }
+    }
+
+    #your-appointment {
+      .check-list {
+        li {
+          span {
+            font-size: 15px;
+            padding-right: 10px;
+          }
+        }
+      }
+
+      .img {
+        img {
+          height: 400px;
+          object-fit: cover;
+          object-position: top;
+        }
+      }
+    }
+
+    #our-services-resouces {
+      padding-top: 60px;
+      padding-bottom: 60px;
+
+      .remove-container-padding {
+        padding-right: 0;
+
+        .our-services-boxes {
+          padding-left: 0;
+          padding-right: 0;
+          padding-top: 20px;
+
+          .our-services-box {
+            display: block;
+            margin-top: 30px;
+
+            .image,
+            .text {
+              width: 100%;
+
+              img {
+                margin-top: -40px;
+              }
+            }
+
+            .image {
+              padding-right: 0;
+            }
+
+            .text {
+<<<<<<< HEAD
+
+=======
+>>>>>>> 2bf065d (content added)
+              h5 {
+                text-align: center;
+                padding-right: 0;
+                font-size: 22px;
+                padding-bottom: 8px;
+              }
+
+              p {
+                text-align: center;
+              }
+            }
+          }
+
+          .our-services-box-second {
+            margin-top: 30px;
+          }
+        }
+      }
+    }
+
+    #tax-calender {
+      padding-top: 60px;
+      padding-bottom: 60px;
+
+      .tax-calender-outer {
+        padding-top: 20px;
+      }
+
+      .all-dates {
+        padding-right: 10px;
+        padding-top: 25px;
+      }
+    }
+
+    .New-Employee-Forms {
+      .short-button {
+        margin: 0 auto;
+      }
+
+      .our-services-box-second {
+        margin-top: 50px !important;
+      }
+    }
+
+    #connect-with-us {
+      text-align: center;
+
+      .bg-remove-btn-svg {
+        margin: 0 auto;
+      }
+    }
+
+    #getintouch {
+      padding-top: 0;
+    }
+  }
+}
+
+/* Extra small devices (tablets, 600px and down) */
+<<<<<<< HEAD
+@media only screen and (min-width: 600px) and (max-width:992px) {
+=======
+@media only screen and (min-width: 600px) and (max-width: 992px) {
+>>>>>>> 2bf065d (content added)
+  #Resaources-page {
+    #about-banner {
+      padding-top: 20px;
+
+      .slider-img {
+        padding-right: 0;
+
+        img {
+          padding-right: 0;
+        }
+      }
+
+      .right-text {
+        text-align: center;
+        padding-top: 50px;
+
+        p {
+          padding-top: 15px;
+        }
+      }
+    }
+
+    #your-appointment {
+      .img {
+        img {
+          width: 70%;
+          height: 500px;
+          object-fit: cover;
+          object-position: top;
+        }
+      }
+    }
+
+    #our-services-resouces {
+      padding-bottom: 60px;
+      .our-services-boxes {
+        padding-top: 40px;
+        padding-left: 0;
+        padding-right: 0;
+<<<<<<< HEAD
+        .our-services-box{
+          margin-bottom: 50px;
+          .image img{
+=======
+        .our-services-box {
+          margin-bottom: 50px;
+          .image img {
+>>>>>>> 2bf065d (content added)
+            height: 230px;
+          }
+        }
+      }
+    }
+<<<<<<< HEAD
+    #faq{
+      .faq-accordion{
+=======
+    #faq {
+      .faq-accordion {
+>>>>>>> 2bf065d (content added)
+        padding-top: 30px;
+      }
+    }
+  }
+<<<<<<< HEAD
+}
+=======
+}
+>>>>>>> 2bf065d (content added)

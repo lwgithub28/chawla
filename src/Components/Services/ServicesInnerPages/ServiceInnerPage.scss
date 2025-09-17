@@ -1,0 +1,4989 @@
+// for taxes page css start
+.short-icon-list {
+<<<<<<< HEAD
+    display: none;
+=======
+  display: none;
+>>>>>>> 2bf065d (content added)
+}
+
+.internationaltax-inner,
+.EstateAndTrustTax-inner,
+.taxes-inner,
+.State-And-Local-Tax-inner,
+.internationaltaxprepration-inner,
+.bookkeeping-services-inner,
+.outsouced-bookeeping-inner,
+.Payroll-inner,
+div#AuditAndAssurance #outsouced-bookeeping .check-list,
+#Financial-Audits,
+.audit-assurance-inner,
+#bookkeeping-services .bookkeeping-services-content .text-desc,
+div#Crypto #outsouced-bookeeping .check-list,
+.crypto-inner,
+#Cryptocurrency {
+<<<<<<< HEAD
+    display: none;
+
+}
+
+div#financial-statements {
+    #outsouced-bookeeping {
+        p {
+            padding-right: 0px;
+            padding-bottom: 20px;
+        }
+
+        .check-list {
+            .outsouced-bookeeping-list {
+                padding-top: 10px;
+
+                .col-md-6 {
+                    width: 100%;
+
+                    p {
+                        padding-bottom: 0;
+                        margin-bottom: 0;
+                    }
+                }
+            }
+
+            padding-top: 0px;
+
+            li {
+                padding-bottom: 10px;
+
+                p {
+                    margin-top: -23px;
+                    padding-top: 0px;
+                }
+
+                span {
+                    display: none;
+                }
+            }
+        }
+
+    }
+
+    .bookkeeping-services-content {
+        .how-it-works-box {
+            height: 220px;
+        }
+    }
+
+
+}
+
+#ask-us {
+    background-image: url(../../../Assests/Img/SectorsBg.webp);
+    padding-top: 60px;
+    padding-bottom: 60px;
+    text-align: center;
+
+    .main-head {
+        padding-bottom: 20px;
+    }
+
+    .main-head,
+    p {
+        color: var(--white);
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+
+    .bg-remove-btn-svg {
+        display: flex;
+        justify-content: center;
+
+        button {
+            align-items: center;
+            background-color: rgba(0, 0, 0, 0);
+            border: 1px solid var(--white);
+            border-radius: 6px;
+            color: #fff;
+            color: var(--white);
+            display: flex;
+            font-family: var(--Montserrat) !important;
+            justify-content: space-between;
+            padding: 12px 20px;
+            text-transform: capitalize;
+            width: auto;
+            transition: all 0.3s ease-in-out !important;
+
+            &:hover {
+                background-color: var(--white);
+                color: var(--main-color);
+            }
+
+            &:hover span {
+                background-color: var(--main-color);
+                color: var(--white);
+                transition: all 0.3s ease-in-out;
+            }
+
+            &:hover span svg {
+                color: var(--white);
+            }
+
+            span {
+                align-items: center;
+                background-color: var(--white);
+                border-radius: 10px;
+                color: var(--main-color);
+                display: flex;
+                height: 30px;
+                justify-content: center;
+                width: 30px;
+                transition: all 0.3s ease-in-out;
+            }
+        }
+    }
+}
+
+#Financial-Audits {
+    padding-top: 70px;
+    padding-bottom: 70px;
+
+    .check-list {
+        padding-top: 15px;
+
+        li {
+            display: flex;
+
+            p {
+                margin-bottom: 0;
+                padding-left: 15px;
+            }
+        }
+    }
+=======
+  display: none;
+}
+
+div#financial-statements {
+  #outsouced-bookeeping {
+    p {
+      padding-right: 0px;
+      padding-bottom: 20px;
+    }
+
+    .check-list {
+      .outsouced-bookeeping-list {
+        padding-top: 10px;
+
+        .col-md-6 {
+          width: 100%;
+
+          p {
+            padding-bottom: 0;
+            margin-bottom: 0;
+          }
+        }
+      }
+
+      padding-top: 0px;
+
+      li {
+        padding-bottom: 10px;
+
+        p {
+          margin-top: -23px;
+          padding-top: 0px;
+        }
+
+        span {
+          display: none;
+        }
+      }
+    }
+  }
+
+  .bookkeeping-services-content {
+    .how-it-works-box {
+      height: 220px;
+    }
+  }
+}
+
+#ask-us {
+  background-image: url(../../../Assests/Img/SectorsBg.webp);
+  padding-top: 60px;
+  padding-bottom: 60px;
+  text-align: center;
+
+  .main-head {
+    padding-bottom: 20px;
+  }
+
+  .main-head,
+  p {
+    color: var(--white);
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+
+  .bg-remove-btn-svg {
+    display: flex;
+    justify-content: center;
+
+    button {
+      align-items: center;
+      background-color: rgba(0, 0, 0, 0);
+      border: 1px solid var(--white);
+      border-radius: 6px;
+      color: #fff;
+      color: var(--white);
+      display: flex;
+      font-family: var(--Montserrat) !important;
+      justify-content: space-between;
+      padding: 12px 20px;
+      text-transform: capitalize;
+      width: auto;
+      transition: all 0.3s ease-in-out !important;
+
+      &:hover {
+        background-color: var(--white);
+        color: var(--main-color);
+      }
+
+      &:hover span {
+        background-color: var(--main-color);
+        color: var(--white);
+        transition: all 0.3s ease-in-out;
+      }
+
+      &:hover span svg {
+        color: var(--white);
+      }
+
+      span {
+        align-items: center;
+        background-color: var(--white);
+        border-radius: 10px;
+        color: var(--main-color);
+        display: flex;
+        height: 30px;
+        justify-content: center;
+        width: 30px;
+        transition: all 0.3s ease-in-out;
+      }
+    }
+  }
+}
+
+#Financial-Audits {
+  padding-top: 70px;
+  padding-bottom: 70px;
+
+  .check-list {
+    padding-top: 15px;
+
+    li {
+      display: flex;
+
+      p {
+        margin-bottom: 0;
+        padding-left: 15px;
+      }
+    }
+  }
+>>>>>>> 2bf065d (content added)
+}
+
+div#InternationalTax .internationaltax-inner,
+div#EstateAndTrustTax .EstateAndTrustTax-inner,
+#taxes .taxes-inner,
+div#State-And-Local-Tax .State-And-Local-Tax-inner,
+div#Income-Tax-Preparation .internationaltaxprepration-inner,
+div#Bookkeeping-Services .bookkeeping-services-inner,
+div#financial-statements .outsouced-bookeeping-inner,
+#Payroll .Payroll-inner,
+div#Payroll #ask-us,
+div#AuditAndAssurance #Financial-Audits,
+div#AuditAndAssurance .audit-assurance-inner,
+<<<<<<< HEAD
+#bookkeeping-services .bookkeeping-services-content .how-it-works-box .text-desc,
+=======
+#bookkeeping-services
+  .bookkeeping-services-content
+  .how-it-works-box
+  .text-desc,
+>>>>>>> 2bf065d (content added)
+div#AuditAndAssurance #ask-us,
+div#Crypto .crypto-inner,
+div#Crypto #Cryptocurrency,
+div#Crypto #ask-us {
+<<<<<<< HEAD
+    display: block !important;
+}
+
+#taxes {
+    #about-banner .slider-img img {
+        object-position: top;
+    }
+
+    .text-desc.taxes-inner {
+        text-align: center;
+    }
+}
+
+.taxes-inner {
+    display: block;
+}
+
+div#EstateAndTrustTax {
+    .EstateAndTrustTax-list {
+        margin-top: 20px;
+
+        li {
+            padding-bottom: 0;
+            margin-top: 10px !important;
+
+            svg {
+                font-size: 20px !important;
+            }
+
+            p {
+                display: none;
+            }
+
+            span {
+                font-weight: 400;
+                font-size: 16px !important;
+            }
+        }
+    }
+=======
+  display: block !important;
+}
+
+#taxes {
+  #about-banner .slider-img img {
+    object-position: top;
+  }
+  section#why-choose-us {
+    padding-top: 40px;
+  }
+  .text-desc.taxes-inner {
+    text-align: center;
+  }
+}
+
+.taxes-inner {
+  display: block;
+}
+
+div#EstateAndTrustTax {
+  .EstateAndTrustTax-list {
+    margin-top: 20px;
+
+    li {
+      padding-bottom: 0;
+      margin-top: 10px !important;
+
+      svg {
+        font-size: 20px !important;
+      }
+
+      p {
+        display: none;
+      }
+
+      span {
+        font-weight: 400;
+        font-size: 16px !important;
+      }
+    }
+  }
+>>>>>>> 2bf065d (content added)
+}
+
+#business-tax-preparation,
+#IRSRepresentation {
+<<<<<<< HEAD
+    .tax-preparation-inner-right-text {
+        .check-list {
+
+            li {
+                padding-bottom: 0;
+                margin-top: 5px !important;
+
+                svg {
+                    font-size: 23px !important;
+                }
+
+                span {
+                    font-size: 16px !important;
+                }
+            }
+        }
+    }
+}
+
+#IRSRepresentation {
+    .short-icon-list {
+        display: block !important;
+    }
+=======
+  .tax-preparation-inner-right-text {
+    .check-list {
+      li {
+        padding-bottom: 0;
+        margin-top: 5px !important;
+
+        svg {
+          font-size: 23px !important;
+        }
+
+        span {
+          font-size: 16px !important;
+        }
+      }
+    }
+  }
+}
+
+#IRSRepresentation {
+  .short-icon-list {
+    display: block !important;
+  }
+>>>>>>> 2bf065d (content added)
+}
+
+// for funfact start
+.funfact-box-outer {
+<<<<<<< HEAD
+    background: linear-gradient(90deg, rgb(236, 242, 243) 0%, rgb(250, 252, 252) 100%);
+    padding: 20px 20px 40px 20px;
+    border-radius: 20px;
+
+    .funfact-box {
+        img {
+            width: 20%;
+            border-radius: 0 !important;
+        }
+
+        h3 {
+            font-size: 20px;
+            font-weight: 500;
+            padding-top: 15px;
+            padding-bottom: 8px;
+            color: var(--main-color);
+        }
+
+        p {
+            font-size: 16px;
+            margin-bottom: 0;
+        }
+    }
+=======
+  background: linear-gradient(
+    90deg,
+    rgb(236, 242, 243) 0%,
+    rgb(250, 252, 252) 100%
+  );
+  padding: 20px 20px 40px 20px;
+  border-radius: 20px;
+
+  .funfact-box {
+    img {
+      width: 20%;
+      border-radius: 0 !important;
+    }
+
+    h3 {
+      font-size: 20px;
+      font-weight: 500;
+      padding-top: 15px;
+      padding-bottom: 8px;
+      color: var(--main-color);
+    }
+
+    p {
+      font-size: 16px;
+      margin-bottom: 0;
+    }
+  }
+>>>>>>> 2bf065d (content added)
+}
+
+// for funfact end
+// -------------------------
+// Income-Tax-Preparation
+div#Income-Tax-Preparation,
+#Bookkeeping-Services {
+<<<<<<< HEAD
+
+    .Income-Tax-Preparation,
+    .Bookkeeping-Services {
+        background: linear-gradient(to left, #004f59, rgb(0, 79, 89));
+        color: var(--white);
+
+        p {
+            color: var(--white);
+        }
+
+        .short-button {
+            visibility: visible !important;
+        }
+    }
+=======
+  .Income-Tax-Preparation,
+  .Bookkeeping-Services {
+    background: linear-gradient(to left, #004f59, rgb(0, 79, 89));
+    color: var(--white);
+
+    p {
+      color: var(--white);
+    }
+
+    .short-button {
+      visibility: visible !important;
+    }
+  }
+>>>>>>> 2bf065d (content added)
+}
+
+// business-tax-preparation
+div#business-tax-preparation,
+#financial-statements {
+<<<<<<< HEAD
+
+    .Business-Tax-Preparation,
+    .Financial-Statements {
+        background: linear-gradient(to left, #004f59, rgb(0, 79, 89));
+        color: var(--white);
+
+        p {
+            color: var(--white);
+        }
+
+        .short-button {
+            visibility: visible !important;
+        }
+    }
+=======
+  .Business-Tax-Preparation,
+  .Financial-Statements {
+    background: linear-gradient(to left, #004f59, rgb(0, 79, 89));
+    color: var(--white);
+
+    p {
+      color: var(--white);
+    }
+
+    .short-button {
+      visibility: visible !important;
+    }
+  }
+>>>>>>> 2bf065d (content added)
+}
+
+// State-And-Local-Tax
+div#State-And-Local-Tax,
+#Payroll {
+<<<<<<< HEAD
+
+    .State-Local-Taxes,
+    .Payroll {
+        background: linear-gradient(to left, #004f59, rgb(0, 79, 89));
+        color: var(--white);
+
+        p {
+            color: var(--white);
+        }
+
+        .short-button {
+            visibility: visible !important;
+        }
+    }
+=======
+  .State-Local-Taxes,
+  .Payroll {
+    background: linear-gradient(to left, #004f59, rgb(0, 79, 89));
+    color: var(--white);
+
+    p {
+      color: var(--white);
+    }
+
+    .short-button {
+      visibility: visible !important;
+    }
+  }
+>>>>>>> 2bf065d (content added)
+}
+
+// IRSRepresentation
+div#IRSRepresentation,
+#AuditAndAssurance {
+<<<<<<< HEAD
+
+    .IRS-Representation,
+    .Audit-Assurance {
+        background: linear-gradient(to left, #004f59, rgb(0, 79, 89));
+        color: var(--white);
+
+        p {
+            color: var(--white);
+        }
+
+        .short-button {
+            visibility: visible !important;
+        }
+    }
+=======
+  .IRS-Representation,
+  .Audit-Assurance {
+    background: linear-gradient(to left, #004f59, rgb(0, 79, 89));
+    color: var(--white);
+
+    p {
+      color: var(--white);
+    }
+
+    .short-button {
+      visibility: visible !important;
+    }
+  }
+>>>>>>> 2bf065d (content added)
+}
+
+// EstateAndTrustTax
+div#EstateAndTrustTax,
+#Crypto {
+<<<<<<< HEAD
+
+    .Estate-Trust-Taxes,
+    .Crypto {
+        background: linear-gradient(to left, #004f59, rgb(0, 79, 89));
+        color: var(--white);
+
+        p {
+            color: var(--white);
+        }
+
+        .short-button {
+            visibility: visible !important;
+        }
+    }
+=======
+  .Estate-Trust-Taxes,
+  .Crypto {
+    background: linear-gradient(to left, #004f59, rgb(0, 79, 89));
+    color: var(--white);
+
+    p {
+      color: var(--white);
+    }
+
+    .short-button {
+      visibility: visible !important;
+    }
+  }
+>>>>>>> 2bf065d (content added)
+}
+
+// InternationalTax
+div#InternationalTax {
+<<<<<<< HEAD
+    .International-Taxes {
+        background: linear-gradient(to left, #004f59, rgb(0, 79, 89));
+        color: var(--white);
+
+        p {
+            color: var(--white);
+        }
+
+        .short-button {
+            visibility: visible !important;
+        }
+    }
+}
+
+#BusinessAndAdvisory {
+    .Business-Advisory-inner-right-outer {
+        .Business-Advisory-inner-right {
+            .Business-Advisory {
+                background: var(--white);
+
+                p {
+                    color: var(--black);
+                }
+
+                .short-button {
+                    visibility: visible;
+
+                    button {
+                        background-color: var(--main-color);
+
+                        svg {
+                            color: var(--white)
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .outsouced-bookeeping-inner {
+        display: block;
+    }
+
+    #comprehensive-business-advisory-solutions {
+        margin-top: 80px;
+    }
+=======
+  .International-Taxes {
+    background: linear-gradient(to left, #004f59, rgb(0, 79, 89));
+    color: var(--white);
+
+    p {
+      color: var(--white);
+    }
+
+    .short-button {
+      visibility: visible !important;
+    }
+  }
+}
+
+#BusinessAndAdvisory {
+  .Business-Advisory-inner-right-outer {
+    .Business-Advisory-inner-right {
+      .Business-Advisory {
+        background: var(--white);
+
+        p {
+          color: var(--black);
+        }
+
+        .short-button {
+          visibility: visible;
+
+          button {
+            background-color: var(--main-color);
+
+            svg {
+              color: var(--white);
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .outsouced-bookeeping-inner {
+    display: block;
+  }
+
+  #comprehensive-business-advisory-solutions {
+    margin-top: 80px;
+  }
+>>>>>>> 2bf065d (content added)
+}
+
+// CFO
+#CFO {
+<<<<<<< HEAD
+    .Business-Advisory-inner-right-outer {
+        .Business-Advisory-inner-right {
+
+            .CFO {
+                background: var(--white);
+
+                p {
+                    color: var(--black);
+                }
+
+                .short-button {
+                    visibility: visible;
+
+                    button {
+                        background-color: var(--main-color);
+
+                        svg {
+                            color: var(--white)
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    #Business-Advisory-Solutions {
+        .box {
+            height: 320px;
+        }
+    }
+
+    .outsouced-bookeeping-inner {
+        display: block;
+    }
+
+    #comprehensive-business-advisory-solutions {
+        margin-top: 80px;
+    }
+=======
+  .Business-Advisory-inner-right-outer {
+    .Business-Advisory-inner-right {
+      .CFO {
+        background: var(--white);
+
+        p {
+          color: var(--black);
+        }
+
+        .short-button {
+          visibility: visible;
+
+          button {
+            background-color: var(--main-color);
+
+            svg {
+              color: var(--white);
+            }
+          }
+        }
+      }
+    }
+  }
+
+  #Business-Advisory-Solutions {
+    .box {
+      height: 320px;
+    }
+  }
+
+  .outsouced-bookeeping-inner {
+    display: block;
+  }
+
+  #comprehensive-business-advisory-solutions {
+    margin-top: 80px;
+  }
+>>>>>>> 2bf065d (content added)
+}
+
+// Controllership Services
+#ControllershipServices {
+<<<<<<< HEAD
+    .Business-Advisory-inner-right-outer {
+        .Business-Advisory-inner-right {
+
+            .Controllership-Services {
+                background: var(--white);
+
+                p {
+                    color: var(--black);
+                }
+
+                .short-button {
+                    visibility: visible;
+
+                    button {
+                        background-color: var(--main-color);
+
+                        svg {
+                            color: var(--white)
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    #Business-Advisory-services {
+        .Business-Advisory-box {
+            height: 210px;
+        }
+    }
+
+    #Business-Advisory-Solutions {
+        .box {
+            height: 340px;
+        }
+    }
+
+    .outsouced-bookeeping-inner {
+        display: block;
+    }
+
+    #comprehensive-business-advisory-solutions {
+        margin-top: 80px;
+    }
+=======
+  .Business-Advisory-inner-right-outer {
+    .Business-Advisory-inner-right {
+      .Controllership-Services {
+        background: var(--white);
+
+        p {
+          color: var(--black);
+        }
+
+        .short-button {
+          visibility: visible;
+
+          button {
+            background-color: var(--main-color);
+
+            svg {
+              color: var(--white);
+            }
+          }
+        }
+      }
+    }
+  }
+
+  #Business-Advisory-services {
+    .Business-Advisory-box {
+      height: 210px;
+    }
+  }
+
+  #Business-Advisory-Solutions {
+    .box {
+      height: 340px;
+    }
+  }
+
+  .outsouced-bookeeping-inner {
+    display: block;
+  }
+
+  #comprehensive-business-advisory-solutions {
+    margin-top: 80px;
+  }
+>>>>>>> 2bf065d (content added)
+}
+
+// Succession Planning
+#SuccessionPlanning {
+<<<<<<< HEAD
+    .Business-Advisory-inner-right-outer {
+        .Business-Advisory-inner-right {
+
+            .Succession-Planning {
+                background: var(--white);
+
+                p {
+                    color: var(--black);
+                }
+
+                .short-button {
+                    visibility: visible;
+
+                    button {
+                        background-color: var(--main-color);
+
+                        svg {
+                            color: var(--white)
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    #Business-Advisory-Solutions {
+        .col-md-4 {
+            width: 100%;
+        }
+
+        .box {
+            height: 500px;
+        }
+    }
+
+    .outsouced-bookeeping-inner {
+        display: block;
+    }
+=======
+  .Business-Advisory-inner-right-outer {
+    .Business-Advisory-inner-right {
+      .Succession-Planning {
+        background: var(--white);
+
+        p {
+          color: var(--black);
+        }
+
+        .short-button {
+          visibility: visible;
+
+          button {
+            background-color: var(--main-color);
+
+            svg {
+              color: var(--white);
+            }
+          }
+        }
+      }
+    }
+  }
+
+  #Business-Advisory-Solutions {
+    .col-md-4 {
+      width: 100%;
+    }
+
+    .box {
+      height: 500px;
+    }
+  }
+
+  .outsouced-bookeeping-inner {
+    display: block;
+  }
+>>>>>>> 2bf065d (content added)
+}
+
+// TaxAndFinancialPlanning
+#TaxAndFinancialPlanning {
+<<<<<<< HEAD
+    .Business-Advisory-inner-right-outer {
+        .Business-Advisory-inner-right {
+
+            .Tax-Financial-Planning {
+                background: var(--white);
+
+                p {
+                    color: var(--black);
+                }
+
+                .short-button {
+                    visibility: visible;
+
+                    button {
+                        background-color: var(--main-color);
+
+                        svg {
+                            color: var(--white)
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    #Business-Advisory-services {
+        .Business-Advisory-services-content {
+            .Business-Advisory-box {
+                height: 225px;
+            }
+        }
+    }
+
+    #Business-Advisory-Solutions {
+        .box {
+            height: 360px;
+        }
+    }
+
+    .outsouced-bookeeping-inner {
+        display: block;
+    }
+=======
+  .Business-Advisory-inner-right-outer {
+    .Business-Advisory-inner-right {
+      .Tax-Financial-Planning {
+        background: var(--white);
+
+        p {
+          color: var(--black);
+        }
+
+        .short-button {
+          visibility: visible;
+
+          button {
+            background-color: var(--main-color);
+
+            svg {
+              color: var(--white);
+            }
+          }
+        }
+      }
+    }
+  }
+
+  #Business-Advisory-services {
+    .Business-Advisory-services-content {
+      .Business-Advisory-box {
+        height: 225px;
+      }
+    }
+  }
+
+  #Business-Advisory-Solutions {
+    .box {
+      height: 360px;
+    }
+  }
+
+  .outsouced-bookeeping-inner {
+    display: block;
+  }
+>>>>>>> 2bf065d (content added)
+}
+
+// TaxAndFinancialPlanning
+#MAStrategy {
+<<<<<<< HEAD
+    .Business-Advisory-inner-right-outer {
+        .Business-Advisory-inner-right {
+
+            .MA-Strategy {
+                background: var(--white);
+
+                p {
+                    color: var(--black);
+                }
+
+                .short-button {
+                    visibility: visible;
+
+                    button {
+                        background-color: var(--main-color);
+
+                        svg {
+                            color: var(--white)
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    #Business-Advisory-services {
+        .Business-Advisory-services-content {
+            .Business-Advisory-box {
+                height: 200px;
+            }
+        }
+    }
+
+    #Business-Advisory-Solutions .box {
+        height: 320px;
+    }
+
+    .outsouced-bookeeping-inner {
+        display: block;
+    }
+=======
+  .Business-Advisory-inner-right-outer {
+    .Business-Advisory-inner-right {
+      .MA-Strategy {
+        background: var(--white);
+
+        p {
+          color: var(--black);
+        }
+
+        .short-button {
+          visibility: visible;
+
+          button {
+            background-color: var(--main-color);
+
+            svg {
+              color: var(--white);
+            }
+          }
+        }
+      }
+    }
+  }
+
+  #Business-Advisory-services {
+    .Business-Advisory-services-content {
+      .Business-Advisory-box {
+        height: 200px;
+      }
+    }
+  }
+
+  #Business-Advisory-Solutions .box {
+    height: 320px;
+  }
+
+  .outsouced-bookeeping-inner {
+    display: block;
+  }
+>>>>>>> 2bf065d (content added)
+}
+
+// payroll
+div#Payroll {
+<<<<<<< HEAD
+    #outsouced-bookeeping {
+        .check-list {
+            display: none;
+        }
+    }
+
+    .Payroll-inner {
+        padding-top: 10px;
+
+        li {
+            display: flex;
+
+            p {
+                margin-bottom: 0;
+                padding-left: 15px;
+                padding-right: 0;
+            }
+        }
+
+    }
+
+    #bookkeeping-services {
+        .text-desc {
+            display: none;
+        }
+
+        .bookkeeping-services-content {
+            .how-it-works-box {
+                height: 200px;
+                padding-bottom: 20px;
+                padding-top: 20px;
+            }
+        }
+    }
+}
+
+div#Crypto .crypto-inner {
+    padding-top: 20px;
+
+    .col-md-6 {
+        width: 100%;
+
+        li {
+            display: flex;
+
+            p {
+                padding-left: 15px;
+                margin-bottom: 0;
+                padding-right: 0;
+            }
+        }
+    }
+
+}
+
+.service-inner {
+    h1 {
+        font-size: 50px;
+        color: var(--black);
+    }
+
+    #taxation {
+        background: linear-gradient(90deg, rgb(236, 242, 243) 0%, rgb(250, 252, 252) 100%);
+        padding: 50px 80px;
+
+        .Professionals-text {
+            display: flex;
+            padding: 0;
+
+            .img {
+                img {
+                    width: 80%;
+                }
+            }
+        }
+
+        .Professionals-text-desc {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            .text-desc {
+                padding-top: 33px;
+            }
+        }
+
+        .taxation-inner {
+            padding-top: 25px;
+
+            .remove-icon-box-spacing {
+                h1 {
+                    padding-right: 100px !important;
+                }
+            }
+
+            .icon-box {
+                padding-left: 25px;
+                padding-right: 45px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                margin-bottom: 70px;
+
+                img {
+                    width: 50px;
+                    margin-bottom: -46px;
+                    margin-left: -44px;
+                }
+
+                .main-head {
+                    font-size: 22px !important;
+                    line-height: 1.8rem;
+                    padding-right: 190px;
+                }
+
+                p {
+                    font-size: 14px;
+                }
+
+                .short-button {
+                    button {
+                        width: 45px;
+                        height: 45px;
+                    }
+                }
+            }
+        }
+
+    }
+
+    #why-choose-us {
+        .left-text {
+            .text-desc {
+                margin-bottom: 0;
+            }
+        }
+
+        .why-choose-us-row {
+            padding-top: 20px;
+        }
+
+        .check-list {
+            li {
+                span {
+                    color: var(--black);
+                }
+
+                p {
+                    padding-left: 35px;
+                    padding-top: 5px;
+                    margin-bottom: 10px;
+                }
+            }
+        }
+
+        .all-check-list {
+            padding-top: 40px;
+            padding-right: 40px;
+        }
+
+        .img {
+            padding-top: 40px;
+
+            img {
+                height: auto;
+                object-fit: cover;
+                border-radius: 0 30px 0 30px;
+            }
+        }
+    }
+
+    #how-it-works {
+        padding: 80px 80px 100px 80px;
+        background-image: url(../../../Assests/Img/SectorsBg.webp);
+        text-align: center;
+        color: var(--white);
+
+        .main-head {
+            color: var(--white);
+        }
+
+
+        .how-it-works-icons {
+            padding-top: 60px;
+
+            .icon-box {
+                padding: 10px;
+
+                .icon {
+                    img {
+                        background: linear-gradient(90deg, rgb(31, 82, 88) 0%, rgb(15, 77, 86) 100%);
+                        padding: 29px;
+                        border-radius: 10px;
+                        width: 35%;
+                    }
+                }
+
+                h4 {
+                    font-family: var(--Montserrat);
+                    font-size: 17px;
+                    padding-top: 25px;
+                }
+
+                p {
+                    font-weight: 200;
+                    line-height: 1.3rem;
+                    font-size: 14px;
+                }
+            }
+        }
+
+    }
+
+    #connect-with-us {
+        background-image: url(../../../Assests//Img/service-ctc.webp);
+        padding-bottom: 60px;
+
+        b {
+            color: var(--white);
+        }
+    }
+}
+
+#inner-page-banner {
+    text-align: center;
+    padding: 80px;
+
+    b {
+        color: var(--white);
+    }
+
+    .container-fluid {
+        background-image: url(../../../Assests//Img//service-inner-page-bg.webp);
+        padding: 80px 50px;
+    }
+
+    .main-head {
+        padding-bottom: 10px;
+        color: var(--white);
+    }
+
+    .sub-head {
+        color: var(--white);
+        font-size: 20px;
+        font-weight: 500;
+        padding-bottom: 10px;
+        letter-spacing: 0;
+    }
+
+    p {
+        color: var(--white);
+    }
+=======
+  #outsouced-bookeeping {
+    .check-list {
+      display: none;
+    }
+  }
+
+  .Payroll-inner {
+    padding-top: 10px;
+
+    li {
+      display: flex;
+
+      p {
+        margin-bottom: 0;
+        padding-left: 15px;
+        padding-right: 0;
+      }
+    }
+  }
+
+  #bookkeeping-services {
+    .text-desc {
+      display: none;
+    }
+
+    .bookkeeping-services-content {
+      .how-it-works-box {
+        height: 200px;
+        padding-bottom: 20px;
+        padding-top: 20px;
+      }
+    }
+  }
+}
+
+div#Crypto .crypto-inner {
+  padding-top: 20px;
+
+  .col-md-6 {
+    width: 100%;
+
+    li {
+      display: flex;
+
+      p {
+        padding-left: 15px;
+        margin-bottom: 0;
+        padding-right: 0;
+      }
+    }
+  }
+}
+
+.service-inner {
+  h1 {
+    font-size: 50px;
+    color: var(--black);
+  }
+
+  #taxation {
+    background: linear-gradient(
+      90deg,
+      rgb(236, 242, 243) 0%,
+      rgb(250, 252, 252) 100%
+    );
+    padding: 50px 80px;
+
+    .Professionals-text {
+      display: flex;
+      padding: 0;
+      .img {
+        img {
+          width: 80%;
+        }
+      }
+    }
+
+    .Professionals-text-desc {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      .text-desc {
+        padding-top: 33px;
+        padding-left: 40px;
+      }
+    }
+
+    .taxation-inner {
+      padding-top: 25px;
+
+      .remove-icon-box-spacing {
+        h1 {
+          padding-right: 100px !important;
+        }
+      }
+
+      .icon-box {
+        padding-left: 25px;
+        padding-right: 45px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-bottom: 70px;
+
+        img {
+          width: 50px;
+          margin-bottom: -46px;
+          margin-left: -44px;
+        }
+
+        .main-head {
+          font-size: 22px !important;
+          line-height: 1.8rem;
+          padding-right: 190px;
+        }
+
+        p {
+          font-size: 14px;
+        }
+
+        .short-button {
+          button {
+            width: 45px;
+            height: 45px;
+          }
+        }
+      }
+    }
+  }
+
+  #why-choose-us {
+    .left-text {
+      .text-desc {
+        margin-bottom: 0;
+      }
+    }
+
+    .why-choose-us-row {
+      padding-top: 20px;
+    }
+
+    .check-list {
+      li {
+        span {
+          color: var(--black);
+        }
+
+        p {
+          padding-left: 35px;
+          padding-top: 5px;
+          margin-bottom: 10px;
+        }
+      }
+    }
+
+    .all-check-list {
+      padding-top: 40px;
+      padding-right: 40px;
+    }
+
+    .img {
+      padding-top: 40px;
+
+      img {
+        height: auto;
+        object-fit: cover;
+        border-radius: 0 30px 0 30px;
+      }
+    }
+  }
+
+  #how-it-works {
+    padding: 80px 80px 100px 80px;
+    background-image: url(../../../Assests/Img/SectorsBg.webp);
+    text-align: center;
+    color: var(--white);
+
+    .main-head {
+      color: var(--white);
+    }
+
+    .how-it-works-icons {
+      padding-top: 60px;
+
+      .icon-box {
+        padding: 10px;
+
+        .icon {
+          img {
+            background: linear-gradient(
+              90deg,
+              rgb(31, 82, 88) 0%,
+              rgb(15, 77, 86) 100%
+            );
+            padding: 29px;
+            border-radius: 10px;
+            width: 35%;
+          }
+        }
+
+        h4 {
+          font-family: var(--Montserrat);
+          font-size: 17px;
+          padding-top: 25px;
+        }
+
+        p {
+          font-weight: 200;
+          line-height: 1.3rem;
+          font-size: 14px;
+        }
+      }
+    }
+  }
+
+  #connect-with-us {
+    background-image: url(../../../Assests//Img/service-ctc.webp);
+    padding-bottom: 60px;
+
+    b {
+      color: var(--white);
+    }
+  }
+}
+
+#inner-page-banner {
+  text-align: center;
+  padding: 80px;
+
+  b {
+    color: var(--white);
+  }
+
+  .container-fluid {
+    background-image: url(../../../Assests//Img//service-inner-page-bg.webp);
+    padding: 80px 50px;
+  }
+
+  .main-head {
+    padding-bottom: 10px;
+    color: var(--white);
+  }
+
+  .sub-head {
+    color: var(--white);
+    font-size: 20px;
+    font-weight: 500;
+    padding-bottom: 10px;
+    letter-spacing: 0;
+  }
+
+  p {
+    color: var(--white);
+  }
+>>>>>>> 2bf065d (content added)
+}
+
+.tax-preparation-inner-left-outer,
+.Accounting-Services-inner-right-outer,
+.Business-Advisory-inner-right-outer {
+<<<<<<< HEAD
+    min-height: 200px;
+    overflow: auto;
+    position: sticky;
+    top: 25%;
+
+    .tax-preparation-inner-left,
+    .Accounting-Services-inner-right,
+    .Business-Advisory-inner-right {
+        background: rgb(236, 242, 243);
+        background: linear-gradient(90deg, rgb(236, 242, 243) 0%, rgb(250, 252, 252) 100%);
+        // padding-bottom: 50px;
+
+        h2 {
+            text-transform: capitalize;
+            padding: 30px;
+            margin-bottom: 0;
+            color: var(--black);
+        }
+
+        .tax-preparation-inner-links,
+        .Bookkeeping-Services-inner-links,
+        .Business-Advisory-inner-links {
+            width: 100%;
+            font-size: 17px;
+            font-weight: 600;
+            color: var(--text-desc);
+            font-family: var(--Montserrat);
+            display: flex;
+            padding: 12px 16px 12px 30px;
+            justify-content: space-between;
+
+            .short-button {
+                visibility: hidden;
+
+                button {
+                    width: 32px;
+                    height: 32px;
+                    border-radius: 10px;
+                    background-color: var(--white);
+                    color: var(--main-color);
+                    border: none;
+                }
+            }
+
+            &:hover {
+                color: var(--main-color);
+
+                .short-button {
+                    visibility: hidden;
+                }
+            }
+
+
+            p {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-bottom: 0;
+                letter-spacing: 0.2px;
+            }
+
+            p::before {
+                content: "• ";
+                font-size: 38px;
+                line-height: 0;
+                margin-top: -7px;
+                padding-right: 20px;
+            }
+
+            ul {
+                margin-bottom: 0rem;
+
+                li {
+                    list-style: disc;
+                }
+            }
+
+        }
+    }
+
+    .connect-with-us-card {
+        background-image: url(../../../Assests/Img//SectorsBg.webp);
+        padding: 80px 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        color: var(--white);
+
+        .sub-head {
+            color: var(--white);
+            font-size: 15px;
+            letter-spacing: 0;
+            font-weight: 500;
+            margin-bottom: 0;
+        }
+
+        .main-head {
+            font-size: 30px;
+            color: var(--white);
+        }
+
+        .text-desc {
+            color: var(--white);
+            font-size: 15px;
+            font-weight: 500;
+        }
+
+        .bg-remove-btn-svg {
+            button {
+                align-items: center;
+                background-color: #0000;
+                border: 1px solid var(--white);
+                border-radius: 6px;
+                color: #fff;
+                color: var(--white);
+                display: flex;
+                font-family: var(--Montserrat) !important;
+                justify-content: space-between;
+                padding: 12px 20px;
+                text-transform: capitalize;
+                width: auto;
+                transition: all 0.3s ease-in-out !important;
+
+                span {
+                    align-items: center;
+                    background-color: var(--white);
+                    border-radius: 10px;
+                    color: var(--main-color);
+                    display: flex;
+                    height: 30px;
+                    justify-content: center;
+                    width: 30px;
+                    transition: all 0.3s ease-in-out;
+                }
+
+                &:hover {
+                    background-color: var(--white);
+                    color: var(--main-color);
+                    transition: all 0.3s ease-in-out;
+
+                    span {
+                        background-color: var(--main-color);
+                        color: var(--white);
+                        transition: all 0.3s ease-in-out;
+                    }
+                }
+
+
+            }
+        }
+    }
+
+
+}
+
+.TaxInnerPage {
+    .about-banner-common {
+        .right-text {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+            .common-btn {
+                display: none;
+            }
+        }
+    }
+
+    #tax-preparation-inner {
+        padding-bottom: 30px;
+        padding-left: 80px;
+        padding-right: 80px;
+
+        .tax-preparation-inner-row {
+            .tax-preparation-inner-right {
+                padding-left: 15px;
+
+                img {
+                    border-radius: 0 25px;
+                }
+
+                .tax-preparation-inner-right-text {
+                    padding-top: 40px;
+
+                    .sub-head {
+                        font-size: 18px;
+                        font-weight: 600;
+                        letter-spacing: 0;
+                        line-height: 1.8rem;
+                        color: #000;
+                    }
+
+
+                    .main-head {
+                        font-size: 33px;
+                        line-height: 2.6rem;
+                    }
+
+                    .text-desc {
+                        font-size: 17px;
+                        padding-top: 10px;
+                    }
+
+                    .check-list {
+                        li {
+                            margin-top: 20px;
+                            margin-bottom: 0;
+
+                            svg {
+                                font-size: 26px;
+                            }
+
+                            span {
+                                color: var(--black);
+                                font-size: 18px;
+                                padding-left: 5px;
+                            }
+
+                            p {
+                                margin-bottom: 0;
+                                padding-left: 32px;
+                                padding-top: 3px;
+                                font-size: 15px;
+                            }
+                        }
+                    }
+
+                    .FinancialPartnerboxes {
+                        background-image: url(../../../Assests/Img/corevalueboxes.webp);
+                        padding: 40px 20px;
+                        border-radius: 10px;
+                        color: var(--white);
+                        // height: 200px;
+                        margin-top: 22px;
+                        background-position: left !important;
+                        background-color: var(--main-color);
+
+                        b {
+                            color: var(--white);
+                        }
+
+                        h3 {
+                            text-transform: capitalize;
+                            font-size: 21px;
+                        }
+
+                        p {
+                            font-size: 16px;
+                            margin-bottom: 0;
+                            color: #e9ecef;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    #ask-us {
+        .bg-remove-btn-svg {
+            width: fit-content;
+            margin: 0 auto;
+            margin-top: 20px;
+        }
+    }
+=======
+  min-height: 200px;
+  overflow: auto;
+  position: sticky;
+  top: 25%;
+
+  .tax-preparation-inner-left,
+  .Accounting-Services-inner-right,
+  .Business-Advisory-inner-right {
+    background: rgb(236, 242, 243);
+    background: linear-gradient(
+      90deg,
+      rgb(236, 242, 243) 0%,
+      rgb(250, 252, 252) 100%
+    );
+    // padding-bottom: 50px;
+
+    h2 {
+      text-transform: capitalize;
+      padding: 30px;
+      margin-bottom: 0;
+      color: var(--black);
+    }
+
+    .tax-preparation-inner-links,
+    .Bookkeeping-Services-inner-links,
+    .Business-Advisory-inner-links {
+      width: 100%;
+      font-size: 17px;
+      font-weight: 600;
+      color: var(--text-desc);
+      font-family: var(--Montserrat);
+      display: flex;
+      padding: 12px 16px 12px 30px;
+      justify-content: space-between;
+
+      .short-button {
+        visibility: hidden;
+
+        button {
+          width: 32px;
+          height: 32px;
+          border-radius: 10px;
+          background-color: var(--white);
+          color: var(--main-color);
+          border: none;
+        }
+      }
+
+      &:hover {
+        color: var(--main-color);
+
+        .short-button {
+          visibility: hidden;
+        }
+      }
+
+      p {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 0;
+        letter-spacing: 0.2px;
+      }
+
+      p::before {
+        content: "• ";
+        font-size: 38px;
+        line-height: 0;
+        margin-top: -7px;
+        padding-right: 20px;
+      }
+
+      ul {
+        margin-bottom: 0rem;
+
+        li {
+          list-style: disc;
+        }
+      }
+    }
+  }
+
+  .connect-with-us-card {
+    background-image: url(../../../Assests/Img//SectorsBg.webp);
+    padding: 80px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: var(--white);
+
+    .sub-head {
+      color: var(--white);
+      font-size: 15px;
+      letter-spacing: 0;
+      font-weight: 500;
+      margin-bottom: 0;
+    }
+
+    .main-head {
+      font-size: 30px;
+      color: var(--white);
+    }
+
+    .text-desc {
+      color: var(--white);
+      font-size: 15px;
+      font-weight: 500;
+    }
+
+    .bg-remove-btn-svg {
+      button {
+        align-items: center;
+        background-color: #0000;
+        border: 1px solid var(--white);
+        border-radius: 6px;
+        color: #fff;
+        color: var(--white);
+        display: flex;
+        font-family: var(--Montserrat) !important;
+        justify-content: space-between;
+        padding: 12px 20px;
+        text-transform: capitalize;
+        width: auto;
+        transition: all 0.3s ease-in-out !important;
+
+        span {
+          align-items: center;
+          background-color: var(--white);
+          border-radius: 10px;
+          color: var(--main-color);
+          display: flex;
+          height: 30px;
+          justify-content: center;
+          width: 30px;
+          transition: all 0.3s ease-in-out;
+        }
+
+        &:hover {
+          background-color: var(--white);
+          color: var(--main-color);
+          transition: all 0.3s ease-in-out;
+
+          span {
+            background-color: var(--main-color);
+            color: var(--white);
+            transition: all 0.3s ease-in-out;
+          }
+        }
+      }
+    }
+  }
+}
+
+.TaxInnerPage {
+  .about-banner-common {
+    .right-text {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+
+      .common-btn {
+        display: none;
+      }
+    }
+  }
+
+  #tax-preparation-inner {
+    padding-bottom: 30px;
+    padding-left: 80px;
+    padding-right: 80px;
+
+    .tax-preparation-inner-row {
+      .tax-preparation-inner-right {
+        padding-left: 15px;
+
+        img {
+          border-radius: 0 25px;
+        }
+
+        .tax-preparation-inner-right-text {
+          padding-top: 40px;
+
+          .sub-head {
+            font-size: 18px;
+            font-weight: 600;
+            letter-spacing: 0;
+            line-height: 1.8rem;
+            color: #000;
+          }
+
+          .main-head {
+            font-size: 33px;
+            line-height: 2.6rem;
+          }
+
+          .text-desc {
+            font-size: 17px;
+            padding-top: 10px;
+          }
+
+          .check-list {
+            li {
+              margin-top: 20px;
+              margin-bottom: 0;
+
+              svg {
+                font-size: 26px;
+              }
+
+              span {
+                color: var(--black);
+                font-size: 18px;
+                padding-left: 5px;
+              }
+
+              p {
+                margin-bottom: 0;
+                padding-left: 32px;
+                padding-top: 3px;
+                font-size: 15px;
+              }
+            }
+          }
+
+          .FinancialPartnerboxes {
+            background-image: url(../../../Assests/Img/corevalueboxes.webp);
+            padding: 40px 20px;
+            border-radius: 10px;
+            color: var(--white);
+            // height: 200px;
+            margin-top: 22px;
+            background-position: left !important;
+            background-color: var(--main-color);
+
+            b {
+              color: var(--white);
+            }
+
+            h3 {
+              text-transform: capitalize;
+              font-size: 21px;
+            }
+
+            p {
+              font-size: 16px;
+              margin-bottom: 0;
+              color: #e9ecef;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  #ask-us {
+    .bg-remove-btn-svg {
+      width: fit-content;
+      margin: 0 auto;
+      margin-top: 20px;
+    }
+  }
+>>>>>>> 2bf065d (content added)
+}
+
+// for taxes page css end
+// ------------------------------
+// Accounting Services page start
+#Bookkeeping-Accounting-Services,
+#BusinessAdvisory,
+#Business-Advisory-services,
+#comprehensive-business-advisory-solutions,
+#Business-Advisory-process,
+#fun-fact,
+#ask-us,
+#Financial-Audits,
+#Cryptocurrency,
+section#Business-Advisory-Solutions {
+<<<<<<< HEAD
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.bookkeeping-services-content .how-it-works-box {
+    margin-bottom: 50px;
+}
+
+div#AuditAndAssurance .bookkeeping-services-content .how-it-works-box {
+    height: 200px;
+}
+
+div#Crypto .bookkeeping-services-content .how-it-works-box {
+    height: 200px;
+}
+
+#bookkeeping-services {
+    background: linear-gradient(90deg, #ecf2f3, #fafcfc);
+    padding: 70px 80px;
+}
+
+.AccountingInnerPage {
+    .Accounting-Services-inner-left {
+        img {
+            height: 450px;
+            object-fit: cover;
+            border-radius: 0 30px;
+        }
+    }
+
+    .Accounting-Services-inner-right-outer {
+        .Accounting-Services-inner-right {
+
+            .Bookkeeping-Services-inner-links {
+                p {
+                    font-weight: 500;
+                }
+            }
+        }
+    }
+
+    #fun-fact {
+        margin-top: 60px;
+
+        .funfact-box-outer {
+            padding-left: 40px;
+            padding-top: 30px;
+
+            img {
+                width: 15%;
+            }
+        }
+    }
+
+    #Bookkeeping-Accounting-Services {
+        .Accounting-Services-inner-right-outer {
+            min-height: auto;
+            position: static;
+
+            .Accounting-Services-inner-right {
+                // padding-bottom: 70px;
+            }
+        }
+    }
+
+    #ask-us {
+        .bg-remove-btn-svg {
+            margin: 0 auto;
+            width: fit-content;
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+    }
+}
+
+#outsouced-bookeeping {
+    padding: 70px 80px 60px 80px;
+
+    h2 {
+        font-size: 40px;
+    }
+
+    p {
+        font-size: 17px;
+    }
+
+
+    .check-list {
+        padding-top: 30px;
+
+        .outsouced-bookeeping-list {
+            padding-top: 30px;
+
+            li {
+                padding-bottom: 50px;
+
+                span {
+                    color: var(--black);
+                    font-size: 20px;
+                }
+
+                p {
+                    padding-right: 0;
+                    font-size: 16px;
+                    padding-left: 36px;
+                    padding-top: 8px;
+                }
+            }
+        }
+    }
+=======
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+.bookkeeping-services-content .how-it-works-box {
+  margin-bottom: 50px;
+}
+
+div#AuditAndAssurance .bookkeeping-services-content .how-it-works-box {
+  height: 200px;
+}
+#AuditAndAssurance #Financial-Audits {
+  padding-top: 0px;
+}
+div#Crypto .bookkeeping-services-content .how-it-works-box {
+  height: 200px;
+}
+
+#bookkeeping-services {
+  background: linear-gradient(90deg, #ecf2f3, #fafcfc);
+  padding: 70px 80px;
+}
+
+.AccountingInnerPage {
+  .Accounting-Services-inner-left {
+    img {
+      height: 450px;
+      object-fit: cover;
+      border-radius: 0 30px;
+    }
+  }
+
+  .Accounting-Services-inner-right-outer {
+    .Accounting-Services-inner-right {
+      .Bookkeeping-Services-inner-links {
+        p {
+          font-weight: 500;
+        }
+      }
+    }
+  }
+
+  #fun-fact {
+    margin-top: 60px;
+
+    .funfact-box-outer {
+      padding-left: 40px;
+      padding-top: 30px;
+
+      img {
+        width: 15%;
+      }
+    }
+  }
+
+  #Bookkeeping-Accounting-Services {
+    .Accounting-Services-inner-right-outer {
+      min-height: auto;
+      position: static;
+
+      .Accounting-Services-inner-right {
+        // padding-bottom: 70px;
+      }
+    }
+  }
+
+  #ask-us {
+    .bg-remove-btn-svg {
+      margin: 0 auto;
+      width: fit-content;
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+  }
+}
+
+#outsouced-bookeeping {
+  padding: 70px 80px 60px 80px;
+
+  h2 {
+    font-size: 40px;
+  }
+
+  p {
+    font-size: 17px;
+  }
+
+  .check-list {
+    padding-top: 30px;
+
+    .outsouced-bookeeping-list {
+      padding-top: 30px;
+
+      li {
+        padding-bottom: 50px;
+
+        span {
+          color: var(--black);
+          font-size: 20px;
+        }
+
+        p {
+          padding-right: 0;
+          font-size: 16px;
+          padding-left: 36px;
+          padding-top: 8px;
+        }
+      }
+    }
+  }
+>>>>>>> 2bf065d (content added)
+}
+
+#bookkeeping-services,
+#Business-Advisory-services {
+<<<<<<< HEAD
+
+    .bookkeeping-services-content,
+    .Business-Advisory-services-content {
+        // padding-right: 40px;
+
+        .main-head {
+            font-size: 40px;
+        }
+
+        .text-desc {
+            padding-top: 5px;
+            font-size: 17px;
+        }
+
+        .Monthly-Bookkeeping,
+        .Bank-Reconciliation {
+            margin-top: 15px;
+        }
+
+
+        .bookkeeping-services-inner {
+            padding-top: 45px;
+            text-align: center;
+        }
+
+        .Monthly-Bookkeeping,
+        .Budgeting-Forecasting,
+        .Budgeting-and-Forecasting {
+            padding-right: 25px;
+        }
+
+        .Bank-Reconciliation,
+        .Financial-Statement,
+        .Track-Cash-Flow,
+        .Tax-Compliance {
+            padding-left: 25px;
+        }
+
+        .how-it-works-box,
+        .Business-Advisory-box {
+            border: 1px solid #4a4a4a;
+            padding: 25px 30px 25px 30px;
+            border-radius: 15px;
+            position: relative;
+            height: 260px;
+
+            h2 {
+                font-size: 22px;
+                font-family: var(--Montserrat);
+                font-weight: 600;
+                margin-bottom: 0;
+            }
+
+            p {
+                font-size: 15px;
+                margin-bottom: 0;
+            }
+
+            img {
+                width: 50px;
+                position: absolute;
+                left: -16px;
+                bottom: -35px;
+            }
+        }
+    }
+
+    .Business-Advisory-services-content {
+        padding-right: 0;
+
+        .Business-Advisory-services-left {
+            padding-right: 50px;
+
+            .main-head {
+                line-height: 3.1rem;
+            }
+
+            .text-desc {
+                text-align: justify;
+                font-size: 15px;
+            }
+        }
+
+        .Business-Advisory-box {
+            height: 172px;
+            padding: 30px 20px;
+
+            .main-head {
+                line-height: 1.7rem;
+                font-size: 18px;
+            }
+
+            p {
+                padding-top: 5px;
+                text-align: justify;
+                font-size: 15px;
+            }
+        }
+
+    }
+
+    .img {
+        background: url(../../../../src/Assests/Img/Accounting-Services-works.webp);
+        border-radius: 15px;
+    }
+=======
+  .bookkeeping-services-content,
+  .Business-Advisory-services-content {
+    // padding-right: 40px;
+
+    .main-head {
+      font-size: 40px;
+    }
+
+    .text-desc {
+      padding-top: 5px;
+      font-size: 17px;
+    }
+
+    .Monthly-Bookkeeping,
+    .Bank-Reconciliation {
+      margin-top: 15px;
+    }
+
+    .bookkeeping-services-inner {
+      padding-top: 45px;
+      text-align: center;
+    }
+
+    .Monthly-Bookkeeping,
+    .Budgeting-Forecasting,
+    .Budgeting-and-Forecasting {
+      padding-right: 25px;
+    }
+
+    .Bank-Reconciliation,
+    .Financial-Statement,
+    .Track-Cash-Flow,
+    .Tax-Compliance {
+      padding-left: 25px;
+    }
+
+    .how-it-works-box,
+    .Business-Advisory-box {
+      border: 1px solid #4a4a4a;
+      padding: 25px 30px 25px 30px;
+      border-radius: 15px;
+      position: relative;
+      height: 260px;
+
+      h2 {
+        font-size: 22px;
+        font-family: var(--Montserrat);
+        font-weight: 600;
+        margin-bottom: 0;
+      }
+
+      p {
+        font-size: 15px;
+        margin-bottom: 0;
+      }
+
+      img {
+        width: 50px;
+        position: absolute;
+        left: -16px;
+        bottom: -35px;
+      }
+    }
+  }
+
+  .Business-Advisory-services-content {
+    padding-right: 0;
+
+    .Business-Advisory-services-left {
+      padding-right: 50px;
+
+      .main-head {
+        line-height: 3.1rem;
+      }
+
+      .text-desc {
+        text-align: justify;
+        font-size: 15px;
+      }
+    }
+
+    .Business-Advisory-box {
+      height: 172px;
+      padding: 30px 20px;
+
+      .main-head {
+        line-height: 1.7rem;
+        font-size: 18px;
+      }
+
+      p {
+        padding-top: 5px;
+        text-align: justify;
+        font-size: 15px;
+      }
+    }
+  }
+
+  .img {
+    background: url(../../../../src/Assests/Img/Accounting-Services-works.webp);
+    border-radius: 15px;
+  }
+>>>>>>> 2bf065d (content added)
+}
+
+// Accounting Services page end
+// =============================
+// Advisory & Consulting page start
+#BusinessAdvisory {
+<<<<<<< HEAD
+    .Business-Advisory-inner-right {
+        background: var(--main-color);
+        color: var(--white);
+        border: 1px solid #004f59;
+
+        h2 {
+            font-size: 30px;
+            color: var(--white);
+        }
+
+        .Business-Advisory-inner-links {
+            p {
+                color: #8d8887;
+            }
+        }
+    }
+
+    .Business-Advisory-inner-left {
+        img {
+            border-radius: 0 10px;
+            height: 540px;
+            object-fit: cover;
+        }
+    }
+}
+
+#Business-Advisory-services {
+    padding-top: 80px;
+}
+
+#comprehensive-business-advisory-solutions {
+    background-image: url(../../../../src/Assests/Img/SectorsBg.webp);
+    padding-top: 80px;
+    padding-bottom: 80px;
+    margin-top: 80px;
+
+    .sub-head {
+        color: var(--white);
+    }
+
+    .main-head {
+        color: var(--white);
+    }
+
+    .text-desc {
+        color: #8d8887;
+        font-size: 16px;
+        padding-top: 25px;
+    }
+
+    .comprehensive-business-advisory-solutions-left {
+        padding-right: 10px;
+
+        img {
+            border-radius: 0 20px;
+            height: 350px;
+            object-fit: cover;
+            margin-top: 13px;
+        }
+    }
+
+    .accordion {
+        padding-left: 40px;
+
+        .accordion-item {
+            background-color: transparent;
+            border: none;
+            color: var(--white);
+
+            .accordion-button:not(.collapsed),
+            .accordion-button {
+                background-color: transparent;
+                color: var(--white);
+                box-shadow: none;
+                padding: 0;
+                font-family: var(--Montserrat);
+                font-weight: 500;
+                font-size: 18px;
+                padding: 30px 0 0 0;
+
+                span {
+                    font-weight: 300;
+                    padding-right: 20px;
+                    font-size: 16px;
+                }
+
+                p {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    margin-bottom: 0;
+                    font-size: 16px;
+                }
+            }
+
+            .accordion-button:not(.collapsed)::after {
+                transform: none;
+            }
+        }
+
+        .accordion-body {
+            padding: 0;
+            color: #8d8887;
+            font-family: var(--Montserrat);
+            font-size: 15px;
+            text-align: justify;
+            margin-left: 35px;
+            padding-right: 50px;
+            padding-top: 20px;
+        }
+
+        .accordion-button::after {
+            content: "";
+            display: inline-block;
+            background: url('../../../Assests/Img/top-right.png') no-repeat center center;
+            background-size: auto;
+            transition: transform 0.3s ease;
+            padding: 13px;
+            border-radius: 7px;
+            background-color: var(--white);
+        }
+
+
+        .accordion-button:focus {
+            box-shadow: none;
+            border-color: transparent;
+        }
+
+        .line {
+            border: 1px solid #335b60;
+            margin-left: 35px;
+            margin-top: 30px;
+        }
+    }
+
+}
+
+.Business-Advisory-process {
+    padding-top: 80px;
+
+    .Business-Advisory-process-inner {
+        text-align: center;
+
+        .text-desc {
+            padding: 8px 180px 0 180px;
+        }
+
+        .sectors-box {
+            padding-top: 30px !important;
+            padding-bottom: 0px !important;
+
+            .icon-box {
+                padding-bottom: 0px !important;
+
+                h3 {
+                    font-size: 19px !important;
+                    line-height: 1.6rem;
+                }
+            }
+        }
+    }
+}
+
+#Cryptocurrency {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+section#Business-Advisory-Solutions {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background: linear-gradient(90deg, rgb(236, 242, 243) 0%, rgb(250, 252, 252) 100%);
+
+    .top-head {
+        text-align: center;
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+
+    .text-desc {
+        padding-top: 10px;
+    }
+
+    .box {
+        padding: 30px;
+        border-radius: 20px;
+        background: #fff;
+        text-align: center;
+        height: 300px;
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: left;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
+        h2 {
+            background-color: var(--main-color);
+            color: var(--white);
+            width: 60px;
+            height: 60px;
+            margin: 0 auto;
+            border-radius: 50px;
+            font-size: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: var(--Montserrat);
+        }
+
+        h3 {
+            font-size: 24px;
+            padding-top: 15px;
+            color: var(--black);
+        }
+
+        .text-desc {
+            font-size: 16px;
+            padding-top: 10px;
+        }
+    }
+}
+
+.AdvisoryConsulting {
+    .taxation-inner {
+        padding-top: 40px;
+    }
+
+    #taxation {
+        .Professionals-text-desc {
+            padding-top: 35px;
+        }
+    }
+
+    #why-choose-us {
+        .img {
+            img {
+                height: 500px;
+                object-fit: cover;
+            }
+        }
+    }
+=======
+  .Business-Advisory-inner-right {
+    background: var(--main-color);
+    color: var(--white);
+    border: 1px solid #004f59;
+
+    h2 {
+      font-size: 30px;
+      color: var(--white);
+    }
+
+    .Business-Advisory-inner-links {
+      p {
+        color: #8d8887;
+      }
+    }
+  }
+
+  .Business-Advisory-inner-left {
+    img {
+      border-radius: 0 10px;
+      height: 540px;
+      object-fit: cover;
+    }
+  }
+}
+
+#Business-Advisory-services {
+  padding-top: 80px;
+}
+
+#comprehensive-business-advisory-solutions {
+  background-image: url(../../../../src/Assests/Img/SectorsBg.webp);
+  padding-top: 80px;
+  padding-bottom: 80px;
+  margin-top: 80px;
+
+  .sub-head {
+    color: var(--white);
+  }
+
+  .main-head {
+    color: var(--white);
+  }
+
+  .text-desc {
+    color: #fff;
+    font-size: 16px;
+    padding-top: 25px;
+  }
+
+  .comprehensive-business-advisory-solutions-left {
+    padding-right: 10px;
+
+    img {
+      border-radius: 0 20px;
+      height: 350px;
+      object-fit: cover;
+      margin-top: 13px;
+    }
+  }
+
+  .accordion {
+    padding-left: 40px;
+
+    .accordion-item {
+      background-color: transparent;
+      border: none;
+      color: var(--white);
+
+      .accordion-button:not(.collapsed),
+      .accordion-button {
+        background-color: transparent;
+        color: var(--white);
+        box-shadow: none;
+        padding: 0;
+        font-family: var(--Montserrat);
+        font-weight: 500;
+        font-size: 18px;
+        padding: 30px 0 0 0;
+        display: flex;
+        justify-content: space-between;
+        .question {
+          display: flex;
+        }
+        span {
+          font-weight: 300;
+          padding-right: 20px;
+          font-size: 16px;
+        }
+
+        p {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          margin-bottom: 0;
+          font-size: 16px;
+        }
+        .faq-icon {
+          background-color: var(--white);
+          width: 30px;
+          height: 30px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          border-radius: 5px;
+          svg {
+            color: var(--main-color);
+          }
+        }
+      }
+      button.accordion-button.collapsed .faq-icon svg {
+        rotate: 0deg;
+      }
+      button.accordion-button .faq-icon svg {
+        rotate: 180deg;
+      }
+      .accordion-button::after {
+        display: none;
+      }
+      // .accordion-button::after {
+      // }
+      // .accordion-button:not(.collapsed)::after {
+      //   transform: none;
+      //   background-image: url(../../../Assests/Img/faq-down.svg);
+      // }
+      // .accordion-button::after {
+      //   background-image: url(../../../Assests/Img/faq-down.svg);
+      // }
+    }
+
+    .accordion-body {
+      padding: 0;
+      color: #fff;
+      font-family: var(--Montserrat);
+      font-size: 15px;
+      text-align: justify;
+      margin-left: 35px;
+      padding-right: 50px;
+      padding-top: 20px;
+    }
+    // .accordion-button::after {
+    //   content: "";
+    //   display: inline-block;
+    //   background: url("../../../Assests/Img/faq-icon.png") no-repeat center
+    //     center;
+    //   background-size: auto;
+    //   transition: transform 0.3s ease;
+    //   padding: 13px;
+    //   border-radius: 7px;
+    //   background-color: var(--white);
+    //   rotate: 315deg;
+    // }
+
+    .accordion-button:focus {
+      box-shadow: none;
+      border-color: transparent;
+    }
+
+    .line {
+      border: 1px solid #335b60;
+      margin-left: 35px;
+      margin-top: 30px;
+    }
+  }
+}
+
+.Business-Advisory-process {
+  padding-top: 80px;
+
+  .Business-Advisory-process-inner {
+    text-align: center;
+
+    .text-desc {
+      padding: 8px 180px 0 180px;
+    }
+
+    .sectors-box {
+      padding-top: 30px !important;
+      padding-bottom: 0px !important;
+
+      .icon-box {
+        padding-bottom: 0px !important;
+
+        h3 {
+          font-size: 19px !important;
+          line-height: 1.6rem;
+        }
+      }
+    }
+  }
+}
+
+#Cryptocurrency {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+section#Business-Advisory-Solutions {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background: linear-gradient(
+    90deg,
+    rgb(236, 242, 243) 0%,
+    rgb(250, 252, 252) 100%
+  );
+
+  .top-head {
+    text-align: center;
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+
+  .text-desc {
+    padding-top: 10px;
+  }
+
+  .box {
+    padding: 30px;
+    border-radius: 20px;
+    background: #fff;
+    text-align: center;
+    height: 300px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: left;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
+    h2 {
+      background-color: var(--main-color);
+      color: var(--white);
+      width: 60px;
+      height: 60px;
+      margin: 0 auto;
+      border-radius: 50px;
+      font-size: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: var(--Montserrat);
+    }
+
+    h3 {
+      font-size: 24px;
+      padding-top: 15px;
+      color: var(--black);
+    }
+
+    .text-desc {
+      font-size: 16px;
+      padding-top: 10px;
+    }
+  }
+}
+
+.AdvisoryConsulting {
+  .taxation-inner {
+    padding-top: 40px;
+  }
+
+  #taxation {
+    .Professionals-text-desc {
+      padding-top: 35px;
+    }
+  }
+
+  #why-choose-us {
+    .img {
+      img {
+        height: 500px;
+        object-fit: cover;
+      }
+    }
+  }
+>>>>>>> 2bf065d (content added)
+}
+
+// Advisory & Consulting page end
+
+<<<<<<< HEAD
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+    // all service-inner-page
+    .service-inner {
+        #about-banner {
+            padding-top: 30px;
+            text-align: center;
+            padding-bottom: 30px;
+
+            .slider-img {
+                padding-right: 0;
+
+                img {
+                    padding-right: 0;
+                }
+            }
+
+            .right-text {
+                text-align: center;
+
+                h1 {
+                    font-size: 30px;
+                    padding-top: 20px;
+                }
+
+                p {
+                    font-size: 16px;
+                    padding-top: 10px;
+                }
+            }
+        }
+
+        #taxation {
+            text-align: center;
+
+            .Professionals-text {
+                justify-content: center;
+            }
+
+            .taxation-inner {
+                padding-top: 0;
+
+                .icon-box {
+                    padding-left: 0;
+                    padding-right: 0;
+                    margin-bottom: 0;
+                    padding-top: 40px;
+                    text-align: center;
+
+                    .main-head {
+                        padding-right: 0;
+                    }
+
+                    .short-button {
+                        margin: 0 auto;
+                    }
+
+                    img {
+                        display: none;
+                    }
+                }
+            }
+
+            .Professionals-text-desc {
+                .text-desc {
+                    padding-top: 15px;
+                }
+            }
+        }
+
+        #why-choose-us {
+            text-align: center;
+
+            .check-list {
+                text-align: left;
+                padding-top: 30px;
+
+                li {
+                    span {
+                        font-size: 15px;
+                    }
+
+                    p {
+                        padding-left: 0;
+                    }
+                }
+            }
+
+            .img {
+                img {
+                    height: 450px;
+                }
+            }
+        }
+
+        #how-it-works {
+            padding-bottom: 80px;
+
+            .row {
+                justify-content: center;
+            }
+
+            .how-it-works-icons {
+                justify-content: center;
+
+                .icon-box {
+                    padding: 0;
+                    padding-top: 30px;
+
+                    .icon {
+                        img {
+                            width: 80px;
+                            padding: 25px;
+                        }
+                    }
+                }
+            }
+        }
+
+        #servicesSlider {
+            padding-bottom: 50px;
+        }
+
+        #connect-with-us {
+            text-align: center;
+            margin-bottom: 0;
+
+            .bg-remove-btn-svg {
+                margin: 0 auto;
+            }
+        }
+
+        .right-img-section {
+            padding-top: 50px;
+            padding-bottom: 50px;
+            text-align: left !important;
+        }
+
+        #why-choose-us {
+            .left-text {
+                padding-right: 0;
+                padding-left: 0;
+            }
+        }
+
+    }
+
+    .service-inner #taxation .taxation-inner .remove-icon-box-spacing h1 {
+        padding-right: 0px !important;
+    }
+
+    // TaxInnerPage
+    .TaxInnerPage {
+        #inner-page-banner {
+            padding: 0;
+
+            .container-fluid {
+                padding: 40px 15px;
+            }
+        }
+
+        #tax-preparation-inner {
+            margin-top: 60px;
+
+            .tax-preparation-inner-row {
+                .tax-preparation-inner-right {
+                    padding-left: 0;
+                    margin-top: 30px;
+
+                    .tax-preparation-inner-right-text {
+                        text-align: center;
+
+                        .funfact-box-outer {
+                            margin-left: 4px;
+
+                            .funfact-box {
+                                padding-top: 20px;
+                                padding-bottom: 20px;
+
+                                img {
+                                    width: 50px;
+                                }
+                            }
+                        }
+
+                        .main-head {
+                            font-size: 28px;
+                            line-height: 2.3rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .AccountingInnerPage {
+        #inner-page-banner {
+            padding: 0;
+
+            .container-fluid {
+                padding: 40px 15px;
+            }
+        }
+
+        .Accounting-Services-inner-left img {
+            height: auto;
+        }
+
+        #Bookkeeping-Accounting-Services,
+        #fun-fact,
+        #outsouced-bookeeping,
+        #bookkeeping-services,
+        #ask-us {
+            padding-top: 60px;
+            padding-left: 15px;
+            padding-right: 15px;
+
+            .Accounting-Services-inner-right-outer {
+                .Accounting-Services-inner-right {
+                    margin-top: 50px;
+                }
+            }
+        }
+
+        #fun-fact {
+            padding-bottom: 0px;
+            padding-top: 0;
+
+            .funfact-box-outer {
+                padding-left: 15px;
+
+                .funfact-box {
+                    padding-bottom: 30px;
+                }
+            }
+        }
+
+        #outsouced-bookeeping {
+            h2 {
+                font-size: 30px;
+                padding-bottom: 10px !important;
+            }
+
+            .check-list {
+                padding-top: 0;
+
+                .outsouced-bookeeping-list {
+                    li {
+                        padding-bottom: 10px;
+
+                        span {
+                            font-size: 18px;
+                        }
+
+                        p {
+                            padding-left: 0;
+                        }
+                    }
+                }
+            }
+        }
+
+        #bookkeeping-services {
+            padding-bottom: 50px;
+
+            .bookkeeping-services-content {
+                .main-head {
+                    font-size: 30px;
+                }
+
+                .how-it-works-box {
+                    height: auto;
+                    margin-bottom: 20px;
+
+                    .main-head {
+                        font-size: 18px;
+                        line-height: 1.7rem;
+                    }
+                }
+
+                .Monthly-Bookkeeping,
+                .Bank-Reconciliation,
+                .Budgeting-Forecasting,
+                .Track-Cash-Flow,
+                .Budgeting-and-Forecasting,
+                .Tax-Compliance {
+                    padding-left: 15px;
+                    padding-right: 15px;
+                }
+
+                .bookkeeping-services-inner {
+                    padding-left: 15px;
+                    padding-right: 15px;
+                    padding-top: 30px;
+                }
+            }
+        }
+
+        #ask-us .main-head,
+        #ask-us p {
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+    }
+
+    div#Payroll {
+        #bookkeeping-services {
+            .bookkeeping-services-content {
+                .how-it-works-box {
+                    height: auto;
+                }
+
+                .Financial-Statement {
+                    padding-left: 15px;
+                }
+            }
+        }
+    }
+
+    div#AuditAndAssurance {
+        #Financial-Audits {
+            padding-left: 15px;
+            padding-right: 15px;
+
+            .main-head,
+            .text-desc {
+                padding: 0;
+            }
+        }
+    }
+
+    #bookkeeping-services {
+        .bookkeeping-services-content {
+            .how-it-works-box {
+                padding: 20px;
+            }
+
+            .Financial-Statement {
+                padding-left: 15px;
+            }
+        }
+    }
+
+    div#Crypto {
+        #Cryptocurrency {
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+    }
+
+    #ControllershipServices,
+    div#SuccessionPlanning,
+    div#TaxAndFinancialPlanning {
+
+        #BusinessAdvisory,
+        #Business-Advisory-services {
+            padding-left: 15px;
+            padding-right: 15px;
+
+            .Business-Advisory-inner-left {
+                img {
+                    height: auto;
+                }
+            }
+        }
+
+        #Business-Advisory-services {
+            padding-top: 50px;
+
+            .Business-Advisory-box {
+                height: auto;
+                padding: 20px;
+                margin-bottom: 20px;
+            }
+        }
+
+        #comprehensive-business-advisory-solutions {
+            margin-top: 50px;
+            padding-left: 15px;
+            padding-right: 15px;
+
+            .accordion {
+                padding-left: 15px;
+                margin-top: 30px;
+            }
+        }
+
+        section#Business-Advisory-Solutions {
+            padding-left: 15px;
+            padding-right: 15px;
+
+            .top-head {
+                padding-left: 0;
+                padding-right: 0;
+            }
+
+            .box {
+                height: auto;
+            }
+        }
+
+        .Business-Advisory-process {
+            .Business-Advisory-process-inner {
+                .row {
+                    justify-content: center;
+                }
+
+                .text-desc {
+                    padding: 0;
+                }
+            }
+        }
+
+        #ask-us {
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+
+        #ask-us .main-head,
+        #ask-us p {
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+    }
+
+    div#SuccessionPlanning,
+    #TaxAndFinancialPlanning {
+
+        .Business-Advisory-process {
+            padding-bottom: 30px;
+
+            .Business-Advisory-process-inner {
+                .text-desc {
+                    padding-left: 0;
+                    padding-right: 0;
+                }
+
+                .row {
+                    justify-content: center;
+                }
+
+                .sectors-box {
+                    .icon-box {
+                        margin-bottom: 30px;
+                        padding: 0;
+                    }
+                }
+            }
+        }
+    }
+
+    #TaxAndFinancialPlanning {
+        #Business-Advisory-services {
+            .Business-Advisory-services-content {
+                .Business-Advisory-box {
+                    height: auto;
+                }
+            }
+        }
+
+        #comprehensive-business-advisory-solutions .main-head {
+            width: 100%;
+        }
+    }
+
+    // advisory-consulting inner page
+    #BusinessAndAdvisory,
+    div#CFO,
+    div#ControllershipServices,
+    div#SuccessionPlanning,
+    div#TaxAndFinancialPlanning,
+    div#MAStrategy {
+        #BusinessAdvisory {
+            margin-top: 40px;
+
+            .Business-Advisory-inner-left {
+                img {
+                    height: auto;
+                    margin-top: 30px;
+                }
+            }
+        }
+
+        #Business-Advisory-services {
+            padding-top: 50px;
+
+            .Business-Advisory-services-content .Business-Advisory-box {
+                height: auto;
+                margin-bottom: 30px;
+                padding: 20px;
+            }
+        }
+
+        #comprehensive-business-advisory-solutions {
+            margin-top: 30px;
+            text-align: center;
+
+            .main-head {
+                width: 100%;
+            }
+
+            .accordion {
+                margin-top: 30px;
+                padding-left: 0;
+
+                .accordion-item .accordion-button p {
+                    font-size: 17px;
+                }
+
+                .accordion-body {
+                    margin-left: 0;
+                    padding-right: 0;
+                }
+            }
+        }
+
+        #Business-Advisory-Solutions {
+            .box {
+                height: auto;
+            }
+        }
+
+        .Business-Advisory-process {
+            padding-bottom: 40px;
+
+            .row {
+                justify-content: center;
+            }
+
+            .sectors-box {
+                padding-left: 0;
+                padding-right: 0;
+
+                .icon-box {
+                    margin-bottom: 30px;
+                    padding-left: 0;
+                    padding-right: 0;
+                }
+            }
+        }
+
+        #ask-us {
+            .text-desc {
+                margin-top: 10px;
+                margin-bottom: 10px;
+            }
+        }
+    }
+}
+
+/* Extra small devices (tablets, 600px and down) */
+@media only screen and (min-width: 600px) and (max-width:992px) {
+    .padding-md-0 {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    // all service-inner-page
+    .service-inner {
+        #about-banner {
+            padding-top: 20px;
+
+            .slider-img {
+                padding-right: 0;
+
+                img {
+                    padding-right: 0;
+                }
+            }
+
+            .right-text {
+                text-align: center;
+                padding-top: 50px;
+
+                p {
+                    padding-top: 15px;
+                }
+            }
+        }
+
+        #taxation {
+            .Professionals-text-desc {
+                .text-desc {
+                    padding-top: 10px;
+                }
+            }
+
+            .taxation-inner {
+                .icon-box .main-head {
+                    padding-right: 0;
+                }
+            }
+        }
+
+        #why-choose-us {
+            .left-text {
+                padding-right: 0;
+            }
+
+            .img {
+                padding-top: 0;
+
+                img {
+                    width: 60%;
+                    height: 500px;
+                }
+            }
+        }
+
+        #how-it-works {
+            .how-it-works-icons {
+                padding-top: 30px !important;
+
+                .icon-box {
+                    padding-bottom: 20px;
+
+                    .icon {
+                        img {
+                            padding: 32px;
+                            width: 30%;
+                        }
+                    }
+                }
+            }
+        }
+
+        #connect-with-us {}
+
+    }
+
+    // TaxInnerPage
+    .TaxInnerPage {
+        #inner-page-banner {
+            padding: 0;
+
+            .container-fluid {
+                padding: 60px 15px;
+            }
+        }
+
+        #tax-preparation-inner {
+            margin-top: 50px;
+        }
+    }
+
+    // AccountingInnerPage
+    .AccountingInnerPage {
+        #inner-page-banner {
+            padding: 0;
+        }
+
+        #Bookkeeping-Accounting-Services {
+            margin-top: 40px;
+        }
+
+        #outsouced-bookeeping {
+            p {
+                padding-right: 0;
+            }
+
+            .check-list {
+                padding-top: 0;
+            }
+        }
+
+        #ask-us {
+            .main-head {
+                line-height: 3.4rem;
+            }
+
+            .main-head,
+            p {
+                padding-left: 0;
+                padding-right: 0;
+            }
+        }
+    }
+
+    div#Bookkeeping-Services {
+        #bookkeeping-services {
+            .bookkeeping-services-content {
+                .how-it-works-box {
+                    height: 400px;
+
+                    h2 {
+                        line-height: 2.1rem;
+                    }
+                }
+            }
+        }
+    }
+
+    div#financial-statements {
+        #bookkeeping-services {
+            .bookkeeping-services-content {
+                .how-it-works-box {
+                    height: 290px;
+
+                    h2 {
+                        line-height: 2.1rem;
+                    }
+                }
+            }
+        }
+    }
+
+    div#Payroll {
+        #bookkeeping-services {
+            .bookkeeping-services-content {
+                .how-it-works-box {
+                    height: 260px;
+
+                    h2.main-head {
+                        line-height: 2rem;
+                    }
+                }
+            }
+        }
+    }
+
+    div#AuditAndAssurance {
+        .main-head {
+            line-height: 2.8rem;
+        }
+
+        #bookkeeping-services {
+            .bookkeeping-services-content {
+                .main-head {
+                    line-height: 2rem;
+                    padding-bottom: 20px;
+                }
+
+                .how-it-works-box {
+                    height: 290px;
+                }
+            }
+        }
+    }
+
+    div#Crypto {
+        #bookkeeping-services {
+            .bookkeeping-services-content {
+
+                .how-it-works-box {
+                    height: 260px;
+
+                    h2.main-head {
+                        line-height: 2rem;
+                    }
+                }
+            }
+        }
+    }
+
+    // AdvisoryConsulting
+    .AdvisoryConsulting {
+        #taxation .Professionals-text-desc {
+            padding-top: 0px;
+        }
+    }
+
+    // advisory-consulting inner page
+    #BusinessAndAdvisory,
+    div#CFO,
+    div#ControllershipServices,
+    div#SuccessionPlanning,
+    div#TaxAndFinancialPlanning,
+    div#MAStrategy {
+        #BusinessAdvisory {
+            margin-top: 40px;
+        }
+
+        #Business-Advisory-services .Business-Advisory-services-content .Business-Advisory-box {
+            height: 180px;
+            margin-bottom: 20px;
+
+            p {
+                text-align: left;
+
+            }
+        }
+
+        #comprehensive-business-advisory-solutions {
+            margin-top: 50px;
+
+            .accordion {
+                margin-top: 30px;
+                padding-left: 0;
+            }
+        }
+
+        section#Business-Advisory-Solutions {
+            .top-head {
+                padding-left: 0;
+                padding-right: 0;
+            }
+        }
+
+        .Business-Advisory-process .Business-Advisory-process-inner .text-desc {
+            padding-left: 0;
+            padding-right: 0;
+        }
+
+        #ask-us .main-head,
+        #ask-us p {
+            padding-left: 0;
+            padding-right: 0;
+        }
+
+        #sectors {
+            padding-bottom: 40px;
+
+            .sectors-box {
+                .icon-box {
+                    margin-bottom: 30px;
+                }
+            }
+        }
+    }
+
+    #BusinessAndAdvisory {
+        #Business-Advisory-Solutions .box {
+            height: 400px;
+        }
+    }
+
+    div#CFO {
+        #Business-Advisory-Solutions .box {
+            height: 450px;
+        }
+    }
+
+    div#ControllershipServices {
+        #Business-Advisory-Solutions .box {
+            height: 480px;
+        }
+    }
+
+    div#SuccessionPlanning {
+        #Business-Advisory-Solutions .box {
+            height: 780px;
+        }
+    }
+
+    div#TaxAndFinancialPlanning {
+        #Business-Advisory-Solutions .box {
+            height: 500px;
+        }
+    }
+
+    div#MAStrategy {
+        #Business-Advisory-Solutions .box {
+            height: 450px;
+        }
+    }
+
+    div#ControllershipServices,
+    div#TaxAndFinancialPlanning,
+    div#MAStrategy {
+        #Business-Advisory-services {
+            .Business-Advisory-services-content {
+                .Business-Advisory-box {
+                    height: 220px;
+                }
+            }
+        }
+    }
+}
+=======
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  // all service-inner-page
+  .service-inner {
+    #about-banner {
+      padding-top: 30px;
+      text-align: center;
+      padding-bottom: 30px;
+
+      .slider-img {
+        padding-right: 0;
+
+        img {
+          padding-right: 0;
+        }
+      }
+
+      .right-text {
+        text-align: center;
+
+        h1 {
+          font-size: 30px;
+          padding-top: 20px;
+        }
+
+        p {
+          font-size: 16px;
+          padding-top: 10px;
+        }
+      }
+    }
+
+    #taxation {
+      text-align: center;
+
+      .Professionals-text {
+        justify-content: center;
+      }
+
+      .taxation-inner {
+        padding-top: 0;
+
+        .icon-box {
+          padding-left: 0;
+          padding-right: 0;
+          margin-bottom: 0;
+          padding-top: 40px;
+          text-align: center;
+
+          .main-head {
+            padding-right: 0;
+          }
+
+          .short-button {
+            margin: 0 auto;
+          }
+
+          img {
+            display: none;
+          }
+        }
+      }
+
+      .Professionals-text-desc {
+        .text-desc {
+          padding-top: 15px;
+        }
+      }
+    }
+
+    #why-choose-us {
+      text-align: center;
+
+      .check-list {
+        text-align: left;
+        padding-top: 30px;
+
+        li {
+          span {
+            font-size: 15px;
+          }
+
+          p {
+            padding-left: 0;
+          }
+        }
+      }
+
+      .img {
+        img {
+          height: 450px;
+        }
+      }
+    }
+
+    #how-it-works {
+      padding-bottom: 80px;
+
+      .row {
+        justify-content: center;
+      }
+
+      .how-it-works-icons {
+        justify-content: center;
+
+        .icon-box {
+          padding: 0;
+          padding-top: 30px;
+
+          .icon {
+            img {
+              width: 80px;
+              padding: 25px;
+            }
+          }
+        }
+      }
+    }
+
+    #servicesSlider {
+      padding-bottom: 50px;
+    }
+
+    #connect-with-us {
+      text-align: center;
+      margin-bottom: 0;
+
+      .bg-remove-btn-svg {
+        margin: 0 auto;
+      }
+    }
+
+    .right-img-section {
+      padding-top: 50px;
+      padding-bottom: 50px;
+      text-align: left !important;
+    }
+
+    #why-choose-us {
+      .left-text {
+        padding-right: 0;
+        padding-left: 0;
+      }
+    }
+  }
+
+  .service-inner #taxation .taxation-inner .remove-icon-box-spacing h1 {
+    padding-right: 0px !important;
+  }
+
+  // TaxInnerPage
+  .TaxInnerPage {
+    #inner-page-banner {
+      padding: 0;
+
+      .container-fluid {
+        padding: 40px 15px;
+      }
+    }
+
+    #tax-preparation-inner {
+      margin-top: 60px;
+
+      .tax-preparation-inner-row {
+        .tax-preparation-inner-right {
+          padding-left: 0;
+          margin-top: 30px;
+
+          .tax-preparation-inner-right-text {
+            text-align: center;
+
+            .funfact-box-outer {
+              margin-left: 4px;
+
+              .funfact-box {
+                padding-top: 20px;
+                padding-bottom: 20px;
+
+                img {
+                  width: 50px;
+                }
+              }
+            }
+
+            .main-head {
+              font-size: 28px;
+              line-height: 2.3rem;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .AccountingInnerPage {
+    #inner-page-banner {
+      padding: 0;
+
+      .container-fluid {
+        padding: 40px 15px;
+      }
+    }
+
+    .Accounting-Services-inner-left img {
+      height: auto;
+    }
+
+    #Bookkeeping-Accounting-Services,
+    #fun-fact,
+    #outsouced-bookeeping,
+    #bookkeeping-services,
+    #ask-us {
+      padding-top: 60px;
+      padding-left: 15px;
+      padding-right: 15px;
+
+      .Accounting-Services-inner-right-outer {
+        .Accounting-Services-inner-right {
+          margin-top: 50px;
+        }
+      }
+    }
+
+    #fun-fact {
+      padding-bottom: 0px;
+      padding-top: 0;
+
+      .funfact-box-outer {
+        padding-left: 15px;
+
+        .funfact-box {
+          padding-bottom: 30px;
+        }
+      }
+    }
+
+    #outsouced-bookeeping {
+      h2 {
+        font-size: 30px;
+        padding-bottom: 10px !important;
+      }
+
+      .check-list {
+        padding-top: 0;
+
+        .outsouced-bookeeping-list {
+          li {
+            padding-bottom: 10px;
+
+            span {
+              font-size: 18px;
+            }
+
+            p {
+              padding-left: 0;
+            }
+          }
+        }
+      }
+    }
+
+    #bookkeeping-services {
+      padding-bottom: 50px;
+
+      .bookkeeping-services-content {
+        .main-head {
+          font-size: 30px;
+        }
+
+        .how-it-works-box {
+          height: auto;
+          margin-bottom: 20px;
+
+          .main-head {
+            font-size: 18px;
+            line-height: 1.7rem;
+          }
+        }
+
+        .Monthly-Bookkeeping,
+        .Bank-Reconciliation,
+        .Budgeting-Forecasting,
+        .Track-Cash-Flow,
+        .Budgeting-and-Forecasting,
+        .Tax-Compliance {
+          padding-left: 15px;
+          padding-right: 15px;
+        }
+
+        .bookkeeping-services-inner {
+          padding-left: 15px;
+          padding-right: 15px;
+          padding-top: 30px;
+        }
+      }
+    }
+
+    #ask-us .main-head,
+    #ask-us p {
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+  }
+
+  div#Payroll {
+    #bookkeeping-services {
+      .bookkeeping-services-content {
+        .how-it-works-box {
+          height: auto;
+        }
+
+        .Financial-Statement {
+          padding-left: 15px;
+        }
+      }
+    }
+  }
+
+  div#AuditAndAssurance {
+    #Financial-Audits {
+      padding-left: 15px;
+      padding-right: 15px;
+
+      .main-head,
+      .text-desc {
+        padding: 0;
+      }
+    }
+  }
+
+  #bookkeeping-services {
+    .bookkeeping-services-content {
+      .how-it-works-box {
+        padding: 20px;
+      }
+
+      .Financial-Statement {
+        padding-left: 15px;
+      }
+    }
+  }
+
+  div#Crypto {
+    #Cryptocurrency {
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+  }
+
+  #ControllershipServices,
+  div#SuccessionPlanning,
+  div#TaxAndFinancialPlanning {
+    #BusinessAdvisory,
+    #Business-Advisory-services {
+      padding-left: 15px;
+      padding-right: 15px;
+
+      .Business-Advisory-inner-left {
+        img {
+          height: auto;
+        }
+      }
+    }
+
+    #Business-Advisory-services {
+      padding-top: 50px;
+
+      .Business-Advisory-box {
+        height: auto;
+        padding: 20px;
+        margin-bottom: 20px;
+      }
+    }
+
+    #comprehensive-business-advisory-solutions {
+      margin-top: 50px;
+      padding-left: 15px;
+      padding-right: 15px;
+
+      .accordion {
+        padding-left: 15px;
+        margin-top: 30px;
+      }
+    }
+
+    section#Business-Advisory-Solutions {
+      padding-left: 15px;
+      padding-right: 15px;
+
+      .top-head {
+        padding-left: 0;
+        padding-right: 0;
+      }
+
+      .box {
+        height: auto;
+      }
+    }
+
+    .Business-Advisory-process {
+      .Business-Advisory-process-inner {
+        .row {
+          justify-content: center;
+        }
+
+        .text-desc {
+          padding: 0;
+        }
+      }
+    }
+
+    #ask-us {
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+
+    #ask-us .main-head,
+    #ask-us p {
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+  }
+
+  div#SuccessionPlanning,
+  #TaxAndFinancialPlanning {
+    .Business-Advisory-process {
+      padding-bottom: 30px;
+
+      .Business-Advisory-process-inner {
+        .text-desc {
+          padding-left: 0;
+          padding-right: 0;
+        }
+
+        .row {
+          justify-content: center;
+        }
+
+        .sectors-box {
+          .icon-box {
+            margin-bottom: 30px;
+            padding: 0;
+          }
+        }
+      }
+    }
+  }
+
+  #TaxAndFinancialPlanning {
+    #Business-Advisory-services {
+      .Business-Advisory-services-content {
+        .Business-Advisory-box {
+          height: auto;
+        }
+      }
+    }
+
+    #comprehensive-business-advisory-solutions .main-head {
+      width: 100%;
+    }
+  }
+
+  // advisory-consulting inner page
+  #BusinessAndAdvisory,
+  div#CFO,
+  div#ControllershipServices,
+  div#SuccessionPlanning,
+  div#TaxAndFinancialPlanning,
+  div#MAStrategy {
+    #BusinessAdvisory {
+      margin-top: 40px;
+
+      .Business-Advisory-inner-left {
+        img {
+          height: auto;
+          margin-top: 30px;
+        }
+      }
+    }
+
+    #Business-Advisory-services {
+      padding-top: 50px;
+
+      .Business-Advisory-services-content .Business-Advisory-box {
+        height: auto;
+        margin-bottom: 30px;
+        padding: 20px;
+      }
+    }
+
+    #comprehensive-business-advisory-solutions {
+      margin-top: 30px;
+      text-align: center;
+
+      .main-head {
+        width: 100%;
+      }
+
+      .accordion {
+        margin-top: 30px;
+        padding-left: 0;
+
+        .accordion-item .accordion-button p {
+          font-size: 17px;
+        }
+
+        .accordion-body {
+          margin-left: 0;
+          padding-right: 0;
+        }
+      }
+    }
+
+    #Business-Advisory-Solutions {
+      .box {
+        height: auto;
+      }
+    }
+
+    .Business-Advisory-process {
+      padding-bottom: 40px;
+
+      .row {
+        justify-content: center;
+      }
+
+      .sectors-box {
+        padding-left: 0;
+        padding-right: 0;
+
+        .icon-box {
+          margin-bottom: 30px;
+          padding-left: 0;
+          padding-right: 0;
+        }
+      }
+    }
+
+    #ask-us {
+      .text-desc {
+        margin-top: 10px;
+        margin-bottom: 10px;
+      }
+    }
+  }
+}
+
+/* Extra small devices (tablets, 600px and down) */
+@media only screen and (min-width: 600px) and (max-width: 992px) {
+  .padding-md-0 {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  // all service-inner-page
+  .service-inner {
+    #about-banner {
+      padding-top: 20px;
+
+      .slider-img {
+        padding-right: 0;
+
+        img {
+          padding-right: 0;
+        }
+      }
+
+      .right-text {
+        text-align: center;
+        padding-top: 50px;
+
+        p {
+          padding-top: 15px;
+        }
+      }
+    }
+
+    #taxation {
+      .Professionals-text-desc {
+        .text-desc {
+          padding-top: 10px;
+        }
+      }
+
+      .taxation-inner {
+        .icon-box .main-head {
+          padding-right: 0;
+        }
+      }
+    }
+
+    #why-choose-us {
+      .left-text {
+        padding-right: 0;
+      }
+
+      .img {
+        padding-top: 0;
+
+        img {
+          width: 60%;
+          height: 500px;
+        }
+      }
+    }
+
+    #how-it-works {
+      .how-it-works-icons {
+        padding-top: 30px !important;
+
+        .icon-box {
+          padding-bottom: 20px;
+
+          .icon {
+            img {
+              padding: 32px;
+              width: 30%;
+            }
+          }
+        }
+      }
+    }
+
+    #connect-with-us {
+    }
+  }
+
+  // TaxInnerPage
+  .TaxInnerPage {
+    #inner-page-banner {
+      padding: 0;
+
+      .container-fluid {
+        padding: 60px 15px;
+      }
+    }
+
+    #tax-preparation-inner {
+      margin-top: 50px;
+    }
+  }
+
+  // AccountingInnerPage
+  .AccountingInnerPage {
+    #inner-page-banner {
+      padding: 0;
+    }
+
+    #Bookkeeping-Accounting-Services {
+      margin-top: 40px;
+    }
+
+    #outsouced-bookeeping {
+      p {
+        padding-right: 0;
+      }
+
+      .check-list {
+        padding-top: 0;
+      }
+    }
+
+    #ask-us {
+      .main-head {
+        line-height: 3.4rem;
+      }
+
+      .main-head,
+      p {
+        padding-left: 0;
+        padding-right: 0;
+      }
+    }
+  }
+
+  div#Bookkeeping-Services {
+    #bookkeeping-services {
+      .bookkeeping-services-content {
+        .how-it-works-box {
+          height: 400px;
+
+          h2 {
+            line-height: 2.1rem;
+          }
+        }
+      }
+    }
+  }
+
+  div#financial-statements {
+    #bookkeeping-services {
+      .bookkeeping-services-content {
+        .how-it-works-box {
+          height: 290px;
+
+          h2 {
+            line-height: 2.1rem;
+          }
+        }
+      }
+    }
+  }
+
+  div#Payroll {
+    #bookkeeping-services {
+      .bookkeeping-services-content {
+        .how-it-works-box {
+          height: 260px;
+
+          h2.main-head {
+            line-height: 2rem;
+          }
+        }
+      }
+    }
+  }
+
+  div#AuditAndAssurance {
+    .main-head {
+      line-height: 2.8rem;
+    }
+
+    #bookkeeping-services {
+      .bookkeeping-services-content {
+        .main-head {
+          line-height: 2rem;
+          padding-bottom: 20px;
+        }
+
+        .how-it-works-box {
+          height: 290px;
+        }
+      }
+    }
+  }
+
+  div#Crypto {
+    #bookkeeping-services {
+      .bookkeeping-services-content {
+        .how-it-works-box {
+          height: 260px;
+
+          h2.main-head {
+            line-height: 2rem;
+          }
+        }
+      }
+    }
+  }
+
+  // AdvisoryConsulting
+  .AdvisoryConsulting {
+    #taxation .Professionals-text-desc {
+      padding-top: 0px;
+    }
+  }
+
+  // advisory-consulting inner page
+  #BusinessAndAdvisory,
+  div#CFO,
+  div#ControllershipServices,
+  div#SuccessionPlanning,
+  div#TaxAndFinancialPlanning,
+  div#MAStrategy {
+    #BusinessAdvisory {
+      margin-top: 40px;
+    }
+
+    #Business-Advisory-services
+      .Business-Advisory-services-content
+      .Business-Advisory-box {
+      height: 180px;
+      margin-bottom: 20px;
+
+      p {
+        text-align: left;
+      }
+    }
+
+    #comprehensive-business-advisory-solutions {
+      margin-top: 50px;
+
+      .accordion {
+        margin-top: 30px;
+        padding-left: 0;
+      }
+    }
+
+    section#Business-Advisory-Solutions {
+      .top-head {
+        padding-left: 0;
+        padding-right: 0;
+      }
+    }
+
+    .Business-Advisory-process .Business-Advisory-process-inner .text-desc {
+      padding-left: 0;
+      padding-right: 0;
+    }
+
+    #ask-us .main-head,
+    #ask-us p {
+      padding-left: 0;
+      padding-right: 0;
+    }
+
+    #sectors {
+      padding-bottom: 40px;
+
+      .sectors-box {
+        .icon-box {
+          margin-bottom: 30px;
+        }
+      }
+    }
+  }
+
+  #BusinessAndAdvisory {
+    #Business-Advisory-Solutions .box {
+      height: 400px;
+    }
+  }
+
+  div#CFO {
+    #Business-Advisory-Solutions .box {
+      height: 450px;
+    }
+  }
+
+  div#ControllershipServices {
+    #Business-Advisory-Solutions .box {
+      height: 480px;
+    }
+  }
+
+  div#SuccessionPlanning {
+    #Business-Advisory-Solutions .box {
+      height: 780px;
+    }
+  }
+
+  div#TaxAndFinancialPlanning {
+    #Business-Advisory-Solutions .box {
+      height: 500px;
+    }
+  }
+
+  div#MAStrategy {
+    #Business-Advisory-Solutions .box {
+      height: 450px;
+    }
+  }
+
+  div#ControllershipServices,
+  div#TaxAndFinancialPlanning,
+  div#MAStrategy {
+    #Business-Advisory-services {
+      .Business-Advisory-services-content {
+        .Business-Advisory-box {
+          height: 220px;
+        }
+      }
+    }
+  }
+}
+>>>>>>> 2bf065d (content added)
